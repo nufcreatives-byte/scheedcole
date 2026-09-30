@@ -94,3 +94,8 @@ linear-gradient(165deg,#9bc3d9 0 57%,#e7e0d3 58% 100%);box-shadow:inset 0 0 0 1p
 /* Use the same SC wordmark on the homepage and interior pages */
 .cover-brand{font-family:"DM Sans",sans-serif;font-size:25px;font-weight:600;letter-spacing:-.08em;line-height:1}
 .cover-brand span{color:var(--bronze)}
+
+/* Restore the original serif homepage wordmark throughout the website */
+.brand,.cover-brand{font-family:"Playfair Display",Georgia,serif;font-size:clamp(36px,3.25vw,64px);font-weight:400;line-height:1;letter-spacing:-.055em}
+.brand span,.cover-brand span{color:inherit}
+@media(max-width:800px){.brand,.cover-brand{font-size:38px}}
