@@ -75,3 +75,9 @@ linear-gradient(165deg,#9bc3d9 0 57%,#e7e0d3 58% 100%);box-shadow:inset 0 0 0 1p
 .home-cover-photo::after{content:"";position:absolute;inset:0;background:url("./images/home-hero.png?v=b34b032") center center/cover no-repeat;z-index:0}
 @media(min-width:801px){.home-cover-photo::after{background-position:center center;background-size:cover}}
 @media(max-width:800px){.home-cover-photo::after{background-position:57% center;background-size:cover}}
+
+/* Hero image: real IMG element */
+.home-cover-photo{position:absolute;inset:0;background:#28578a!important;overflow:hidden}
+.home-cover-photo::before,.home-cover-photo::after{display:none!important;content:none!important}
+.home-cover-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center center}
+@media(max-width:800px){.home-cover-photo img{object-position:57% center}}
