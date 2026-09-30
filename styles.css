@@ -116,3 +116,13 @@ linear-gradient(165deg,#9bc3d9 0 57%,#e7e0d3 58% 100%);box-shadow:inset 0 0 0 1p
 #project-photo .sustainability-copy>h2{margin:0 0 35px}
 #project-photo .sustainability-image{min-height:0;margin-top:.65vw}
 }
+
+/* Shared project grid: eyebrow above, photograph and heading in the same row */
+@media(min-width:801px){
+#project-photo{grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:8vw;row-gap:0;align-items:start}
+#project-photo .sustainability-copy{display:contents}
+#project-photo .sustainability-copy>.eyebrow{position:static;grid-column:2;grid-row:1;margin:0 0 24px}
+#project-photo .sustainability-copy>h2{grid-column:2;grid-row:2;margin:0 0 35px}
+#project-photo .sustainability-copy>p:not(.eyebrow){grid-column:2;margin-top:0}
+#project-photo .sustainability-image{grid-column:1;grid-row:2 / span 3;margin-top:.65vw;min-height:0}
+}
