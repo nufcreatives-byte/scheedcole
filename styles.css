@@ -82,3 +82,11 @@ linear-gradient(165deg,#9bc3d9 0 57%,#e7e0d3 58% 100%);box-shadow:inset 0 0 0 1p
 .cover-copy .cover-location span{display:table;width:auto;background:rgba(255,255,255,.28);padding:2px 5px;color:#f4f0e7}
 .cover-copy .cover-location span+span{margin-top:4px}
 @media(max-width:800px){.cover-copy .cover-location{font-size:14px;margin-top:26px}}
+
+/* Equal media frames keep selected-project headings aligned across each row */
+.editorial-projects{align-items:start}
+.editorial-project .editorial-media{aspect-ratio:4/3;position:relative;padding:0;width:70%;margin-inline:auto;overflow:hidden;background:#d8d2c7}
+.editorial-project .editorial-media>img{width:100%!important;height:100%!important;object-fit:contain;display:block}
+.editorial-project .editorial-placeholder{width:100%;height:100%;aspect-ratio:auto;padding:20px}
+.editorial-project .editorial-copy{margin-top:18px}
+@media(max-width:800px){.editorial-project .editorial-media{width:80%}}
