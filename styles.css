@@ -107,3 +107,12 @@ linear-gradient(165deg,#9bc3d9 0 57%,#e7e0d3 58% 100%);box-shadow:inset 0 0 0 1p
 #project-photo .sustainability-copy>h2{margin-top:0}
 #project-photo .sustainability-image{align-self:start}
 @media(max-width:800px){#project-photo .sustainability-copy>.eyebrow{position:static;margin:0 0 24px}}
+
+/* Keep project image and title on the same top edge */
+@media(min-width:801px){
+#project-photo{align-items:start}
+#project-photo .sustainability-copy{padding-top:0;margin-top:0;align-self:start}
+#project-photo .sustainability-copy>.eyebrow{position:absolute;bottom:100%;top:auto;margin:0 0 24px}
+#project-photo .sustainability-copy>h2{margin:0 0 35px}
+#project-photo .sustainability-image{min-height:0;margin-top:.65vw}
+}
