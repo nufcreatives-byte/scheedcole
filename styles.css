@@ -41,3 +41,14 @@ linear-gradient(165deg,#9bc3d9 0 57%,#e7e0d3 58% 100%);box-shadow:inset 0 0 0 1p
 @media(max-width:1100px){.cover-header{height:88px;gap:20px}.cover-nav{gap:18px}.cover-cta{margin-left:0;min-height:48px;padding:14px 18px}.cover-copy{max-width:52vw}.cover-role{letter-spacing:.18em}.cover-button{min-height:52px}}
 @media(max-width:800px){.home-cover{min-height:680px}.cover-header{padding:0 6vw;height:84px}.cover-brand{font-size:38px}.cover-nav{display:none}.cover-cta{font-size:9px;letter-spacing:.15em;padding:12px 15px}.home-cover-photo img{object-position:60% center}.home-cover-shade{background:linear-gradient(180deg,rgba(15,30,45,.12),rgba(15,30,45,.08) 25%,rgba(15,30,45,.6) 100%)}.cover-copy{left:7vw;right:7vw;top:auto;bottom:19%;max-width:none}.cover-copy h1{font-size:clamp(38px,9.8vw,76px);margin-bottom:18px;white-space:normal}.cover-role{font-size:10px;letter-spacing:.17em;margin-bottom:18px;max-width:340px}.cover-location{font-size:15px;max-width:310px;margin-bottom:25px}.cover-button{font-size:10px;min-width:180px}.cover-foot{left:7vw;right:7vw;bottom:4%;gap:22px;font-size:9px}.cover-foot span:last-child{max-width:190px;text-align:right;line-height:1.8}.cover-foot span:first-child{padding-bottom:22px}}
 @media(prefers-reduced-motion:reduce){.cover-cta,.cover-button{transition:none}}
+
+/* Align the homepage profession line with the name */
+@media(min-width:801px){
+.cover-copy{width:max-content;max-width:58vw}
+.cover-copy h1{margin-bottom:9px}
+.cover-role{display:block;width:100%;font-size:clamp(10px,1.04vw,20px);letter-spacing:.245em;line-height:1.4;white-space:nowrap;text-align:justify;text-align-last:justify;margin-bottom:24px}
+}
+@media(max-width:800px){
+.cover-copy h1{margin-bottom:9px}
+.cover-role{margin-top:0}
+}
