@@ -15,3 +15,19 @@ linear-gradient(25deg,transparent 0 47%,rgba(102,79,57,.9) 48% 52%,transparent 5
 linear-gradient(165deg,#9bc3d9 0 57%,#e7e0d3 58% 100%);box-shadow:inset 0 0 0 1px rgba(24,23,20,.08)}
 .demo-photo:before{content:"";position:absolute;width:48%;height:58%;left:30%;top:18%;background:linear-gradient(135deg,#72553c,#b08a65 45%,#49382c);clip-path:polygon(0 58%,43% 42%,56% 0,63% 39%,100% 51%,64% 55%,55% 100%,43% 58%);opacity:.9}
 .demo-photo span{position:absolute;left:12px;bottom:10px;padding:5px 7px;background:rgba(24,23,20,.7);color:#faf8f3;font-size:7px;font-weight:600;letter-spacing:.14em}
+
+/* Full-screen homepage cover */
+.home-cover{position:relative;min-height:100svh;overflow:hidden;background:#1d4775;color:var(--white)}
+.home-cover-photo{position:absolute;inset:0;background-image:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.05)),url("images/home-hero.jpg");background-size:cover;background-position:center 48%}
+.home-cover-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,18,28,.30) 0%,rgba(8,18,28,.08) 47%,rgba(8,18,28,.05) 100%)}
+.cover-header{position:relative;z-index:2;height:100px;padding:0 5vw;display:flex;align-items:center;justify-content:space-between}
+.cover-brand{font-family:"Playfair Display",serif;font-size:42px;line-height:1;letter-spacing:-.06em}.cover-brand span{color:#d8a077}
+.cover-nav{display:flex;gap:34px}.cover-nav a,.cover-cta,.cover-button{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.18em}
+.cover-cta{border:1px solid rgba(255,255,255,.7);padding:16px 22px}
+.cover-copy{position:absolute;z-index:2;left:6.5vw;top:50%;transform:translateY(-38%);max-width:720px}
+.cover-copy h1{margin:0 0 12px;font-family:"Playfair Display",serif;font-size:clamp(62px,7.5vw,126px);font-weight:500;line-height:.86;letter-spacing:-.055em}
+.cover-role{margin:0 0 17px;font-size:12px;text-transform:uppercase;letter-spacing:.27em}
+.cover-location{margin:0 0 30px;font-family:"Playfair Display",serif;font-size:17px}
+.cover-button{display:inline-block;border:1px solid rgba(255,255,255,.85);padding:16px 25px}
+.cover-foot{position:absolute;z-index:2;left:5vw;right:5vw;bottom:28px;display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,.45);padding-top:15px;font-size:9px;text-transform:uppercase;letter-spacing:.16em}
+@media(max-width:800px){.cover-header{height:78px;padding:0 7vw}.cover-brand{font-size:32px}.cover-nav{display:none}.cover-cta{font-size:8px;padding:12px}.cover-copy{left:7vw;right:7vw;top:auto;bottom:16vh;transform:none}.cover-copy h1{font-size:clamp(54px,17vw,90px)}.cover-role{font-size:9px;letter-spacing:.17em}.cover-location{font-size:14px;max-width:280px}.cover-foot{left:7vw;right:7vw;bottom:18px;gap:20px;flex-direction:column}.home-cover-photo{background-position:57% center}}
