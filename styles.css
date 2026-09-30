@@ -68,3 +68,10 @@ linear-gradient(165deg,#9bc3d9 0 57%,#e7e0d3 58% 100%);box-shadow:inset 0 0 0 1p
 .cover-button{margin:0;min-width:195px;padding:16px 25px}
 .cover-foot{left:3.5vw;right:3.5vw;bottom:27px}
 }
+
+/* Homepage hero final — direct image element avoids GitHub Pages background-image issues */
+.home-cover-photo{background:none!important;overflow:hidden}
+.home-cover-photo::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.02),rgba(0,0,0,.12));z-index:1;pointer-events:none}
+.home-cover-photo::after{content:"";position:absolute;inset:0;background:url("./images/home-hero.png?v=b34b032") center center/cover no-repeat;z-index:0}
+@media(min-width:801px){.home-cover-photo::after{background-position:center center;background-size:cover}}
+@media(max-width:800px){.home-cover-photo::after{background-position:57% center;background-size:cover}}
