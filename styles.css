@@ -128,3 +128,11 @@ linear-gradient(165deg,#9bc3d9 0 57%,#e7e0d3 58% 100%);box-shadow:inset 0 0 0 1p
 }
 
 @media(min-width:801px){#project-photo .project-360-action{grid-column:2}}
+
+/* Shared mobile navigation on the homepage and interior pages. */
+@media(max-width:800px){
+  .menu-toggle{min-width:44px;min-height:44px;cursor:pointer}
+  .desktop-nav.mobile-open,.cover-nav.mobile-open{display:flex;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;margin:0;padding:16px 7vw 22px;background:var(--paper);color:var(--ink);border-bottom:1px solid var(--soft);max-height:calc(100svh - 84px);overflow-y:auto;box-shadow:0 14px 24px rgba(24,23,20,.12)}
+  .desktop-nav.mobile-open a,.cover-nav.mobile-open a{display:flex;align-items:center;min-height:48px;padding:10px 0;font-size:12px;letter-spacing:.12em}
+  .cover-header .menu-toggle{color:inherit;flex:none}
+}
