@@ -143,3 +143,7 @@ linear-gradient(165deg,#9bc3d9 0 57%,#e7e0d3 58% 100%);box-shadow:inset 0 0 0 1p
 .cover-cta,.header-cta{white-space:nowrap}
 
 .project-cta-arrow.arrow-leading{margin-left:0;margin-right:.6em}
+
+
+/* Keep the Usain Bolt work image filling its media frame without letterboxing. */
+#selected-project-16 .editorial-media>img{object-fit:cover!important;object-position:center!important}
