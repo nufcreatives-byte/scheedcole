@@ -1,0 +1,25 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/:path((?!images/).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "scheedcole.com"
+        }
+      ],
+      "destination": "/coming-soon.html"
+    },
+    {
+      "source": "/:path((?!images/).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.scheedcole.com"
+        }
+      ],
+      "destination": "/coming-soon.html"
+    }
+  ]
+}
