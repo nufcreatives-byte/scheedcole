@@ -442,11 +442,6 @@
       ],
       "page_gallery": [
         {
-          "position": 0,
-          "image": "images/museum-iguana.jpg",
-          "alt": "Iguana sculpture in a dry limestone environment"
-        },
-        {
           "position": 1,
           "image": "images/museum-coral.jpg",
           "alt": "Coral reef installation with suspended fish and colourful corals"
