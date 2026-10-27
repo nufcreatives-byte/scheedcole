@@ -107,3 +107,23 @@ content:
               - {name: description, label: Description, type: string, required: false}
               - {name: url, label: Article link, type: string}
               - {name: button_label, label: Link text, type: string, required: false}
+  - name: shop
+    label: Shop
+    type: file
+    path: cms-preparation/shop.json
+    fields:
+      - name: products
+        label: Products
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - {name: active, label: Show in shop, type: boolean, default: false}
+          - {name: name, label: Product name, type: string}
+          - {name: image, label: Product photograph, type: image}
+          - {name: image_alt, label: Image description, type: string, required: false}
+          - {name: price, label: Display price and currency, type: string, required: false}
+          - {name: description, label: Description, type: text, required: false}
+          - {name: payment_url, label: PayPal payment link, type: string, required: false}
