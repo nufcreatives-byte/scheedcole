@@ -1,0 +1,400 @@
+{
+  "pages": [
+    {
+      "page": "press-bob-marley.html",
+      "name": "Bob Marley",
+      "articles": [
+        {
+          "title": "Tourism Minister to Advance MOU with Online Accommodation Company",
+          "source_date": "Jamaica Information Service · 2017-02-26",
+          "description": "Trench Town · Bob Marley sculpture",
+          "url": "https://jis.gov.jm/tourism-minister-advance-mou-online-accommodation-company/",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "Reggae Hall of Fame could mean big bucks for Jamaica",
+          "source_date": "Jamaica Gleaner · 2015-11-27",
+          "description": "Bob Marley sculpture · Mention",
+          "url": "https://past.jamaica-gleaner.com/article/entertainment/20151130/reggae-hall-fame-could-mean-big-bucks-jamaica",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "Minister McNeill Unveils New Bob Marley Statue at Culture Yard",
+          "source_date": "Jamaica Information Service · 2015-02-10",
+          "description": "Bob Marley · Trench Town Culture Yard",
+          "url": "https://jis.gov.jm/minister-mcneill-unveils-new-bob-marley-statue-culture-yard/",
+          "button_label": "Read feature"
+        }
+      ]
+    },
+    {
+      "page": "press-doctor-bird.html",
+      "name": "Doctor Bird",
+      "articles": [
+        {
+          "title": "Doctor Bird sculpture soars at S Hotel",
+          "source_date": "Jamaica Gleaner",
+          "description": "",
+          "url": "https://past.jamaica-gleaner.com/article/lifestyle/20250810/doctor-bird-sculpture-soars-s-hotel",
+          "button_label": "Read article"
+        },
+        {
+          "title": "World’s largest hummingbird sculpture takes flight at S Hotel Montego Bay",
+          "source_date": "Caribbean National Weekly",
+          "description": "",
+          "url": "https://www.caribbeannationalweekly.com/travel/worlds-largest-hummingbird-sculpture-takes-flight-at-s-hotel-montego-bay/",
+          "button_label": "Read article"
+        },
+        {
+          "title": "Jamaica is Now Home to the World’s Largest Hummingbird Sculpture",
+          "source_date": "Jamaicans.com",
+          "description": "",
+          "url": "https://jamaicans.com/jamaica-is-now-home-to-the-worlds-largest-hummingbird-sculpture/",
+          "button_label": "Read article"
+        },
+        {
+          "title": "World’s Largest Hummingbird Sculpture Takes Flight in Montego Bay",
+          "source_date": "DRIFT Travel",
+          "description": "",
+          "url": "https://drifttravel.com/worlds-largest-hummingbird-sculpture-in-montego-bay/",
+          "button_label": "Read article"
+        },
+        {
+          "title": "World’s Largest Hummingbird Sculpture Unveiled in Montego Bay, Jamaica",
+          "source_date": "Travel and Tour World",
+          "description": "",
+          "url": "https://www.travelandtourworld.com/news/article/worlds-largest-hummingbird-sculpture-unveiled-in-montego-bay-jamaica/",
+          "button_label": "Read article"
+        },
+        {
+          "title": "World’s Largest Hummingbird Sculpture Unveiled In Montego Bay",
+          "source_date": "Caribbean Today · September 2025 · PDF, page 16",
+          "description": "",
+          "url": "https://ufdcimages.uflib.ufl.edu/UF/00/09/92/85/00233/2025-09.pdf#page=16",
+          "button_label": "Read article"
+        },
+        {
+          "title": "World’s Largest Hummingbird Sculpture Lands in Montego Bay",
+          "source_date": "S Hotels Jamaica · PRWeb · Press release",
+          "description": "",
+          "url": "https://www.prweb.com/releases/worlds-largest-hummingbird-sculpture-lands-in-montego-bay-302529049.html",
+          "button_label": "Read article"
+        }
+      ]
+    },
+    {
+      "page": "press-eco-champion.html",
+      "name": "Eco Champion",
+      "articles": [
+        {
+          "title": "Sculptor Scheed Cole brings ‘Eco-Champion’ to life at Sigma Run",
+          "source_date": "Jamaica Gleaner · 2025-02-24",
+          "description": "The Eco-Champion",
+          "url": "https://past.jamaica-gleaner.com/article/news/20250224/sculptor-scheed-cole-brings-eco-champion-life-sigma-run",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "Sculptor strikes gold with Eco-Champion",
+          "source_date": "Jamaica Star · 2025-02-24",
+          "description": "The Eco-Champion",
+          "url": "https://jamaica-star.com/article/news/20250224/sculptor-strikes-gold-eco-champion",
+          "button_label": "Read feature"
+        }
+      ]
+    },
+    {
+      "page": "press-hellshire-beach.html",
+      "name": "Hellshire Beach",
+      "articles": [
+        {
+          "title": "SCHEED COLE",
+          "source_date": "ASIS W.I. / Richès Karayib · 2021-05-19",
+          "description": "Interview · Sculpture portfolio",
+          "url": "https://asis-wi.com/painting-sculpture/scheed-cole/?lang=en",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "Scheed Cole: sculptural design engineer",
+          "source_date": "Jamaica Observer · 2014-03-01",
+          "description": "Interview · Career",
+          "url": "https://www.jamaicaobserver.com/2014/03/01/scheed-cole-sculptural-design-engineer/",
+          "button_label": "Read feature"
+        }
+      ]
+    },
+    {
+      "page": "press-heritage-mall-elephant.html",
+      "name": "Heritage Mall Elephant",
+      "articles": [
+        {
+          "title": "SCHEED COLE",
+          "source_date": "ASIS W.I. / Richès Karayib · 2021-05-19",
+          "description": "Interview · Sculpture portfolio",
+          "url": "https://asis-wi.com/painting-sculpture/scheed-cole/?lang=en",
+          "button_label": "Read feature"
+        }
+      ]
+    },
+    {
+      "page": "press-jamaica-60.html",
+      "name": "Jamaica 60",
+      "articles": [
+        {
+          "title": "PM points to importance of preserving history",
+          "source_date": "Jamaica Observer · 2022-08-14",
+          "description": "Bustamante sculpture · Jamaica 60",
+          "url": "https://www.jamaicaobserver.com/2022/08/14/pm-points-to-importance-of-preserving-history/",
+          "button_label": "Read feature"
+        }
+      ]
+    },
+    {
+      "page": "press-jimmy-cliff.html",
+      "name": "Jimmy Cliff",
+      "articles": [
+        {
+          "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
+          "source_date": "Jamaica Gleaner · 2024-02-03",
+          "description": "Profile · Wallabee installation · Youth development",
+          "url": "https://past.jamaica-gleaner.com/article/news/20240203/sculptor-scheed-cole-transforms-lives-beyond-art-360-applied-design",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "S Hotel Jamaica embracing and promoting the arts",
+          "source_date": "Jamaica Gleaner · 2019-11-13",
+          "description": "National Heroes · Legends Circle",
+          "url": "https://past.jamaica-gleaner.com/article/hospitality-jamaica/20191113/s-hotel-jamaica-embracing-and-promoting-arts",
+          "button_label": "Read feature"
+        }
+      ]
+    },
+    {
+      "page": "press-matterhorn.html",
+      "name": "Matterhorn",
+      "articles": [
+        {
+          "title": "Scheed Cole: sculptural design engineer",
+          "source_date": "Jamaica Observer · 2014-03-01",
+          "description": "Interview · Career",
+          "url": "https://www.jamaicaobserver.com/2014/03/01/scheed-cole-sculptural-design-engineer/",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "A conversation with Scheed Cole",
+          "source_date": "Jamaicans.com · 2011-05-19",
+          "description": "Interview",
+          "url": "https://jamaicans.com/conversationscheedcole/",
+          "button_label": "Read feature"
+        }
+      ]
+    },
+    {
+      "page": "press-miss-lou.html",
+      "name": "Miss Lou",
+      "articles": [
+        {
+          "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
+          "source_date": "Jamaica Gleaner · 2024-02-03",
+          "description": "Profile · Wallabee installation · Youth development",
+          "url": "https://past.jamaica-gleaner.com/article/news/20240203/sculptor-scheed-cole-transforms-lives-beyond-art-360-applied-design",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "Consular Corps Toasts with Optimism",
+          "source_date": "Jamaica Observer · 2021-12-17",
+          "description": "Miss Lou sculpture · Mention",
+          "url": "https://www.jamaicaobserver.com/2021/12/17/consular-corps-toasts-with-optimism/",
+          "button_label": "Read feature"
+        }
+      ]
+    },
+    {
+      "page": "press-national-heroes.html",
+      "name": "National Heroes",
+      "articles": [
+        {
+          "title": "SCHEED COLE",
+          "source_date": "ASIS W.I. / Richès Karayib · 2021-05-19",
+          "description": "Interview · Sculpture portfolio",
+          "url": "https://asis-wi.com/painting-sculpture/scheed-cole/?lang=en",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "S Hotel Jamaica embracing and promoting the arts",
+          "source_date": "Jamaica Gleaner · 2019-11-13",
+          "description": "National Heroes · Legends Circle",
+          "url": "https://past.jamaica-gleaner.com/article/hospitality-jamaica/20191113/s-hotel-jamaica-embracing-and-promoting-arts",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "Scheed Cole breathes life into National Heroes",
+          "source_date": "Jamaica Gleaner · October 9, 2022",
+          "description": "National Heroes · Portrait sculpture · Heritage",
+          "url": "https://past.jamaica-gleaner.com/article/art-leisure/20221009/scheed-cole-breathes-life-national-heroes",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "Recycling and caring heroes",
+          "source_date": "Jamaica Observer · May 30, 2021",
+          "description": "National Heroes · Sam Sharpe Square · 360 Recycle",
+          "url": "https://www.jamaicaobserver.com/2021/05/30/covid-and-the-band-plays-on/",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "360 Recycle transforming lives from rubbish",
+          "source_date": "Jamaica Gleaner · November 27, 2019",
+          "description": "Marcus Garvey · Recycled sculpture",
+          "url": "https://past.jamaica-gleaner.com/article/hospitality-jamaica/20191127/360-recycle-transforming-lives-rubbish",
+          "button_label": "Read feature"
+        }
+      ]
+    },
+    {
+      "page": "press-natural-history-museum.html",
+      "name": "Natural History Museum",
+      "articles": [
+        {
+          "title": "Scheed Cole behind the magic at Natural History Museum exhibition gallery",
+          "source_date": "Jamaica Gleaner · 2025-10-01",
+          "description": "Natural History Museum",
+          "url": "https://past.jamaica-gleaner.com/article/news/20251001/scheed-cole-behind-magic-natural-history-museum-exhibition-gallery",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "SCHEED COLE",
+          "source_date": "ASIS W.I. / Richès Karayib · 2021-05-19",
+          "description": "Interview · Sculpture portfolio",
+          "url": "https://asis-wi.com/painting-sculpture/scheed-cole/?lang=en",
+          "button_label": "Read feature"
+        }
+      ]
+    },
+    {
+      "page": "press-pf-changs-horse.html",
+      "name": "Pf Changs Horse",
+      "articles": [
+        {
+          "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
+          "source_date": "Jamaica Gleaner · 2024-02-03",
+          "description": "Profile · Wallabee installation · Youth development",
+          "url": "https://past.jamaica-gleaner.com/article/news/20240203/sculptor-scheed-cole-transforms-lives-beyond-art-360-applied-design",
+          "button_label": "Read feature"
+        }
+      ]
+    },
+    {
+      "page": "press-port-authority.html",
+      "name": "Port Authority",
+      "articles": [
+        {
+          "title": "SCHEED COLE",
+          "source_date": "ASIS W.I. / Richès Karayib · 2021-05-19",
+          "description": "Interview · Sculpture portfolio",
+          "url": "https://asis-wi.com/painting-sculpture/scheed-cole/?lang=en",
+          "button_label": "Read feature"
+        }
+      ]
+    },
+    {
+      "page": "press-sintra-bronte.html",
+      "name": "Sintra Bronte",
+      "articles": [
+        {
+          "title": "A bust for Jamaica’s iconic wet T-shirt girl",
+          "source_date": "Jamaica Gleaner · May 19, 2024",
+          "description": "",
+          "url": "https://past.jamaica-gleaner.com/article/entertainment/20240519/bust-jamaicas-iconic-wet-t-shirt-girl",
+          "button_label": "Read article"
+        },
+        {
+          "title": "S Kingston unveils statue of Sintra Bronte",
+          "source_date": "Breaking Travel News · May 19, 2024",
+          "description": "",
+          "url": "https://www.breakingtravelnews.com/news/article/s-kingston-unveils-statue-of-sintra-bronte/",
+          "button_label": "Read article"
+        },
+        {
+          "title": "Sculpture of Sintra Bronte Commemorating Her Promotional Poster for Jamaica Unveiled at Iconic Event",
+          "source_date": "Jamaicans.com · May 28, 2024",
+          "description": "",
+          "url": "https://jamaicans.com/sculpture-of-sintra-bronte-commemorating-her-promotional-poster-for-jamaica-unveiled-at-iconic-event/",
+          "button_label": "Read article"
+        },
+        {
+          "title": "SO2",
+          "source_date": "Jamaica Observer · May 19, 2024",
+          "description": "",
+          "url": "https://www.jamaicaobserver.com/2024/05/19/so2-20240518-1726-539230/",
+          "button_label": "Read article"
+        }
+      ]
+    },
+    {
+      "page": "press-together-we-rise.html",
+      "name": "Together We Rise",
+      "articles": [
+        {
+          "title": "62 feet of resilience — Ja’s tallest sculpted monument rises from Melissa, reaching back to 1962",
+          "source_date": "Jamaica Gleaner · 2026-08-16",
+          "description": "Together We Rise",
+          "url": "https://web5.jamaica-gleaner.com/article/news/20260816/62-feet-resilience-jas-tallest-sculpted-monument-rises-melissa-reaching-back",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "S Hotel celebrates Jamaica’s resilience with new sculpture",
+          "source_date": "Jamaica Observer · 2026-08-15",
+          "description": "Together We Rise",
+          "url": "https://www.jamaicaobserver.com/2026/08/15/s-hotel-celebrates-jamaicas-resilience-new-sculpture/",
+          "button_label": "Read feature"
+        }
+      ]
+    },
+    {
+      "page": "press-usain-bolt.html",
+      "name": "Usain Bolt",
+      "articles": [
+        {
+          "title": "Sculptures of Jamaican icons off to World Expo 2025 in Osaka, Japan",
+          "source_date": "Jamaica Observer · November 25, 2024",
+          "description": "S Hotels commission · Scheed Cole · Expo loan",
+          "url": "https://www.jamaicaobserver.com/2024/11/25/sculptures-jamaican-icons-off-world-expo-2025-osaka-japan/",
+          "button_label": "Read article"
+        },
+        {
+          "title": "Experiencing Osaka Expo 2025: Photos and Highlights",
+          "source_date": "Osaka.com · September 16, 2025",
+          "description": "Visitor report · Usain Bolt sculpture in the Jamaica Pavilion",
+          "url": "https://www.osaka.com/info/experiencing-osaka-expo-2025-photos-and-highlights/",
+          "button_label": "Read article"
+        },
+        {
+          "title": "Sculptures of J’can icons en route to World Fair in Japan",
+          "source_date": "Jamaica Observer · November 27, 2024",
+          "description": "Usain Bolt and Bob Marley sculptures · World Expo 2025",
+          "url": "https://www.jamaicaobserver.com/2024/11/27/sculptures-jcan-icons-en-route-world-fair-japan/",
+          "button_label": "Read article"
+        }
+      ]
+    },
+    {
+      "page": "press-wallabee.html",
+      "name": "Wallabee",
+      "articles": [
+        {
+          "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
+          "source_date": "Jamaica Gleaner · 2024-02-03",
+          "description": "Profile · Wallabee installation · Youth development",
+          "url": "https://past.jamaica-gleaner.com/article/news/20240203/sculptor-scheed-cole-transforms-lives-beyond-art-360-applied-design",
+          "button_label": "Read feature"
+        },
+        {
+          "title": "SO2",
+          "source_date": "Jamaica Observer · 2024-01-14",
+          "description": "Clarks / Wallabee installation",
+          "url": "https://www.jamaicaobserver.com/2024/01/14/so2-20240114-0512-228758/",
+          "button_label": "Read feature"
+        }
+      ]
+    }
+  ]
+}
