@@ -9,7 +9,10 @@
       "image": "images/together-we-rise-work.jpg",
       "image_alt": "Together We Rise monumental sculpture with clasped hands and a tree reaching into the sky",
       "project_url": "project-together-we-rise.html",
-      "press_url": "press-together-we-rise.html"
+      "press_url": "press-together-we-rise.html",
+      "page_heading": "TogetherWe Rise.",
+      "page_intro": "A 62-foot monument commissioned by Christopher Issa and S Hotels for St James Place on Jimmy Cliff Boulevard. Created in response to Hurricane Melissa, the work expresses Jamaica’s capacity to recover through collective effort.",
+      "page_image": "images/home-hero.jpg"
     },
     {
       "id": "cb11e36d-4b5e-453f-8cdb-63511efa9846",
@@ -20,7 +23,10 @@
       "image": "images/doctorbirdshotel.jpeg",
       "image_alt": "Doctor Bird monumental sculpture on the facade of S Hotel in Montego Bay",
       "project_url": "project-doctor-bird.html",
-      "press_url": "press-doctor-bird.html"
+      "press_url": "press-doctor-bird.html",
+      "page_heading": "DoctorBird.",
+      "page_intro": "A 46-foot streamer-tail hummingbird created for the façade of S Hotel Montego Bay — transforming Jamaica's national bird into a landmark visible from Jimmy Cliff Boulevard.",
+      "page_image": "images/doctorbirdshotel.jpeg"
     },
     {
       "id": "754264eb-1e32-4010-981b-888407f3d2d4",
@@ -31,7 +37,10 @@
       "image": "images/sintra-bronte.jpg",
       "image_alt": "Sintra Bronte portrait sculpture wearing the iconic Jamaica T-shirt",
       "project_url": "project-sintra-bronte.html",
-      "press_url": "press-sintra-bronte.html"
+      "press_url": "press-sintra-bronte.html",
+      "page_heading": "Sintra Bronte",
+      "page_intro": "Portrait sculpture · Recycled materials",
+      "page_image": "images/sintra-bronte.jpg"
     },
     {
       "id": "22f5bfbf-7a8a-479b-9c6c-ba4ec916474e",
@@ -42,7 +51,10 @@
       "image": "images/clarks-work.jpg",
       "image_alt": "Monumental Clarks Wallabee shoes in black, green and yellow at S Hotel Montego Bay",
       "project_url": "project-wallabee.html",
-      "press_url": "press-wallabee.html"
+      "press_url": "press-wallabee.html",
+      "page_heading": "Clarks / Wallabee Installation",
+      "page_intro": "Monumental footwear installation",
+      "page_image": "images/Clarks-9.jpg"
     },
     {
       "id": "5ec939d7-eafa-4818-a199-00fa92d20597",
@@ -53,7 +65,10 @@
       "image": "images/museum-mangrove.jpg",
       "image_alt": "Mangrove wetland installation at the Natural History Museum of Jamaica",
       "project_url": "project-natural-history-museum.html",
-      "press_url": "press-natural-history-museum.html"
+      "press_url": "press-natural-history-museum.html",
+      "page_heading": "Natural HistoryMuseum of Jamaica.",
+      "page_intro": "Sculptural environments created to make Jamaica's ecosystems feel tangible — from limestone caves and coral reefs to mangrove wetlands and forest canopy.",
+      "page_image": "images/museum-mangrove.jpg"
     },
     {
       "id": "aa1858dd-7aab-4dd4-ac5c-defa8d8ad022",
@@ -64,7 +79,10 @@
       "image": "images/national-heroes.jpg",
       "image_alt": "Sculptural portraits at Montego Bay Legends Circle",
       "project_url": "project-legends-circle.html",
-      "press_url": "press-national-heroes.html"
+      "press_url": "press-national-heroes.html",
+      "page_heading": "Icons &National Memory.",
+      "page_intro": "Life-like sculptural portraiture bringing Jamaican heroes and cultural figures into public space.",
+      "page_image": "images/national-heroes.jpg"
     },
     {
       "id": "f18cf8b8-ce3e-43b4-a77e-88c0d3de882c",
@@ -75,7 +93,10 @@
       "image": "images/port-authority-cover.jpg",
       "image_alt": "Three cannon replicas beneath brick arches",
       "project_url": "project-port-authority.html",
-      "press_url": "press-port-authority.html"
+      "press_url": "press-port-authority.html",
+      "page_heading": "Port Authority Sculptures",
+      "page_intro": "Large-scale heritage sculptures",
+      "page_image": "images/port-authority-cover.jpg"
     },
     {
       "id": "2edde5e7-5f4f-478c-935b-484e1193a851",
@@ -86,7 +107,10 @@
       "image": "images/elephant-cover.jpg",
       "image_alt": "Large elephant sculpture with raised trunk at Heritage Mall",
       "project_url": "project-heritage-mall-elephant.html",
-      "press_url": "press-heritage-mall-elephant.html"
+      "press_url": "press-heritage-mall-elephant.html",
+      "page_heading": "Heritage Mall Elephant",
+      "page_intro": "Monumental animal sculpture",
+      "page_image": "images/elephant-visitors.jpg"
     },
     {
       "id": "2a4e0c21-1b65-4cb2-a8fe-4172ea0a5d99",
@@ -97,7 +121,10 @@
       "image": "images/hellshire-entrance.jpg",
       "image_alt": "Castle-shaped entrance arch welcoming visitors to Hellshire Beach",
       "project_url": "project-hellshire-beach.html",
-      "press_url": "press-hellshire-beach.html"
+      "press_url": "press-hellshire-beach.html",
+      "page_heading": "Hellshire Beach",
+      "page_intro": "Architectural & sculptural structures",
+      "page_image": "images/hellshire-entrance.jpg"
     },
     {
       "id": "fb94dda4-51be-4dce-b6c1-f9814ff15458",
@@ -108,7 +135,10 @@
       "image": "images/usain-bolt-s-hotel.jpg",
       "image_alt": "Usain Bolt sculpture by Scheed Cole at S Hotel, holding the Jamaican flag in his signature pose",
       "project_url": "project-usain-bolt.html",
-      "press_url": "press-usain-bolt.html"
+      "press_url": "press-usain-bolt.html",
+      "page_heading": "Usain Bolt",
+      "page_intro": "Portrait sculpture",
+      "page_image": "images/usain-bolt-s-hotel.jpg"
     },
     {
       "id": "cc94b7bd-706a-4bf4-a0f5-93fbe6c90cfa",
@@ -119,7 +149,10 @@
       "image": "images/miss-lou.jpg",
       "image_alt": "Miss Lou portrait sculpture with raised hands and traditional plaid dress",
       "project_url": "project-miss-lou.html",
-      "press_url": "press-miss-lou.html"
+      "press_url": "press-miss-lou.html",
+      "page_heading": "Miss Lou",
+      "page_intro": "Portrait sculpture",
+      "page_image": "images/miss-lou.jpg"
     },
     {
       "id": "b62365e6-9002-4cf6-b5e4-ca0d5be28d04",
@@ -130,7 +163,10 @@
       "image": "images/pf-changs-horse.jpg",
       "image_alt": "Gold P.F. Chang’s horse sculpture with red and black saddle outside the workshop",
       "project_url": "project-pf-changs-horse.html",
-      "press_url": "press-pf-changs-horse.html"
+      "press_url": "press-pf-changs-horse.html",
+      "page_heading": "12-foot Horse — P.F. Chang’s",
+      "page_intro": "Signature horse sculpture · 12 feet high × 12 feet long",
+      "page_image": "images/pf-changs-horse.jpg"
     }
   ]
 }
