@@ -14,7 +14,7 @@ jobs:
         run: |
           for path in index.html script.js about.html studio.html; do
             echo "Checking $path"
-            curl -sS -L -w '\nHTTP %{http_code}\n' "https://nufcreatives-byte.github.io/scheedcole/$path?check=published20261027" -o "/tmp/$path"
+            curl -sS -L -w '\nHTTP %{http_code}\n' "https://nufcreatives-byte.github.io/scheedcole/$path?check=refresh218" -o "/tmp/$path"
             wc -c "/tmp/$path"
           done
           if grep -q "skilled professionals" /tmp/studio.html; then echo "STUDIO_LATEST=yes"; else echo "STUDIO_LATEST=no"; fi
