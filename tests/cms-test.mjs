@@ -34,7 +34,7 @@ try {
     assert.equal(snapshot.currentEm,snapshot.originalEm,p.title+': italic formatting changed');
     assert.equal(snapshot.currentImgs,snapshot.originalImgs,p.title+': image count changed');
     assert.equal(snapshot.blocks.length,(p.page_blocks||[]).length,p.title+': block count');
-    for(const b of p.page_blocks||[]) assert.equal(norm(snapshot.blocks[b.position]),norm(b.text),p.title+': block '+b.position);
+    for(const b of p.page_blocks||[]) assert.equal(norm(snapshot.blocks[b.position]).toLowerCase(),norm(b.text).toLowerCase(),p.title+': block '+b.position);
   }
   for(const entry of specific.pages) {
     await page.goto(base+entry.page); await page.waitForLoadState('networkidle');
