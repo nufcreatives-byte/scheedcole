@@ -131,15 +131,6 @@
       "image_alt": "Gold P.F. Chang’s horse sculpture with red and black saddle outside the workshop",
       "project_url": "project-pf-changs-horse.html",
       "press_url": "press-pf-changs-horse.html"
-    },
-    {
-      "id": "a515b279-6ac1-4a60-96c8-0cc6caa73940",
-      "title": "Temporary CMS Test",
-      "metadata": "Test",
-      "type": "Test",
-      "description": "Temporary test entry.",
-      "image": "images/about-studio.jpg",
-      "image_alt": "Test image"
     }
   ]
 }
