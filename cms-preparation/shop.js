@@ -12,6 +12,8 @@
     });
     if (!products.length) return;
     empty.hidden = true;
+    const examples = document.getElementById('shop-examples');
+    if (examples) examples.hidden = true;
     count.textContent = products.length + (products.length === 1 ? ' item' : ' items');
     for (const p of products) {
       const card = document.createElement('article'); card.className = 'shop-card';
