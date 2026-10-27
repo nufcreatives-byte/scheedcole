@@ -134,6 +134,12 @@
           "text": "Make the space impossible to forget."
         }
       ],
+      "page_gallery": [
+        {
+          "image": "images/about-studio.jpg",
+          "alt": "Temporary gallery test"
+        }
+      ],
       "project_url": "project-together-we-rise.html",
       "press_url": "press-together-we-rise.html"
     },
