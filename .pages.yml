@@ -1,0 +1,109 @@
+media:
+  input: images
+  output: images
+  rename: safe
+content:
+  - name: projects
+    label: Work listings
+    type: file
+    path: cms-preparation/projects.json
+    fields:
+      - name: projects
+        label: Projects
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - {name: id, label: Project ID, type: uuid, options: {editable: false, generate: false}}
+          - {name: title, label: Title, type: string}
+          - {name: metadata, label: Location and date, type: string}
+          - {name: type, label: Type of work, type: string}
+          - {name: description, label: Description, type: text}
+          - {name: image, label: Cover photograph, type: image}
+          - {name: image_alt, label: Image description, type: string}
+          - {name: page_heading, label: Project page heading, type: string, required: false}
+          - {name: page_intro, label: Project page introduction, type: text, required: false}
+          - {name: page_story, label: Additional story for new projects, type: text, required: false}
+          - {name: page_image, label: Project page main photo, type: image, required: false}
+          - {name: page_image_alt, label: Main photo description, type: string, required: false}
+          - name: page_blocks
+            label: Project page text and statistics
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label}"
+            fields:
+              - {name: position, label: Original position, type: number, readonly: true, required: false}
+              - {name: label, label: Original text, type: string, readonly: true}
+              - {name: text, label: Text, type: text}
+          - {name: page_gallery_count, label: Original photo count, type: number, readonly: true, required: false}
+          - name: page_gallery
+            label: Additional project photos
+            type: object
+            list: true
+            fields:
+              - {name: position, label: Original position, type: number, readonly: true, required: false}
+              - {name: image, label: Photograph, type: image}
+              - {name: alt, label: Photo description, type: string, required: false}
+          - {name: project_url, label: Existing project page (optional), type: string, required: false}
+          - {name: press_url, label: Press page, type: string, required: false}
+  - name: press
+    label: Press listings
+    type: file
+    path: cms-preparation/press.json
+    fields:
+      - name: articles
+        label: Articles
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - {name: title, label: Title, type: string}
+          - {name: source_date, label: Publication and date, type: string}
+          - {name: date, label: Date for ordering, type: string, required: false}
+          - {name: project, label: Related project, type: string, required: false}
+          - {name: url, label: Article link, type: string}
+  - name: home
+    label: Home
+    type: file
+    path: cms-preparation/home.json
+    fields:
+      - {name: hero_name, label: Cover name, type: string}
+      - {name: hero_role, label: Cover role, type: string}
+      - {name: practice_statement, label: Practice statement, type: text}
+      - {name: about_intro, label: About introduction, type: text}
+      - {name: contact_intro, label: Contact introduction, type: text}
+      - {name: email, label: Contact email, type: string}
+  - name: project_press
+    label: Project press pages
+    type: file
+    path: cms-preparation/press-pages.json
+    fields:
+      - name: pages
+        label: Project press pages
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - {name: name, label: Page, type: string, readonly: true}
+          - {name: page, label: Page file, type: string, readonly: true}
+          - name: articles
+            label: Articles
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - {name: title, label: Article title, type: string}
+              - {name: source_date, label: Publication and date, type: string}
+              - {name: description, label: Description, type: string, required: false}
+              - {name: url, label: Article link, type: string}
+              - {name: button_label, label: Link text, type: string, required: false}
