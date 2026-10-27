@@ -1,0 +1,124 @@
+{
+  "projects": [
+    {
+      "title": "Together We Rise",
+      "metadata": "S Hotel · Montego Bay · 2025–2026",
+      "type": "62-foot monumental sculpture",
+      "description": "A monumental sculpture created around the idea of Jamaica rising and rebuilding after Hurricane Melissa. The work incorporates a Tree of Life, representations of Jamaica’s 14 parishes through leaves, and scenes reflecting resilience, recovery and community.",
+      "image": "images/together-we-rise-work.jpg",
+      "image_alt": "Together We Rise monumental sculpture with clasped hands and a tree reaching into the sky",
+      "project_url": "project-together-we-rise.html",
+      "press_url": "press-together-we-rise.html"
+    },
+    {
+      "title": "Doctor Bird",
+      "metadata": "S Hotel · Montego Bay · 2025",
+      "type": "46-foot monumental sculpture",
+      "description": "A monumental sculpture depicting Jamaica’s national bird, the Doctor Bird. The sculpture was constructed in eight sections due to its scale and took approximately three months to complete.",
+      "image": "images/doctorbirdshotel.jpeg",
+      "image_alt": "Doctor Bird monumental sculpture on the facade of S Hotel in Montego Bay",
+      "project_url": "project-doctor-bird.html",
+      "press_url": "press-doctor-bird.html"
+    },
+    {
+      "title": "Sintra Bronte",
+      "metadata": "S Hotel · Kingston · 2024",
+      "type": "Portrait sculpture · Recycled materials",
+      "description": "A portrait inspired by Sintra Bronte’s iconic appearance in Jamaica’s 1972 tourism campaign, created using recycled materials.",
+      "image": "images/sintra-bronte.jpg",
+      "image_alt": "Sintra Bronte portrait sculpture wearing the iconic Jamaica T-shirt",
+      "project_url": "project-sintra-bronte.html",
+      "press_url": "press-sintra-bronte.html"
+    },
+    {
+      "title": "Clarks / Wallabee Installation",
+      "metadata": "S Hotel · Montego Bay · 2024",
+      "type": "Monumental footwear installation",
+      "description": "A large-scale installation inspired by the iconic Wallabee Clarks shoe, created for S Hotel Montego Bay and produced with a team of young creatives.",
+      "image": "images/clarks-work.jpg",
+      "image_alt": "Monumental Clarks Wallabee shoes in black, green and yellow at S Hotel Montego Bay",
+      "project_url": "project-wallabee.html",
+      "press_url": "press-wallabee.html"
+    },
+    {
+      "title": "Natural History Museum of Jamaica",
+      "metadata": "Kingston · Jamaica",
+      "type": "Immersive natural environments",
+      "description": "A large-scale sculptural installation recreating Jamaican natural environments, including dry forests, wetlands, rainforest canopy, coral reefs, caves and marine environments. The project involved extensive research, mould-making, sculpting, painting and installation, incorporating recycled materials.",
+      "image": "images/museum-mangrove.jpg",
+      "image_alt": "Mangrove wetland installation at the Natural History Museum of Jamaica",
+      "project_url": "project-natural-history-museum.html",
+      "press_url": "press-natural-history-museum.html"
+    },
+    {
+      "title": "National Heroes",
+      "metadata": "S Hotel · Montego Bay",
+      "type": "Monumental portrait sculpture",
+      "description": "A collection of highly detailed sculptural representations of significant Jamaican cultural and historical figures, including Nanny, Marcus Garvey, Bob Marley and Jimmy Cliff.",
+      "image": "images/national-heroes.jpg",
+      "image_alt": "Sculptural portraits at Montego Bay Legends Circle",
+      "project_url": "project-legends-circle.html",
+      "press_url": "press-national-heroes.html"
+    },
+    {
+      "title": "Port Authority Sculptures",
+      "metadata": "Kingston · Jamaica",
+      "type": "Large-scale heritage sculptures",
+      "description": "A series of large-scale sculptural pieces created for the Port Authority, including approximately 10-foot cannon replicas designed to resemble historical 18th-century pieces and incorporate the appearance of weathering and age.",
+      "image": "images/port-authority-cover.jpg",
+      "image_alt": "Three cannon replicas beneath brick arches",
+      "project_url": "project-port-authority.html",
+      "press_url": "press-port-authority.html"
+    },
+    {
+      "title": "Heritage Mall Elephant",
+      "metadata": "Spanish Town · Jamaica",
+      "type": "Monumental animal sculpture",
+      "description": "A large-scale elephant sculpture created as a sculptural installation for Heritage Mall.",
+      "image": "images/elephant-cover.jpg",
+      "image_alt": "Large elephant sculpture with raised trunk at Heritage Mall",
+      "project_url": "project-heritage-mall-elephant.html",
+      "press_url": "press-heritage-mall-elephant.html"
+    },
+    {
+      "title": "Hellshire Beach",
+      "metadata": "Hellshire · Jamaica",
+      "type": "Architectural & sculptural structures",
+      "description": "Design and construction work for Hellshire Beach, including an entrance vestibule and gazebos.",
+      "image": "images/hellshire-entrance.jpg",
+      "image_alt": "Castle-shaped entrance arch welcoming visitors to Hellshire Beach",
+      "project_url": "project-hellshire-beach.html",
+      "press_url": "press-hellshire-beach.html"
+    },
+    {
+      "title": "Usain Bolt",
+      "metadata": "S Hotel · Montego Bay",
+      "type": "Portrait sculpture",
+      "description": "A portrait of Usain Bolt in his signature victory pose, holding the Jamaican flag, created for S Hotel Montego Bay.",
+      "image": "images/usain-bolt-s-hotel.jpg",
+      "image_alt": "Usain Bolt sculpture by Scheed Cole at S Hotel, holding the Jamaican flag in his signature pose",
+      "project_url": "project-usain-bolt.html",
+      "press_url": "press-usain-bolt.html"
+    },
+    {
+      "title": "Miss Lou",
+      "metadata": "Jamaica",
+      "type": "Portrait sculpture",
+      "description": "A sculptural representation of Jamaican cultural icon Louise Bennett-Coverley, better known as Miss Lou.",
+      "image": "images/miss-lou.jpg",
+      "image_alt": "Miss Lou portrait sculpture with raised hands and traditional plaid dress",
+      "project_url": "project-miss-lou.html",
+      "press_url": "press-miss-lou.html"
+    },
+    {
+      "title": "12-foot Horse — P.F. Chang’s",
+      "metadata": "USA",
+      "type": "12-foot sculptural installation",
+      "description": "A signature stylized horse created for P.F. Chang’s, measuring 12 feet high and 12 feet long. The commission marked the studio’s first major international project.",
+      "image": "images/pf-changs-horse.jpg",
+      "image_alt": "Gold P.F. Chang’s horse sculpture with red and black saddle outside the workshop",
+      "project_url": "project-pf-changs-horse.html",
+      "press_url": "press-pf-changs-horse.html"
+    }
+  ]
+}
