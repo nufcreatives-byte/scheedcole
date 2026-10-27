@@ -44,8 +44,26 @@
       const container = document.querySelector('.editorial-projects');
       if (!container) return;
       const fragment = document.createDocumentFragment();
+      const originals = new Map([...container.querySelectorAll('.editorial-project')].map(node => [node.querySelector('.editorial-links a')?.getAttribute('href'), node]));
       for (const item of projects) {
         if (!item.title) continue;
+        const original = originals.get(item.project_url);
+        if (original) {
+          const node = original.cloneNode(true);
+          node.classList.remove('reveal');
+          node.querySelector('h2').textContent = item.title;
+          node.querySelector('.editorial-meta').textContent = item.metadata || '';
+          node.querySelector('.editorial-type').textContent = item.type || '';
+          node.querySelector('.editorial-description').textContent = item.description || '';
+          const img = node.querySelector('img');
+          const path = (item.image || '').replace(/^\/+/, '');
+          if (img && path.startsWith('images/') && !path.split('/').includes('..')) { img.src = path; img.alt = item.image_alt || ''; }
+          const links = node.querySelectorAll('.editorial-links a');
+          if (links[1] && !item.press_url) links[1].remove();
+          else if (links[1] && item.press_url && !item.press_url.includes(':') && !item.press_url.startsWith('/')) links[1].href = item.press_url;
+          fragment.append(node);
+          continue;
+        }
         const article = el('article', 'editorial-project');
         const media = el('div', 'editorial-media');
         const imagePath = (item.image || '').replace(/^\/+/, '');
@@ -55,7 +73,7 @@
         const copy = el('div', 'editorial-copy');
         copy.append(el('h2', '', item.title), el('p', 'editorial-meta', item.metadata || ''), el('p', 'editorial-type', item.type || ''), el('p', 'editorial-description', item.description || ''));
         const links = el('div', 'editorial-links');
-        const projectLink = link(item.project_url, 'PROJECT ↗') || Object.assign(el('a', '', 'PROJECT ↗'), {href: 'project-view.html?title=' + encodeURIComponent(item.title)}); const pressLink = link(item.press_url, 'PRESS ↗');
+        const projectLink = link(item.project_url, 'PROJECT ↗') || Object.assign(el('a', '', 'PROJECT ↗'), {href: 'project-view.html?id=' + encodeURIComponent(item.id || item.title)}); const pressLink = link(item.press_url, 'PRESS ↗');
         if (projectLink) links.append(projectLink); if (pressLink) links.append(pressLink);
         copy.append(links); article.append(media, copy); fragment.append(article);
       }
