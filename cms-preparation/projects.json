@@ -1,6 +1,7 @@
 {
   "projects": [
     {
+      "id": "ab954fb7-b29e-41c4-bf4e-ad81715a44f9",
       "title": "Together We Rise",
       "metadata": "S Hotel · Montego Bay · 2025–2026",
       "type": "62-foot monumental sculpture",
@@ -11,6 +12,7 @@
       "press_url": "press-together-we-rise.html"
     },
     {
+      "id": "cb11e36d-4b5e-453f-8cdb-63511efa9846",
       "title": "Doctor Bird",
       "metadata": "S Hotel · Montego Bay · 2025",
       "type": "46-foot monumental sculpture",
@@ -21,6 +23,7 @@
       "press_url": "press-doctor-bird.html"
     },
     {
+      "id": "754264eb-1e32-4010-981b-888407f3d2d4",
       "title": "Sintra Bronte",
       "metadata": "S Hotel · Kingston · 2024",
       "type": "Portrait sculpture · Recycled materials",
@@ -31,6 +34,7 @@
       "press_url": "press-sintra-bronte.html"
     },
     {
+      "id": "22f5bfbf-7a8a-479b-9c6c-ba4ec916474e",
       "title": "Clarks / Wallabee Installation",
       "metadata": "S Hotel · Montego Bay · 2024",
       "type": "Monumental footwear installation",
@@ -41,6 +45,7 @@
       "press_url": "press-wallabee.html"
     },
     {
+      "id": "5ec939d7-eafa-4818-a199-00fa92d20597",
       "title": "Natural History Museum of Jamaica",
       "metadata": "Kingston · Jamaica",
       "type": "Immersive natural environments",
@@ -51,6 +56,7 @@
       "press_url": "press-natural-history-museum.html"
     },
     {
+      "id": "aa1858dd-7aab-4dd4-ac5c-defa8d8ad022",
       "title": "National Heroes",
       "metadata": "S Hotel · Montego Bay",
       "type": "Monumental portrait sculpture",
@@ -61,6 +67,7 @@
       "press_url": "press-national-heroes.html"
     },
     {
+      "id": "f18cf8b8-ce3e-43b4-a77e-88c0d3de882c",
       "title": "Port Authority Sculptures",
       "metadata": "Kingston · Jamaica",
       "type": "Large-scale heritage sculptures",
@@ -71,6 +78,7 @@
       "press_url": "press-port-authority.html"
     },
     {
+      "id": "2edde5e7-5f4f-478c-935b-484e1193a851",
       "title": "Heritage Mall Elephant",
       "metadata": "Spanish Town · Jamaica",
       "type": "Monumental animal sculpture",
@@ -81,6 +89,7 @@
       "press_url": "press-heritage-mall-elephant.html"
     },
     {
+      "id": "2a4e0c21-1b65-4cb2-a8fe-4172ea0a5d99",
       "title": "Hellshire Beach",
       "metadata": "Hellshire · Jamaica",
       "type": "Architectural & sculptural structures",
@@ -91,6 +100,7 @@
       "press_url": "press-hellshire-beach.html"
     },
     {
+      "id": "fb94dda4-51be-4dce-b6c1-f9814ff15458",
       "title": "Usain Bolt",
       "metadata": "S Hotel · Montego Bay",
       "type": "Portrait sculpture",
@@ -101,6 +111,7 @@
       "press_url": "press-usain-bolt.html"
     },
     {
+      "id": "cc94b7bd-706a-4bf4-a0f5-93fbe6c90cfa",
       "title": "Miss Lou",
       "metadata": "Jamaica",
       "type": "Portrait sculpture",
@@ -111,6 +122,7 @@
       "press_url": "press-miss-lou.html"
     },
     {
+      "id": "b62365e6-9002-4cf6-b5e4-ca0d5be28d04",
       "title": "12-foot Horse — P.F. Chang’s",
       "metadata": "USA",
       "type": "12-foot sculptural installation",
@@ -119,6 +131,15 @@
       "image_alt": "Gold P.F. Chang’s horse sculpture with red and black saddle outside the workshop",
       "project_url": "project-pf-changs-horse.html",
       "press_url": "press-pf-changs-horse.html"
+    },
+    {
+      "id": "a515b279-6ac1-4a60-96c8-0cc6caa73940",
+      "title": "Temporary CMS Test",
+      "metadata": "Test",
+      "type": "Test",
+      "description": "Temporary test entry.",
+      "image": "images/about-studio.jpg",
+      "image_alt": "Test image"
     }
   ]
 }
