@@ -13,7 +13,15 @@
     const normalized = value => (value || '').replace(/\s+/g, ' ').trim();
     const updateHeading = (node, value) => {
       const emphasis = node.querySelector('em');
-      if (!emphasis) { node.textContent = value; return; }
+      if (!emphasis) {
+        const icon = node.querySelector('svg');
+        if (!icon) { node.textContent = value; return; }
+        const walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT);
+        const texts = []; while (walker.nextNode()) { const n = walker.currentNode; if (!n.parentElement?.closest('svg')) texts.push(n); }
+        if (texts.length) { texts[0].textContent = value; texts.slice(1).forEach(n => n.textContent = ''); }
+        else node.insertBefore(document.createTextNode(value), icon);
+        return;
+      }
       const original = normalized(emphasis.textContent);
       let prefix, suffix;
       if (original && value.endsWith(original)) { prefix = value.slice(0, -original.length).trimEnd(); suffix = original; }
