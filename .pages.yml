@@ -33,3 +33,14 @@ content:
           - {name: date, label: Date for ordering, type: string, required: false}
           - {name: project, label: Related project, type: string, required: false}
           - {name: url, label: Article link, type: string}
+  - name: home
+    label: Home (draft)
+    type: file
+    path: cms-preparation/home.json
+    fields:
+      - {name: hero_name, label: Cover name, type: string}
+      - {name: hero_role, label: Cover role, type: string}
+      - {name: practice_statement, label: Practice statement, type: text}
+      - {name: about_intro, label: About introduction, type: text}
+      - {name: contact_intro, label: Contact introduction, type: text}
+      - {name: email, label: Contact email, type: string}
