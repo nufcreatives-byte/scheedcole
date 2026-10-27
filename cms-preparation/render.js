@@ -84,8 +84,10 @@
       if (!Array.isArray(articles)) throw new Error('Invalid press');
       const container = document.querySelector('.press-list');
       if (!container) return;
+      const originals = new Map([...container.querySelectorAll('.press-card')].map(node => [node.getAttribute('href'), node]));
       const groups = new Map();
-      for (const item of articles) {
+      const sorted = [...articles].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+      for (const item of sorted) {
         const year = /^\d{4}/.exec(item.date || '')?.[0] || /\b(?:19|20)\d{2}\b/.exec(item.source_date || '')?.[0] || 'undated';
         if (!groups.has(year)) groups.set(year, []);
         groups.get(year).push(item);
@@ -98,6 +100,16 @@
         const head = el('div'); head.id = 'press-' + year; head.style.cssText = 'scroll-margin-top:100px;margin:48px 0 20px'; head.append(el('p', 'eyebrow', year === 'undated' ? 'Date not confirmed' : year)); fragment.append(head);
         for (const item of items) {
           const a = link(item.url, '', true); if (!a || !item.title) continue;
+          const original = originals.get(item.url);
+          if (original) {
+            const card = original.cloneNode(true);
+            card.querySelector('span').textContent = item.source_date || '';
+            card.querySelector('h2').textContent = item.title;
+            const description = card.querySelector('p');
+            if (description) description.textContent = item.project || '';
+            fragment.append(card);
+            continue;
+          }
           a.className = 'press-card'; const inner = el('div');
           inner.append(el('span', '', item.source_date || ''), el('h2', '', item.title), el('p', '', item.project || ''));
           a.append(inner, el('strong', '', 'Read feature ↗')); fragment.append(a);
