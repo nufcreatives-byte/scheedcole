@@ -2,6 +2,8 @@ name: Check public site
 on:
   push:
     branches: [check-pages-publication]
+  pull_request:
+    branches: [main]
 permissions:
   contents: read
 jobs:
