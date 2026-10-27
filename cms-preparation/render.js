@@ -48,13 +48,14 @@
         if (!item.title) continue;
         const article = el('article', 'editorial-project');
         const media = el('div', 'editorial-media');
-        if (/^images\/[a-zA-Z0-9._/-]+$/.test(item.image || '')) {
-          const img = document.createElement('img'); img.src = item.image; img.alt = item.image_alt || ''; img.loading = 'lazy'; img.style.cssText = 'display:block;width:100%;height:100%;object-fit:cover;object-position:center'; media.append(img);
+        const imagePath = (item.image || '').replace(/^\/+/, '');
+        if (/^images\/[a-zA-Z0-9._/ -]+$/.test(imagePath) && !imagePath.split('/').includes('..')) {
+          const img = document.createElement('img'); img.src = imagePath; img.alt = item.image_alt || ''; img.loading = 'lazy'; img.style.cssText = 'display:block;width:100%;height:100%;object-fit:cover;object-position:center'; media.append(img);
         }
         const copy = el('div', 'editorial-copy');
         copy.append(el('h2', '', item.title), el('p', 'editorial-meta', item.metadata || ''), el('p', 'editorial-type', item.type || ''), el('p', 'editorial-description', item.description || ''));
         const links = el('div', 'editorial-links');
-        const projectLink = link(item.project_url, 'PROJECT ↗'); const pressLink = link(item.press_url, 'PRESS ↗');
+        const projectLink = link(item.project_url, 'PROJECT ↗') || Object.assign(el('a', '', 'PROJECT ↗'), {href: 'project-view.html?title=' + encodeURIComponent(item.title)}); const pressLink = link(item.press_url, 'PRESS ↗');
         if (projectLink) links.append(projectLink); if (pressLink) links.append(pressLink);
         copy.append(links); article.append(media, copy); fragment.append(article);
       }
