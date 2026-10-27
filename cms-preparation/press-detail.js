@@ -19,6 +19,8 @@
         if (title) title.textContent = item.title || '';
         if (source) source.textContent = item.source_date || '';
         if (description) description.textContent = item.description || '';
+        const strong = card.querySelector('strong');
+        if (strong && item.button_label) { const text = [...strong.childNodes].find(n => n.nodeType === Node.TEXT_NODE); if (text) text.textContent = item.button_label; }
         fragment.append(card); continue;
       }
       const card = document.createElement('a'); card.className = 'press-card'; card.href = url.href; card.target = '_blank'; card.rel = 'noopener noreferrer';
