@@ -18,5 +18,5 @@ jobs:
             wc -c "/tmp/$path"
           done
           if grep -q "skilled professionals" /tmp/studio.html; then echo "STUDIO_LATEST=yes"; else echo "STUDIO_LATEST=no"; fi
-          if grep -q "const primaryNav" /tmp/script.js; then echo "NAV_LATEST=yes"; else echo "NAV_LATEST=no"; fi
+          if grep -q 'script.js?v=20261027-nav2' /tmp/index.html; then echo "NAV_LATEST=yes"; else echo "NAV_LATEST=no"; fi
           if grep -q 'id="capabilities"' /tmp/about.html; then echo "ABOUT_LATEST=yes"; else echo "ABOUT_LATEST=no"; fi
