@@ -1,3 +1,15 @@
+const primaryNav = document.querySelector('.desktop-nav, .cover-nav');
+if (primaryNav && !primaryNav.querySelector('a[href="studio.html"]')) {
+  const aboutLink = primaryNav.querySelector('a[href="about.html"]');
+  if (aboutLink) {
+    const studioLink = document.createElement('a');
+    studioLink.href = 'studio.html';
+    studioLink.textContent = 'Studio';
+    if (location.pathname.endsWith('/studio.html')) studioLink.setAttribute('aria-current', 'page');
+    aboutLink.after(studioLink);
+  }
+}
+
 const revealElements = document.querySelectorAll('.reveal');
 if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver((entries) => {
