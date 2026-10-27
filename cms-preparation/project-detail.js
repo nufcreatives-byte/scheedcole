@@ -25,7 +25,7 @@
     if (Array.isArray(project.page_blocks)) {
       for (const item of project.page_blocks) {
         const node = Number.isInteger(item.position) ? blocks[item.position] : null;
-        if (node && typeof item.text === 'string' && normalized(node.textContent) !== normalized(item.text)) node.textContent = item.text;
+        if (node && typeof item.text === 'string' && normalized(node.innerText) !== normalized(item.text)) node.textContent = item.text;
       }
     }
     if (Array.isArray(project.page_gallery)) {
