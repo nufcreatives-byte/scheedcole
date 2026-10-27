@@ -24,6 +24,7 @@ content:
           - {name: image_alt, label: Image description, type: string}
           - {name: page_heading, label: Project page heading, type: string, required: false}
           - {name: page_intro, label: Project page introduction, type: text, required: false}
+          - {name: page_story, label: Additional story for new projects, type: text, required: false}
           - {name: page_image, label: Project page main photo, type: image, required: false}
           - {name: page_image_alt, label: Main photo description, type: string, required: false}
           - name: page_blocks
