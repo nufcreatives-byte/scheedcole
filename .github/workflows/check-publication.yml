@@ -12,11 +12,12 @@ jobs:
     steps:
       - name: Inspect published website
         run: |
-          for path in index.html script.js about.html studio.html; do
+          for path in index.html script.js about.html studio.html shop.html; do
             echo "Checking $path"
-            curl -sS -L -w '\nHTTP %{http_code}\n' "https://nufcreatives-byte.github.io/scheedcole/$path?check=refresh218" -o "/tmp/$path"
+            curl -sS -L -w '\nHTTP %{http_code}\n' "https://nufcreatives-byte.github.io/scheedcole/$path?check=shopverifylatest" -o "/tmp/$path"
             wc -c "/tmp/$path"
           done
+          echo "SHOP_CARD_COUNT=$(grep -o 'class="shop-card"' /tmp/shop.html | wc -l)"
           if grep -q "skilled professionals" /tmp/studio.html; then echo "STUDIO_LATEST=yes"; else echo "STUDIO_LATEST=no"; fi
           if grep -q 'script.js?v=20261027-nav2' /tmp/index.html; then echo "NAV_LATEST=yes"; else echo "NAV_LATEST=no"; fi
           if grep -q 'id="capabilities"' /tmp/about.html; then echo "ABOUT_LATEST=yes"; else echo "ABOUT_LATEST=no"; fi
