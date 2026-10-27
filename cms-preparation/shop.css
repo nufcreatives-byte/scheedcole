@@ -2,3 +2,8 @@
 .shop-example-notice{font-size:13px;color:#777;margin:28px 0 0}.shop-card [aria-disabled=true]{opacity:.55;cursor:default}.shop-hero h1 span{color:inherit}
 
 .shop-placeholder{display:grid;place-items:center;width:100%;aspect-ratio:4/5;background:#d7d5d0;color:#77736d;font-size:12px;font-weight:600;letter-spacing:.16em}@media(max-width:480px){.shop-placeholder{aspect-ratio:4/4.5}}
+
+/* Keep product cards compact while retaining a responsive layout. */
+.shop-grid{grid-template-columns:repeat(auto-fit,minmax(0,260px));gap:42px 24px}
+@media(max-width:800px){.shop-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 16px}}
+@media(max-width:480px){.shop-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 12px}.shop-card h2{font-size:21px}}
