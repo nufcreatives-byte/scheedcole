@@ -22,6 +22,9 @@ content:
           - {name: description, label: Description, type: text}
           - {name: image, label: Cover photograph, type: image}
           - {name: image_alt, label: Image description, type: string}
+          - {name: page_heading, label: Project page heading, type: string, required: false}
+          - {name: page_intro, label: Project page introduction, type: text, required: false}
+          - {name: page_image, label: Project page main photo, type: image, required: false}
           - {name: project_url, label: Existing project page (optional), type: string, required: false}
           - {name: press_url, label: Press page, type: string, required: false}
   - name: press
