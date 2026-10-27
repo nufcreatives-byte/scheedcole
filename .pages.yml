@@ -1,4 +1,6 @@
-media: images
+media:
+  input: images
+  output: images
 content:
   - name: projects
     label: Work listings (draft)
@@ -14,9 +16,9 @@ content:
           - {name: metadata, label: Location and date, type: string}
           - {name: type, label: Type of work, type: string}
           - {name: description, label: Description, type: text}
-          - {name: image, label: Cover image path, type: string}
+          - {name: image, label: Cover photograph, type: image}
           - {name: image_alt, label: Image description, type: string}
-          - {name: project_url, label: Project page, type: string}
+          - {name: project_url, label: Existing project page (optional), type: string, required: false}
           - {name: press_url, label: Press page, type: string, required: false}
   - name: press
     label: Press listings (draft)
