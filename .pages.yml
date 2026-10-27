@@ -1,6 +1,7 @@
 media:
   input: images
   output: images
+  rename: safe
 content:
   - name: projects
     label: Work listings (draft)
