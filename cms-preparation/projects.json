@@ -12,7 +12,107 @@
       "page_intro": "A 62-foot monument commissioned by Christopher Issa and S Hotels for St James Place on Jimmy Cliff Boulevard. Created in response to Hurricane Melissa, the work expresses Jamaica’s capacity to recover through collective effort.",
       "page_image": "images/home-hero.jpg",
       "project_url": "project-together-we-rise.html",
-      "press_url": "press-together-we-rise.html"
+      "press_url": "press-together-we-rise.html",
+      "page_blocks": [
+        {
+          "label": "62'",
+          "text": "62'"
+        },
+        {
+          "label": "Overall scale",
+          "text": "Overall scale"
+        },
+        {
+          "label": "14",
+          "text": "14"
+        },
+        {
+          "label": "Parishes represented",
+          "text": "Parishes represented"
+        },
+        {
+          "label": "35+",
+          "text": "35+"
+        },
+        {
+          "label": "People involved",
+          "text": "People involved"
+        },
+        {
+          "label": "2025–26",
+          "text": "2025–26"
+        },
+        {
+          "label": "Project period",
+          "text": "Project period"
+        },
+        {
+          "label": "The project",
+          "text": "The project"
+        },
+        {
+          "label": "A nation risingtogether.",
+          "text": "A nation risingtogether."
+        },
+        {
+          "label": "Figures move from scenes of danger and rescue towards r",
+          "text": "Figures move from scenes of danger and rescue towards rebuilding. A soldier reaches for a woman; workers and a farmer embody recovery. Above them, a Tree of Life carries healing plants representing Jamaica’s 14 parishes, linking renewal with the country’s landscape."
+        },
+        {
+          "label": "The sculpture honours local and international support a",
+          "text": "The sculpture honours local and international support after the hurricane. Its interdependent figures turn resilience into a shared act, giving physical form to the idea that recovery depends on people helping one another."
+        },
+        {
+          "label": "Process",
+          "text": "Process"
+        },
+        {
+          "label": "Concept fabricationinstallation.",
+          "text": "Concept fabricationinstallation."
+        },
+        {
+          "label": "From disaster to renewal",
+          "text": "From disaster to renewal"
+        },
+        {
+          "label": "The composition traces a passage from survival to hope.",
+          "text": "The composition traces a passage from survival to hope. Its 62-foot height recalls Jamaica’s independence in 1962."
+        },
+        {
+          "label": "Building at monumental scale",
+          "text": "Building at monumental scale"
+        },
+        {
+          "label": "The process involved structural engineering, ground tes",
+          "text": "The process involved structural engineering, ground testing and approvals, with particular attention to severe winds. Selected steel framing remains visible as part of the story of reconstruction."
+        },
+        {
+          "label": "Art in public space",
+          "text": "Art in public space"
+        },
+        {
+          "label": "Discarded materials from hurricane-affected communities",
+          "text": "Discarded materials from hurricane-affected communities enter the work alongside sculpted forms. Planned planting and cascading water extend its connection to Jamaica’s natural environment."
+        },
+        {
+          "label": "In the press",
+          "text": "In the press"
+        },
+        {
+          "label": "62 feetof resilience.",
+          "text": "62 feetof resilience."
+        },
+        {
+          "label": "National and international commissions",
+          "text": "National and international commissions"
+        },
+        {
+          "label": "Make the spaceimpossible to forget.",
+          "text": "Make the spaceimpossible to forget."
+        }
+      ],
+      "page_gallery": [],
+      "page_image_alt": "Together We Rise monument under construction in Montego Bay, with intertwined hands and a Tree of Life"
     },
     {
       "id": "cb11e36d-4b5e-453f-8cdb-63511efa9846",
@@ -26,7 +126,83 @@
       "page_intro": "A 46-foot streamer-tail hummingbird created for the façade of S Hotel Montego Bay — transforming Jamaica's national bird into a landmark visible from Jimmy Cliff Boulevard.",
       "page_image": "images/doctorbirdshotel.jpeg",
       "project_url": "project-doctor-bird.html",
-      "press_url": "press-doctor-bird.html"
+      "press_url": "press-doctor-bird.html",
+      "page_blocks": [
+        {
+          "label": "46'",
+          "text": "46'"
+        },
+        {
+          "label": "Overall scale",
+          "text": "Overall scale"
+        },
+        {
+          "label": "3",
+          "text": "3"
+        },
+        {
+          "label": "Months to complete",
+          "text": "Months to complete"
+        },
+        {
+          "label": "8",
+          "text": "8"
+        },
+        {
+          "label": "Sections fabricated",
+          "text": "Sections fabricated"
+        },
+        {
+          "label": "2025",
+          "text": "2025"
+        },
+        {
+          "label": "Completed",
+          "text": "Completed"
+        },
+        {
+          "label": "The project",
+          "text": "The project"
+        },
+        {
+          "label": "Movement atmonumental scale.",
+          "text": "Movement atmonumental scale."
+        },
+        {
+          "label": "Originally explored as a flatter wall treatment, the co",
+          "text": "Originally explored as a flatter wall treatment, the concept developed into a dynamic three-dimensional bird that appears alive in space. Its scale required the sculpture to be fabricated outdoors in eight separate sections."
+        },
+        {
+          "label": "The finished work combines fibreglass, polystyrene foam",
+          "text": "The finished work combines fibreglass, polystyrene foam and sheet metal, bringing sculptural expression and complex engineering together in a single architectural installation."
+        },
+        {
+          "label": "Process",
+          "text": "Process"
+        },
+        {
+          "label": "Concept fabricationinstallation.",
+          "text": "Concept fabricationinstallation."
+        },
+        {
+          "label": "In the press",
+          "text": "In the press"
+        },
+        {
+          "label": "Doctor Bird sculpturesoars at S Hotel.",
+          "text": "Doctor Bird sculpturesoars at S Hotel."
+        },
+        {
+          "label": "Next project",
+          "text": "Next project"
+        },
+        {
+          "label": "Make the spaceimpossible to forget.",
+          "text": "Make the spaceimpossible to forget."
+        }
+      ],
+      "page_gallery": [],
+      "page_image_alt": "Doctor Bird monumental sculpture on the facade of S Hotel in Montego Bay"
     },
     {
       "id": "754264eb-1e32-4010-981b-888407f3d2d4",
@@ -40,7 +216,15 @@
       "page_intro": "Portrait sculpture · Recycled materials",
       "page_image": "images/sintra-bronte.jpg",
       "project_url": "project-sintra-bronte.html",
-      "press_url": "press-sintra-bronte.html"
+      "press_url": "press-sintra-bronte.html",
+      "page_blocks": [
+        {
+          "label": "Commissioned by hotelier Christopher Issa, this portrai",
+          "text": "Commissioned by hotelier Christopher Issa, this portrait by Scheed Cole and his team honours Sintra Bronte, the Trinidadian model featured in Jamaica’s iconic 1972 tourism campaign. Unveiled at Strings Restaurant at S Hotel Kingston in May 2024, the sculpture recreates her emergence from the water wearing the recognisable Jamaica T-shirt. The team used recycled materials, including plastic bags and cardboard."
+        }
+      ],
+      "page_gallery": [],
+      "page_image_alt": "Sintra Bronte portrait sculpture wearing the iconic Jamaica T-shirt"
     },
     {
       "id": "22f5bfbf-7a8a-479b-9c6c-ba4ec916474e",
@@ -54,7 +238,28 @@
       "page_intro": "Monumental footwear installation",
       "page_image": "images/Clarks-9.jpg",
       "project_url": "project-wallabee.html",
-      "press_url": "press-wallabee.html"
+      "press_url": "press-wallabee.html",
+      "page_blocks": [
+        {
+          "label": "A large-scale installation inspired by the iconic Walla",
+          "text": "A large-scale installation inspired by the iconic Wallabee Clarks shoe, created for S Hotel Montego Bay and produced with a team of young creatives."
+        },
+        {
+          "label": "Clarks / Wallabee Installation",
+          "text": "Clarks / Wallabee Installation"
+        },
+        {
+          "label": "Clarks / Wallabee Installation",
+          "text": "Clarks / Wallabee Installation"
+        }
+      ],
+      "page_gallery": [
+        {
+          "image": "images/Clarks-10.jpg",
+          "alt": "Clarks Wallabee installation at S Hotel Montego Bay"
+        }
+      ],
+      "page_image_alt": "Clarks Wallabee installation at S Hotel Montego Bay"
     },
     {
       "id": "5ec939d7-eafa-4818-a199-00fa92d20597",
@@ -68,7 +273,120 @@
       "page_intro": "Sculptural environments created to make Jamaica's ecosystems feel tangible — from limestone caves and coral reefs to mangrove wetlands and forest canopy.",
       "page_image": "images/museum-mangrove.jpg",
       "project_url": "project-natural-history-museum.html",
-      "press_url": "press-natural-history-museum.html"
+      "press_url": "press-natural-history-museum.html",
+      "page_blocks": [
+        {
+          "label": "The project",
+          "text": "The project"
+        },
+        {
+          "label": "Nature,recreated indoors.",
+          "text": "Nature,recreated indoors."
+        },
+        {
+          "label": "The permanent exhibition gallery contains six environme",
+          "text": "The permanent exhibition gallery contains six environmental dioramas. Scheed researched specimens with botanists and zoologists, visited natural habitats, made drawing studies, sculpted forms by hand, moulded selected pieces, painted them and installed them in the museum."
+        },
+        {
+          "label": "The lifelike pieces were created using 360RM, a recycle",
+          "text": "The lifelike pieces were created using 360RM, a recycled composite developed by 360 Recycle Manufacturing."
+        },
+        {
+          "label": "Environments",
+          "text": "Environments"
+        },
+        {
+          "label": "Six ways intoJamaica's natural world.",
+          "text": "Six ways intoJamaica's natural world."
+        },
+        {
+          "label": "Geology",
+          "text": "Geology"
+        },
+        {
+          "label": "A sculptural environment inspired by Jamaica's limeston",
+          "text": "A sculptural environment inspired by Jamaica's limestone caves."
+        },
+        {
+          "label": "Coral Reef",
+          "text": "Coral Reef"
+        },
+        {
+          "label": "An immersive representation of a thriving Jamaican reef",
+          "text": "An immersive representation of a thriving Jamaican reef ecosystem."
+        },
+        {
+          "label": "Wetlands",
+          "text": "Wetlands"
+        },
+        {
+          "label": "Mangrove roots and shoreline habitats recreated in thre",
+          "text": "Mangrove roots and shoreline habitats recreated in three dimensions."
+        },
+        {
+          "label": "Dry Limestone",
+          "text": "Dry Limestone"
+        },
+        {
+          "label": "Inspired by the distinctive ecology of the Hellshire Hi",
+          "text": "Inspired by the distinctive ecology of the Hellshire Hills."
+        },
+        {
+          "label": "Canopy",
+          "text": "Canopy"
+        },
+        {
+          "label": "The colour and birdlife of Jamaica's upper forest envir",
+          "text": "The colour and birdlife of Jamaica's upper forest environment."
+        },
+        {
+          "label": "Understory",
+          "text": "Understory"
+        },
+        {
+          "label": "A view into the life beneath a wet limestone rainforest",
+          "text": "A view into the life beneath a wet limestone rainforest canopy."
+        },
+        {
+          "label": "Inside the exhibition",
+          "text": "Inside the exhibition"
+        },
+        {
+          "label": "Habitats brought to life.",
+          "text": "Habitats brought to life."
+        },
+        {
+          "label": "In the press",
+          "text": "In the press"
+        },
+        {
+          "label": "Behind the magicof the gallery.",
+          "text": "Behind the magicof the gallery."
+        },
+        {
+          "label": "Museums & environments",
+          "text": "Museums & environments"
+        },
+        {
+          "label": "Turn information intoan experience.",
+          "text": "Turn information intoan experience."
+        }
+      ],
+      "page_gallery": [
+        {
+          "image": "images/museum-iguana.jpg",
+          "alt": "Iguana sculpture in a dry limestone environment"
+        },
+        {
+          "image": "images/museum-coral.jpg",
+          "alt": "Coral reef installation with suspended fish and colourful corals"
+        },
+        {
+          "image": "images/museum-forest.jpg",
+          "alt": "Walkway surrounded by sculpted forest trees and foliage"
+        }
+      ],
+      "page_image_alt": "Mangrove wetland environment with sculpted roots and wildlife"
     },
     {
       "id": "aa1858dd-7aab-4dd4-ac5c-defa8d8ad022",
@@ -82,7 +400,92 @@
       "page_intro": "Life-like sculptural portraiture bringing Jamaican heroes and cultural figures into public space.",
       "page_image": "images/national-heroes.jpg",
       "project_url": "project-legends-circle.html",
-      "press_url": "press-national-heroes.html"
+      "press_url": "press-national-heroes.html",
+      "page_blocks": [
+        {
+          "label": "The work",
+          "text": "The work"
+        },
+        {
+          "label": "History givenphysical presence.",
+          "text": "History givenphysical presence."
+        },
+        {
+          "label": "At Montego Bay's Legends Circle, sculptural representat",
+          "text": "At Montego Bay's Legends Circle, sculptural representations of National Heroes Samuel Sharpe and Marcus Garvey, National Heroine Nanny of the Maroons, and music legends Bob Marley and Jimmy Cliff create a public encounter with Jamaican identity."
+        },
+        {
+          "label": "The works combine Cole's commitment to realism with rec",
+          "text": "The works combine Cole's commitment to realism with recycled-material innovation, making cultural memory visible, approachable and part of everyday public life."
+        },
+        {
+          "label": "Portraits",
+          "text": "Portraits"
+        },
+        {
+          "label": "Faces of Jamaican heritage.",
+          "text": "Faces of Jamaican heritage."
+        },
+        {
+          "label": "Bob Marley",
+          "text": "Bob Marley"
+        },
+        {
+          "label": "Jimmy Cliff",
+          "text": "Jimmy Cliff"
+        },
+        {
+          "label": "Nanny of the Maroons",
+          "text": "Nanny of the Maroons"
+        },
+        {
+          "label": "Marcus Garvey",
+          "text": "Marcus Garvey"
+        },
+        {
+          "label": "Samuel Sharpe",
+          "text": "Samuel Sharpe"
+        },
+        {
+          "label": "In the press",
+          "text": "In the press"
+        },
+        {
+          "label": "Jamaican icons,in sculptural form.",
+          "text": "Jamaican icons,in sculptural form."
+        },
+        {
+          "label": "Culture & heritage",
+          "text": "Culture & heritage"
+        },
+        {
+          "label": "Give a storylasting form.",
+          "text": "Give a storylasting form."
+        }
+      ],
+      "page_gallery": [
+        {
+          "image": "images/bob-marley-work.jpg",
+          "alt": "Bob Marley portrait sculpture by Scheed Cole"
+        },
+        {
+          "image": "images/jimmy-cliff-work.jpg",
+          "alt": "Jimmy Cliff portrait sculpture by Scheed Cole"
+        },
+        {
+          "image": "images/nanny-maroons.jpg",
+          "alt": "Nanny of the Maroons portrait sculpture by Scheed Cole"
+        },
+        {
+          "image": "images/marcus-garvey.jpg",
+          "alt": "Marcus Garvey portrait sculpture by Scheed Cole"
+        },
+        {
+          "image": "images/samuel-sharpe.jpg",
+          "alt": "Samuel Sharpe portrait sculpture by Scheed Cole"
+        }
+      ],
+      "page_image_alt": "Sculptural portraits at Montego Bay Legends Circle"
     },
     {
       "id": "f18cf8b8-ce3e-43b4-a77e-88c0d3de882c",
@@ -96,7 +499,20 @@
       "page_intro": "Large-scale heritage sculptures",
       "page_image": "images/port-authority-cover.jpg",
       "project_url": "project-port-authority.html",
-      "press_url": "press-port-authority.html"
+      "press_url": "press-port-authority.html",
+      "page_blocks": [
+        {
+          "label": "A series of large-scale sculptural pieces created for t",
+          "text": "A series of large-scale sculptural pieces created for the Port Authority, including approximately 10-foot cannon replicas designed to resemble historical 18th-century pieces and incorporate the appearance of weathering and age."
+        }
+      ],
+      "page_gallery": [
+        {
+          "image": "images/port-authority-detail.jpg",
+          "alt": "Close view of a cannon replica and its wooden-style carriage"
+        }
+      ],
+      "page_image_alt": "Three cannon replicas beneath brick arches"
     },
     {
       "id": "2edde5e7-5f4f-478c-935b-484e1193a851",
@@ -110,7 +526,15 @@
       "page_intro": "Monumental animal sculpture",
       "page_image": "images/elephant-visitors.jpg",
       "project_url": "project-heritage-mall-elephant.html",
-      "press_url": "press-heritage-mall-elephant.html"
+      "press_url": "press-heritage-mall-elephant.html",
+      "page_blocks": [
+        {
+          "label": "A large-scale elephant sculpture created as a sculptura",
+          "text": "A large-scale elephant sculpture created as a sculptural installation for Heritage Mall."
+        }
+      ],
+      "page_gallery": [],
+      "page_image_alt": "Two young visitors seated on an elephant sculpture at Heritage Mall"
     },
     {
       "id": "2a4e0c21-1b65-4cb2-a8fe-4172ea0a5d99",
@@ -124,7 +548,15 @@
       "page_intro": "Architectural & sculptural structures",
       "page_image": "images/hellshire-entrance.jpg",
       "project_url": "project-hellshire-beach.html",
-      "press_url": "press-hellshire-beach.html"
+      "press_url": "press-hellshire-beach.html",
+      "page_blocks": [
+        {
+          "label": "Design and construction work for Hellshire Beach, inclu",
+          "text": "Design and construction work for Hellshire Beach, including an entrance vestibule and gazebos."
+        }
+      ],
+      "page_gallery": [],
+      "page_image_alt": "Castle-shaped entrance arch welcoming visitors to Hellshire Beach"
     },
     {
       "id": "fb94dda4-51be-4dce-b6c1-f9814ff15458",
@@ -138,7 +570,19 @@
       "page_intro": "Portrait sculpture",
       "page_image": "images/usain-bolt-s-hotel.jpg",
       "project_url": "project-usain-bolt.html",
-      "press_url": "press-usain-bolt.html"
+      "press_url": "press-usain-bolt.html",
+      "page_blocks": [
+        {
+          "label": "A portrait of Usain Bolt in his signature victory pose,",
+          "text": "A portrait of Usain Bolt in his signature victory pose, holding the Jamaican flag, created for S Hotel Montego Bay."
+        },
+        {
+          "label": "Usain Bolt · S Hotel Montego Bay · Portrait sculpture",
+          "text": "Usain Bolt · S Hotel Montego Bay · Portrait sculpture"
+        }
+      ],
+      "page_gallery": [],
+      "page_image_alt": "Usain Bolt sculpture by Scheed Cole holding the Jamaican flag at S Hotel"
     },
     {
       "id": "cc94b7bd-706a-4bf4-a0f5-93fbe6c90cfa",
@@ -152,7 +596,15 @@
       "page_intro": "Portrait sculpture",
       "page_image": "images/miss-lou.jpg",
       "project_url": "project-miss-lou.html",
-      "press_url": "press-miss-lou.html"
+      "press_url": "press-miss-lou.html",
+      "page_blocks": [
+        {
+          "label": "A sculptural representation of Jamaican cultural icon L",
+          "text": "A sculptural representation of Jamaican cultural icon Louise Bennett-Coverley, better known as Miss Lou."
+        }
+      ],
+      "page_gallery": [],
+      "page_image_alt": "Miss Lou portrait sculpture with raised hands and traditional plaid dress"
     },
     {
       "id": "b62365e6-9002-4cf6-b5e4-ca0d5be28d04",
@@ -166,7 +618,15 @@
       "page_intro": "Signature horse sculpture · 12 feet high × 12 feet long",
       "page_image": "images/pf-changs-horse.jpg",
       "project_url": "project-pf-changs-horse.html",
-      "press_url": "press-pf-changs-horse.html"
+      "press_url": "press-pf-changs-horse.html",
+      "page_blocks": [
+        {
+          "label": "Created in Jamaica for P.F. Chang’s, this signature sty",
+          "text": "Created in Jamaica for P.F. Chang’s, this signature stylized horse measures 12 feet high and 12 feet long. Led by sculptor Scheed Cole, the commission marked the studio’s first major international project."
+        }
+      ],
+      "page_gallery": [],
+      "page_image_alt": "Gold P.F. Chang’s horse sculpture with red and black saddle outside the workshop"
     }
   ]
 }
