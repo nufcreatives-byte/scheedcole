@@ -12,6 +12,7 @@ content:
         type: object
         list: true
         fields:
+          - {name: id, label: Project ID, type: uuid, options: {editable: false, generate: false}}
           - {name: title, label: Title, type: string}
           - {name: metadata, label: Location and date, type: string}
           - {name: type, label: Type of work, type: string}
