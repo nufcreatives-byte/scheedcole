@@ -13,6 +13,7 @@
     if (value != null) node.textContent = value;
     return node;
   };
+  const addArrow = node => { const icon = document.querySelector('.project-cta-arrow'); if (icon) node.append(icon.cloneNode(true)); return node; };
   const link = (url, label, external = false) => {
     const a = el('a', '', label);
     if (external) {
@@ -73,8 +74,8 @@
         const copy = el('div', 'editorial-copy');
         copy.append(el('h2', '', item.title), el('p', 'editorial-meta', item.metadata || ''), el('p', 'editorial-type', item.type || ''), el('p', 'editorial-description', item.description || ''));
         const links = el('div', 'editorial-links');
-        const projectLink = link(item.project_url, 'PROJECT ↗') || Object.assign(el('a', '', 'PROJECT ↗'), {href: 'project-view.html?id=' + encodeURIComponent(item.id || item.title)}); const pressLink = link(item.press_url, 'PRESS ↗');
-        if (projectLink) links.append(projectLink); if (pressLink) links.append(pressLink);
+        const projectLink = link(item.project_url, 'PROJECT') || Object.assign(el('a', '', 'PROJECT'), {href: 'project-view.html?id=' + encodeURIComponent(item.id || item.title)}); const pressLink = link(item.press_url, 'PRESS');
+        if (projectLink) links.append(addArrow(projectLink)); if (pressLink) links.append(addArrow(pressLink));
         copy.append(links); article.append(media, copy); fragment.append(article);
       }
       container.replaceChildren(fragment);
@@ -112,7 +113,7 @@
           }
           a.className = 'press-card'; const inner = el('div');
           inner.append(el('span', '', item.source_date || ''), el('h2', '', item.title), el('p', '', item.project || ''));
-          a.append(inner, el('strong', '', 'Read feature ↗')); fragment.append(a);
+          a.append(inner, addArrow(el('strong', '', 'Read feature'))); fragment.append(a);
         }
       }
       container.replaceChildren(fragment);
