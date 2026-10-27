@@ -1,13 +1,12 @@
 const primaryNav = document.querySelector('.desktop-nav, .cover-nav');
-if (primaryNav && !primaryNav.querySelector('a[href="studio.html"]')) {
-  const aboutLink = primaryNav.querySelector('a[href="about.html"]');
-  if (aboutLink) {
-    const studioLink = document.createElement('a');
-    studioLink.href = 'studio.html';
-    studioLink.textContent = 'Studio';
-    if (location.pathname.endsWith('/studio.html')) studioLink.setAttribute('aria-current', 'page');
-    aboutLink.after(studioLink);
-  }
+if (primaryNav) {
+  const current = location.pathname.split('/').pop() || 'index.html';
+  const links = [['Work','work.html'],['About','about.html'],['Team','studio.html'],['Press','press.html'],['Contact','index.html#contact'],['Shop','shop.html']];
+  primaryNav.replaceChildren(...links.map(([label, href]) => {
+    const link = document.createElement('a'); link.href = href; link.textContent = label;
+    if (href === current) link.setAttribute('aria-current', 'page');
+    return link;
+  }));
 }
 
 const revealElements = document.querySelectorAll('.reveal');
