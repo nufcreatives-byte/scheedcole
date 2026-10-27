@@ -11,7 +11,20 @@
     const heading = hero?.querySelector('h1');
     const intro = hero?.querySelector('p:last-of-type');
     const normalized = value => (value || '').replace(/\s+/g, ' ').trim();
-    if (heading && project.page_heading && normalized(heading.innerText) !== normalized(project.page_heading)) heading.textContent = project.page_heading;
+    const updateHeading = (node, value) => {
+      const emphasis = node.querySelector('em');
+      if (!emphasis) { node.textContent = value; return; }
+      const original = normalized(emphasis.textContent);
+      let prefix, suffix;
+      if (original && value.endsWith(original)) { prefix = value.slice(0, -original.length).trimEnd(); suffix = original; }
+      else { const words = value.trim().split(/\s+/); const count = Math.min(words.length, Math.max(1, original.split(/\s+/).length)); suffix = words.splice(-count).join(' '); prefix = words.join(' '); }
+      const walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT);
+      const nodes = []; while (walker.nextNode()) { const n = walker.currentNode; if (!emphasis.contains(n) && !n.parentElement?.closest('svg')) nodes.push(n); }
+      if (nodes.length) { nodes[0].textContent = prefix + (node.querySelector('br') ? '' : ' '); nodes.slice(1).forEach(n => n.textContent = ''); }
+      else node.insertBefore(document.createTextNode(prefix + ' '), emphasis);
+      emphasis.textContent = suffix;
+    };
+    if (heading && project.page_heading && normalized(heading.innerText) !== normalized(project.page_heading)) updateHeading(heading, project.page_heading);
     if (intro && typeof project.page_intro === 'string' && normalized(intro.textContent) !== normalized(project.page_intro)) intro.textContent = project.page_intro;
     const img = document.querySelector('main img');
     const path = (project.page_image || '').replace(/^\/+/, '');
@@ -25,7 +38,7 @@
     if (Array.isArray(project.page_blocks)) {
       for (const item of project.page_blocks) {
         const node = Number.isInteger(item.position) ? blocks[item.position] : null;
-        if (node && typeof item.text === 'string' && normalized(node.innerText) !== normalized(item.text)) node.textContent = item.text;
+        if (node && typeof item.text === 'string' && normalized(node.innerText) !== normalized(item.text)) { if (node.matches('h2, h3')) updateHeading(node, item.text); else node.textContent = item.text; }
       }
     }
     if (Array.isArray(project.page_gallery)) {
@@ -46,7 +59,7 @@
         const section = document.createElement('section'); section.className = 'section';
         const grid = document.createElement('div'); grid.style.cssText = 'display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:24px';
         for (const item of extra) { const figure = document.createElement('figure'); figure.style.margin = '0'; const photo = document.createElement('img'); photo.src = valid(item.image); photo.alt = item.alt || ''; photo.loading = 'lazy'; photo.style.cssText = 'display:block;width:100%;height:auto'; figure.append(photo); grid.append(figure); }
-        section.append(grid); document.querySelector('main').append(section);
+        section.append(grid); const main = document.querySelector('main'); const cta = main.querySelector('.commission'); main.insertBefore(section, cta || null);
       }
     }
   } catch (error) { console.warn('Project content could not be loaded; original content remains.', error); }
