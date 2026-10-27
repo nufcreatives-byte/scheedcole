@@ -1,8 +1,8 @@
 {
   "pages": [
     {
-      "page": "press-bob-marley.html",
       "name": "Bob Marley",
+      "page": "press-bob-marley.html",
       "articles": [
         {
           "title": "Tourism Minister to Advance MOU with Online Accommodation Company",
@@ -28,63 +28,56 @@
       ]
     },
     {
-      "page": "press-doctor-bird.html",
       "name": "Doctor Bird",
+      "page": "press-doctor-bird.html",
       "articles": [
         {
           "title": "Doctor Bird sculpture soars at S Hotel",
           "source_date": "Jamaica Gleaner",
-          "description": "",
           "url": "https://past.jamaica-gleaner.com/article/lifestyle/20250810/doctor-bird-sculpture-soars-s-hotel",
           "button_label": "Read article"
         },
         {
           "title": "World’s largest hummingbird sculpture takes flight at S Hotel Montego Bay",
           "source_date": "Caribbean National Weekly",
-          "description": "",
           "url": "https://www.caribbeannationalweekly.com/travel/worlds-largest-hummingbird-sculpture-takes-flight-at-s-hotel-montego-bay/",
           "button_label": "Read article"
         },
         {
           "title": "Jamaica is Now Home to the World’s Largest Hummingbird Sculpture",
           "source_date": "Jamaicans.com",
-          "description": "",
           "url": "https://jamaicans.com/jamaica-is-now-home-to-the-worlds-largest-hummingbird-sculpture/",
           "button_label": "Read article"
         },
         {
           "title": "World’s Largest Hummingbird Sculpture Takes Flight in Montego Bay",
           "source_date": "DRIFT Travel",
-          "description": "",
           "url": "https://drifttravel.com/worlds-largest-hummingbird-sculpture-in-montego-bay/",
           "button_label": "Read article"
         },
         {
           "title": "World’s Largest Hummingbird Sculpture Unveiled in Montego Bay, Jamaica",
           "source_date": "Travel and Tour World",
-          "description": "",
           "url": "https://www.travelandtourworld.com/news/article/worlds-largest-hummingbird-sculpture-unveiled-in-montego-bay-jamaica/",
           "button_label": "Read article"
         },
         {
           "title": "World’s Largest Hummingbird Sculpture Unveiled In Montego Bay",
           "source_date": "Caribbean Today · September 2025 · PDF, page 16",
-          "description": "",
           "url": "https://ufdcimages.uflib.ufl.edu/UF/00/09/92/85/00233/2025-09.pdf#page=16",
           "button_label": "Read article"
         },
         {
           "title": "World’s Largest Hummingbird Sculpture Lands in Montego Bay",
           "source_date": "S Hotels Jamaica · PRWeb · Press release",
-          "description": "",
           "url": "https://www.prweb.com/releases/worlds-largest-hummingbird-sculpture-lands-in-montego-bay-302529049.html",
           "button_label": "Read article"
         }
       ]
     },
     {
-      "page": "press-eco-champion.html",
       "name": "Eco Champion",
+      "page": "press-eco-champion.html",
       "articles": [
         {
           "title": "Sculptor Scheed Cole brings ‘Eco-Champion’ to life at Sigma Run",
@@ -103,11 +96,11 @@
       ]
     },
     {
-      "page": "press-hellshire-beach.html",
       "name": "Hellshire Beach",
+      "page": "press-hellshire-beach.html",
       "articles": [
         {
-          "title": "SCHEED COLE",
+          "title": "Temporary Project Press Test",
           "source_date": "ASIS W.I. / Richès Karayib · 2021-05-19",
           "description": "Interview · Sculpture portfolio",
           "url": "https://asis-wi.com/painting-sculpture/scheed-cole/?lang=en",
@@ -123,8 +116,8 @@
       ]
     },
     {
-      "page": "press-heritage-mall-elephant.html",
       "name": "Heritage Mall Elephant",
+      "page": "press-heritage-mall-elephant.html",
       "articles": [
         {
           "title": "SCHEED COLE",
@@ -136,8 +129,8 @@
       ]
     },
     {
-      "page": "press-jamaica-60.html",
       "name": "Jamaica 60",
+      "page": "press-jamaica-60.html",
       "articles": [
         {
           "title": "PM points to importance of preserving history",
@@ -149,8 +142,8 @@
       ]
     },
     {
-      "page": "press-jimmy-cliff.html",
       "name": "Jimmy Cliff",
+      "page": "press-jimmy-cliff.html",
       "articles": [
         {
           "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
@@ -169,8 +162,8 @@
       ]
     },
     {
-      "page": "press-matterhorn.html",
       "name": "Matterhorn",
+      "page": "press-matterhorn.html",
       "articles": [
         {
           "title": "Scheed Cole: sculptural design engineer",
@@ -189,8 +182,8 @@
       ]
     },
     {
-      "page": "press-miss-lou.html",
       "name": "Miss Lou",
+      "page": "press-miss-lou.html",
       "articles": [
         {
           "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
@@ -209,8 +202,8 @@
       ]
     },
     {
-      "page": "press-national-heroes.html",
       "name": "National Heroes",
+      "page": "press-national-heroes.html",
       "articles": [
         {
           "title": "SCHEED COLE",
@@ -250,8 +243,8 @@
       ]
     },
     {
-      "page": "press-natural-history-museum.html",
       "name": "Natural History Museum",
+      "page": "press-natural-history-museum.html",
       "articles": [
         {
           "title": "Scheed Cole behind the magic at Natural History Museum exhibition gallery",
@@ -270,8 +263,8 @@
       ]
     },
     {
-      "page": "press-pf-changs-horse.html",
       "name": "Pf Changs Horse",
+      "page": "press-pf-changs-horse.html",
       "articles": [
         {
           "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
@@ -283,8 +276,8 @@
       ]
     },
     {
-      "page": "press-port-authority.html",
       "name": "Port Authority",
+      "page": "press-port-authority.html",
       "articles": [
         {
           "title": "SCHEED COLE",
@@ -296,42 +289,38 @@
       ]
     },
     {
-      "page": "press-sintra-bronte.html",
       "name": "Sintra Bronte",
+      "page": "press-sintra-bronte.html",
       "articles": [
         {
           "title": "A bust for Jamaica’s iconic wet T-shirt girl",
           "source_date": "Jamaica Gleaner · May 19, 2024",
-          "description": "",
           "url": "https://past.jamaica-gleaner.com/article/entertainment/20240519/bust-jamaicas-iconic-wet-t-shirt-girl",
           "button_label": "Read article"
         },
         {
           "title": "S Kingston unveils statue of Sintra Bronte",
           "source_date": "Breaking Travel News · May 19, 2024",
-          "description": "",
           "url": "https://www.breakingtravelnews.com/news/article/s-kingston-unveils-statue-of-sintra-bronte/",
           "button_label": "Read article"
         },
         {
           "title": "Sculpture of Sintra Bronte Commemorating Her Promotional Poster for Jamaica Unveiled at Iconic Event",
           "source_date": "Jamaicans.com · May 28, 2024",
-          "description": "",
           "url": "https://jamaicans.com/sculpture-of-sintra-bronte-commemorating-her-promotional-poster-for-jamaica-unveiled-at-iconic-event/",
           "button_label": "Read article"
         },
         {
           "title": "SO2",
           "source_date": "Jamaica Observer · May 19, 2024",
-          "description": "",
           "url": "https://www.jamaicaobserver.com/2024/05/19/so2-20240518-1726-539230/",
           "button_label": "Read article"
         }
       ]
     },
     {
-      "page": "press-together-we-rise.html",
       "name": "Together We Rise",
+      "page": "press-together-we-rise.html",
       "articles": [
         {
           "title": "62 feet of resilience — Ja’s tallest sculpted monument rises from Melissa, reaching back to 1962",
@@ -350,8 +339,8 @@
       ]
     },
     {
-      "page": "press-usain-bolt.html",
       "name": "Usain Bolt",
+      "page": "press-usain-bolt.html",
       "articles": [
         {
           "title": "Sculptures of Jamaican icons off to World Expo 2025 in Osaka, Japan",
@@ -377,8 +366,8 @@
       ]
     },
     {
-      "page": "press-wallabee.html",
       "name": "Wallabee",
+      "page": "press-wallabee.html",
       "articles": [
         {
           "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
