@@ -4,7 +4,7 @@ media:
   rename: safe
 content:
   - name: projects
-    label: Work listings (draft)
+    label: Work listings
     type: file
     path: cms-preparation/projects.json
     fields:
@@ -51,7 +51,7 @@ content:
           - {name: project_url, label: Existing project page (optional), type: string, required: false}
           - {name: press_url, label: Press page, type: string, required: false}
   - name: press
-    label: Press listings (draft)
+    label: Press listings
     type: file
     path: cms-preparation/press.json
     fields:
@@ -69,7 +69,7 @@ content:
           - {name: project, label: Related project, type: string, required: false}
           - {name: url, label: Article link, type: string}
   - name: home
-    label: Home (draft)
+    label: Home
     type: file
     path: cms-preparation/home.json
     fields:

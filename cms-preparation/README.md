@@ -1,6 +1,6 @@
 # Editing Scheed Cole’s website
 
-This editor is prepared on the `cms-content-preparation` branch. Open https://app.pagescms.org/, sign in with an authorized GitHub account, choose the Scheed Cole repository, and select the correct branch before editing. Saving commits changes to that branch. The public website updates only when changes reach the GitHub Pages publishing branch.
+Open https://app.pagescms.org/, sign in with an authorized GitHub account, choose the Scheed Cole repository, and select the `main` branch before editing. Saving commits changes to that branch. The public website updates only when changes reach the GitHub Pages publishing branch.
 
 ## Home
 Open Home, edit the fields and save. Editing the practice statement may remove its original italic emphasis.
