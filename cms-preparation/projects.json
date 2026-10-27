@@ -134,7 +134,32 @@
           "text": "Make the space impossible to forget."
         }
       ],
-      "page_gallery": [],
+      "page_gallery": [
+        {
+          "image": "images/together-we-rise-detail-7691.jpg",
+          "alt": "Full view of the Together We Rise monument, with clasped hands and a tree"
+        },
+        {
+          "image": "images/together-we-rise-detail-7667.jpg",
+          "alt": "Detail of figures reaching toward one another on the monument"
+        },
+        {
+          "image": "images/together-we-rise-detail-7669.jpg",
+          "alt": "Close view of sculpted figures helping one another"
+        },
+        {
+          "image": "images/together-we-rise-detail-7672.jpg",
+          "alt": "Side view of figures and plants across the sculptural landscape"
+        },
+        {
+          "image": "images/together-we-rise-detail-7673.jpg",
+          "alt": "Upward view of the monument's sculpted hands and figures"
+        },
+        {
+          "image": "images/together-we-rise-detail-7688.jpg",
+          "alt": "Low-angle view of figures, rock textures and plants on the monument"
+        }
+      ],
       "project_url": "project-together-we-rise.html",
       "press_url": "press-together-we-rise.html",
       "page_gallery_count": 0
