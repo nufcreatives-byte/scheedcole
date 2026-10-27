@@ -9,9 +9,9 @@
     if (!project) { message.textContent = 'This project could not be found.'; return; }
     document.title = project.title + ' — Scheed Cole';
     for (const [id, value] of [['title', project.page_heading || project.title], ['location', project.metadata], ['type', project.type], ['description', project.page_intro || project.description]]) document.getElementById(id).textContent = value || '';
-    const path = (project.image || '').replace(/^\/+/, '');
+    const path = (project.page_image || project.image || '').replace(/^\/+/, '');
     if (/^images\/[a-zA-Z0-9._/ -]+$/.test(path) && !path.split('/').includes('..')) {
-      const photo = document.getElementById('photo'); photo.src = path; photo.alt = project.image_alt || ''; photo.style.display = 'block';
+      const photo = document.getElementById('photo'); photo.src = path; photo.alt = project.page_image_alt || project.image_alt || ''; photo.style.display = 'block';
     }
 
     if (project.page_story) {

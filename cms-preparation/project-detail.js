@@ -49,11 +49,12 @@
         if (node && typeof item.text === 'string' && normalized(node.innerText) !== normalized(item.text)) { if (node.matches('h2, h3')) updateHeading(node, item.text); else node.textContent = item.text; }
       }
     }
-    if (Array.isArray(project.page_gallery)) {
+    if (Array.isArray(project.page_gallery) || Number.isInteger(project.page_gallery_count)) {
+      const gallery = Array.isArray(project.page_gallery) ? project.page_gallery : [];
       const originals = [...document.querySelectorAll('main img')].slice(1);
       const used = new Set();
       const valid = value => { const p = (value || '').replace(/^\/+/, ''); return /^images\/[a-zA-Z0-9._/ -]+$/.test(p) && !p.split('/').includes('..') ? p : ''; };
-      for (const item of project.page_gallery) {
+      for (const item of gallery) {
         if (!Number.isInteger(item.position) || !originals[item.position]) continue;
         used.add(item.position);
         const node = originals[item.position];
@@ -62,7 +63,7 @@
         if (typeof item.alt === 'string') node.alt = item.alt;
       }
       originals.forEach((node, i) => { if (!used.has(i)) { const figure = node.closest('figure'); if (figure) figure.hidden = true; else node.hidden = true; } });
-      const extra = project.page_gallery.filter(item => !Number.isInteger(item.position) && valid(item.image));
+      const extra = gallery.filter(item => !Number.isInteger(item.position) && valid(item.image));
       if (extra.length) {
         const section = document.createElement('section'); section.className = 'section';
         const grid = document.createElement('div'); grid.style.cssText = 'display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:24px';

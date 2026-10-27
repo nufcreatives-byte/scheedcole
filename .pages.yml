@@ -39,6 +39,7 @@ content:
               - {name: position, label: Original position, type: number, readonly: true, required: false}
               - {name: label, label: Original text, type: string, readonly: true}
               - {name: text, label: Text, type: text}
+          - {name: page_gallery_count, label: Original photo count, type: number, readonly: true, required: false}
           - name: page_gallery
             label: Additional project photos
             type: object

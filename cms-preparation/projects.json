@@ -136,7 +136,8 @@
       ],
       "page_gallery": [],
       "project_url": "project-together-we-rise.html",
-      "press_url": "press-together-we-rise.html"
+      "press_url": "press-together-we-rise.html",
+      "page_gallery_count": 0
     },
     {
       "id": "cb11e36d-4b5e-453f-8cdb-63511efa9846",
@@ -243,7 +244,8 @@
         }
       ],
       "project_url": "project-doctor-bird.html",
-      "press_url": "press-doctor-bird.html"
+      "press_url": "press-doctor-bird.html",
+      "page_gallery_count": 0
     },
     {
       "id": "754264eb-1e32-4010-981b-888407f3d2d4",
@@ -265,7 +267,8 @@
         }
       ],
       "project_url": "project-sintra-bronte.html",
-      "press_url": "press-sintra-bronte.html"
+      "press_url": "press-sintra-bronte.html",
+      "page_gallery_count": 0
     },
     {
       "id": "22f5bfbf-7a8a-479b-9c6c-ba4ec916474e",
@@ -304,7 +307,8 @@
         }
       ],
       "project_url": "project-wallabee.html",
-      "press_url": "press-wallabee.html"
+      "press_url": "press-wallabee.html",
+      "page_gallery_count": 1
     },
     {
       "id": "5ec939d7-eafa-4818-a199-00fa92d20597",
@@ -458,7 +462,8 @@
         }
       ],
       "project_url": "project-natural-history-museum.html",
-      "press_url": "press-natural-history-museum.html"
+      "press_url": "press-natural-history-museum.html",
+      "page_gallery_count": 3
     },
     {
       "id": "aa1858dd-7aab-4dd4-ac5c-defa8d8ad022",
@@ -577,7 +582,8 @@
         }
       ],
       "project_url": "project-legends-circle.html",
-      "press_url": "press-national-heroes.html"
+      "press_url": "press-national-heroes.html",
+      "page_gallery_count": 5
     },
     {
       "id": "f18cf8b8-ce3e-43b4-a77e-88c0d3de882c",
@@ -606,7 +612,8 @@
         }
       ],
       "project_url": "project-port-authority.html",
-      "press_url": "press-port-authority.html"
+      "press_url": "press-port-authority.html",
+      "page_gallery_count": 1
     },
     {
       "id": "2edde5e7-5f4f-478c-935b-484e1193a851",
@@ -628,7 +635,8 @@
         }
       ],
       "project_url": "project-heritage-mall-elephant.html",
-      "press_url": "press-heritage-mall-elephant.html"
+      "press_url": "press-heritage-mall-elephant.html",
+      "page_gallery_count": 0
     },
     {
       "id": "2a4e0c21-1b65-4cb2-a8fe-4172ea0a5d99",
@@ -650,7 +658,8 @@
         }
       ],
       "project_url": "project-hellshire-beach.html",
-      "press_url": "press-hellshire-beach.html"
+      "press_url": "press-hellshire-beach.html",
+      "page_gallery_count": 0
     },
     {
       "id": "fb94dda4-51be-4dce-b6c1-f9814ff15458",
@@ -677,7 +686,8 @@
         }
       ],
       "project_url": "project-usain-bolt.html",
-      "press_url": "press-usain-bolt.html"
+      "press_url": "press-usain-bolt.html",
+      "page_gallery_count": 0
     },
     {
       "id": "cc94b7bd-706a-4bf4-a0f5-93fbe6c90cfa",
@@ -699,7 +709,8 @@
         }
       ],
       "project_url": "project-miss-lou.html",
-      "press_url": "press-miss-lou.html"
+      "press_url": "press-miss-lou.html",
+      "page_gallery_count": 0
     },
     {
       "id": "b62365e6-9002-4cf6-b5e4-ca0d5be28d04",
@@ -721,7 +732,8 @@
         }
       ],
       "project_url": "project-pf-changs-horse.html",
-      "press_url": "press-pf-changs-horse.html"
+      "press_url": "press-pf-changs-horse.html",
+      "page_gallery_count": 0
     }
   ]
 }
