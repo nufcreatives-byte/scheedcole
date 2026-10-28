@@ -1,25 +1,27 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
+  "redirects": [
     {
-      "source": "/:path((?!images/).*)",
+      "source": "/:path((?!images/|coming-soon\\.html).*)",
       "has": [
         {
           "type": "host",
           "value": "scheedcole.com"
         }
       ],
-      "destination": "/coming-soon.html"
+      "destination": "/coming-soon.html",
+      "permanent": false
     },
     {
-      "source": "/:path((?!images/).*)",
+      "source": "/:path((?!images/|coming-soon\\.html).*)",
       "has": [
         {
           "type": "host",
           "value": "www.scheedcole.com"
         }
       ],
-      "destination": "/coming-soon.html"
+      "destination": "/coming-soon.html",
+      "permanent": false
     }
   ]
 }
