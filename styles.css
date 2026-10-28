@@ -154,3 +154,6 @@ linear-gradient(165deg,#9bc3d9 0 57%,#e7e0d3 58% 100%);box-shadow:inset 0 0 0 1p
 
 
 @media(max-width:800px){.home-national-heroes{object-position:85% center!important}}
+
+/* Gentle tonal adjustment to the original National Heroes photograph. */
+.home-national-heroes{filter:brightness(1.04) contrast(1.06) saturate(1.03)}
