@@ -1,7 +1,7 @@
 const primaryNav = document.querySelector('.desktop-nav, .cover-nav');
 if (primaryNav) {
   const current = location.pathname.split('/').pop() || 'index.html';
-  const links = [['Work','work.html'],['About','about.html'],['Team','studio.html'],['Press','press.html'],['Contact','index.html#contact'],['Shop','shop.html']];
+  const links = [['Work','work.html'],['About','about.html'],['Team','studio.html'],['Press','press.html'],['Contact','start-a-project.html#contact'],['Shop','shop.html']];
   primaryNav.replaceChildren(...links.map(([label, href]) => {
     const link = document.createElement('a'); link.href = href; link.textContent = label;
     if (href === current) link.setAttribute('aria-current', 'page');
@@ -55,3 +55,14 @@ if (menuButton && nav) {
   window.matchMedia('(max-width: 800px)').addEventListener('change', () => setMenuOpen(false));
   setMenuOpen(false);
 }
+
+const projectForm = document.getElementById('project-form');
+if (projectForm) projectForm.addEventListener('submit', event => {
+  event.preventDefault();
+  const values = [...projectForm.querySelectorAll('label')].map(label => {
+    const field = label.querySelector('input, select, textarea');
+    const name = label.childNodes[0]?.textContent.trim() || 'Details';
+    return field && field.value.trim() ? name + ': ' + field.value.trim() : '';
+  }).filter(Boolean).join('\n\n');
+  location.href = 'mailto:scheedcole@gmail.com?subject=' + encodeURIComponent('Project enquiry') + '&body=' + encodeURIComponent(values);
+});
