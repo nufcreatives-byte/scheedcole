@@ -1,7 +1,7 @@
 const primaryNav = document.querySelector('.desktop-nav, .cover-nav');
 if (primaryNav) {
   const current = location.pathname.split('/').pop() || 'index.html';
-  const links = [['Work','work.html'],['Services','services.html'],['About','about.html'],['Studio','studio.html'],['Press','press.html'],['Contact','start-a-project.html'],['Shop','shop.html']];
+  const links = [["Work","work.html"],["About","about.html"],["Studio","studio.html"],["Services","services.html"],["Press","press.html"],["Contact","start-a-project.html"],["Shop","shop.html"]];
   primaryNav.replaceChildren(...links.map(([label, href]) => {
     const link = document.createElement('a'); link.href = href; link.textContent = label;
     if (href === current) link.setAttribute('aria-current', 'page');
