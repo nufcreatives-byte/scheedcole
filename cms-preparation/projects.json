@@ -61,11 +61,51 @@
           "position": 5,
           "image": "images/together-we-rise/twr-7719.svg",
           "alt": "Woman reaching for a helping hand on Together We Rise"
+        },
+        {
+          "position": 6,
+          "image": "images/together-we-rise/process-0773.svg",
+          "alt": "Sketching forms at the construction site"
+        },
+        {
+          "position": 7,
+          "image": "images/together-we-rise/process-0772.svg",
+          "alt": "Small-scale study of the monument’s clasped hands"
+        },
+        {
+          "position": 8,
+          "image": "images/together-we-rise/process-0765.svg",
+          "alt": "The team preparing metal sections for Together We Rise"
+        },
+        {
+          "position": 9,
+          "image": "images/together-we-rise/process-0770.svg",
+          "alt": "Metalwork being assembled on site"
+        },
+        {
+          "position": 10,
+          "image": "images/together-we-rise/process-0769.svg",
+          "alt": "The monument’s structure surrounded by scaffolding during construction"
+        },
+        {
+          "position": 11,
+          "image": "images/together-we-rise/process-0771.svg",
+          "alt": "A sculptural component being worked on by hand"
+        },
+        {
+          "position": 12,
+          "image": "images/together-we-rise/process-0774.svg",
+          "alt": "Together We Rise nearing completion with the team at its base"
+        },
+        {
+          "position": 13,
+          "image": "images/together-we-rise/process-0775.svg",
+          "alt": "A member of the construction team on site"
         }
       ],
       "project_url": "project-together-we-rise.html",
       "press_url": "press-together-we-rise.html",
-      "page_gallery_count": 6
+      "page_gallery_count": 14
     },
     {
       "id": "cb11e36d-4b5e-453f-8cdb-63511efa9846",
