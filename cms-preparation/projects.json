@@ -164,11 +164,16 @@
           "position": 5,
           "image": "images/together-we-rise/twr-7724.jpg",
           "alt": "A child being supported by sculpted figures on Together We Rise"
+        },
+        {
+          "position": 6,
+          "image": "images/together-we-rise/twr-7729.svg",
+          "alt": "Rescue figures and a musician beneath the Tree of Life on Together We Rise"
         }
       ],
       "project_url": "project-together-we-rise.html",
       "press_url": "press-together-we-rise.html",
-      "page_gallery_count": 6
+      "page_gallery_count": 7
     },
     {
       "id": "cb11e36d-4b5e-453f-8cdb-63511efa9846",
