@@ -273,21 +273,10 @@
       "page_image": "images/clarks-work-approved.svg",
       "page_image_alt": "Clarks Wallabee monumental shoe installation at S Hotel Montego Bay",
       "page_blocks": [],
-      "page_gallery": [
-        {
-          "position": 0,
-          "image": "images/Clarks-9.jpg",
-          "alt": "Clarks Wallabee installation at S Hotel Montego Bay"
-        },
-        {
-          "position": 1,
-          "image": "images/Clarks-10.jpg",
-          "alt": "Clarks Wallabee installation at S Hotel Montego Bay"
-        }
-      ],
+      "page_gallery": [],
       "project_url": "project-wallabee.html",
       "press_url": "press-wallabee.html",
-      "page_gallery_count": 2
+      "page_gallery_count": 0
     },
     {
       "id": "5ec939d7-eafa-4818-a199-00fa92d20597",
