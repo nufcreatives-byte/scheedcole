@@ -798,12 +798,12 @@
       "metadata": "Jamaica",
       "type": "Portrait sculpture",
       "description": "A sculptural representation of Jamaican cultural icon Louise Bennett-Coverley, better known as Miss Lou.",
-      "image": "images/miss-lou.jpg",
-      "image_alt": "Miss Lou portrait sculpture with raised hands and traditional plaid dress",
+      "image": "images/miss-lou/miss-lou-portrait.jpg",
+      "image_alt": "Miss Lou sculpture with a patterned headwrap, jewellery and raised hand",
       "page_heading": "Miss Lou",
       "page_intro": "Portrait sculpture",
-      "page_image": "images/miss-lou.jpg",
-      "page_image_alt": "Miss Lou portrait sculpture with raised hands and traditional plaid dress",
+      "page_image": "images/miss-lou/miss-lou-overview.jpg",
+      "page_image_alt": "Full view of Louise Bennett-Coverley, Miss Lou, sculpture in her traditional dress with raised hands",
       "page_blocks": [
         {
           "position": 0,
@@ -813,7 +813,19 @@
       ],
       "project_url": "project-miss-lou.html",
       "press_url": "press-miss-lou.html",
-      "page_gallery_count": 0
+      "page_gallery_count": 2,
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/miss-lou/miss-lou-portrait.jpg",
+          "alt": "Portrait detail of Miss Lou sculpture with her headwrap, jewellery and raised hand"
+        },
+        {
+          "position": 1,
+          "image": "images/miss-lou/miss-lou-plaque.jpg",
+          "alt": "Interpretive plaque accompanying the Louise Bennett sculpture"
+        }
+      ]
     },
     {
       "id": "b62365e6-9002-4cf6-b5e4-ca0d5be28d04",
