@@ -397,6 +397,26 @@
           "button_label": "Read feature"
         }
       ]
+    },
+    {
+      "name": "Jamaica Bobsleigh Team",
+      "page": "press-jamaica-bobsleigh.html",
+      "articles": [
+        {
+          "title": "Jamaica Bobsleigh Team Scored Historic Win at the North America Cup",
+          "source_date": "S Hotels Jamaica · Press release · 25 November 2025",
+          "description": "Hotel press release · Identifies the sculpture as a tribute to the 1988 team",
+          "url": "https://natlawreview.com/press-releases/jamaica-bobsleigh-team-scored-historic-win-north-america-cup",
+          "button_label": "Read release"
+        },
+        {
+          "title": "Authentically Jamaican Vacation Awaits At S Hotel Jamaica",
+          "source_date": "DRIFT Travel",
+          "description": "Hotel feature · Mentions the bobsleigh tribute among the hotel’s artworks",
+          "url": "https://drifttravel.com/authentically-jamaican-vacation-awaits-at-s-hotel-jamaica/",
+          "button_label": "Read feature"
+        }
+      ]
     }
   ]
 }
