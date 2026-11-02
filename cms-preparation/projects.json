@@ -753,12 +753,12 @@
       "metadata": "S Hotel · Montego Bay",
       "type": "Portrait sculpture",
       "description": "A portrait of Usain Bolt in his signature victory pose, holding the Jamaican flag, created for S Hotel Montego Bay.",
-      "image": "images/usain-bolt-s-hotel.jpg",
-      "image_alt": "Usain Bolt sculpture by Scheed Cole at S Hotel, holding the Jamaican flag in his signature pose",
+      "image": "images/usain/usain-7811.jpg",
+      "image_alt": "Usain Bolt portrait sculpture in his signature victory pose with the Jamaican flag",
       "page_heading": "Usain Bolt",
       "page_intro": "Portrait sculpture",
-      "page_image": "images/usain-bolt-s-hotel.jpg",
-      "page_image_alt": "Usain Bolt sculpture by Scheed Cole holding the Jamaican flag at S Hotel",
+      "page_image": "images/usain/usain-7815.jpg",
+      "page_image_alt": "General view of Usain Bolt sculpture in his signature victory pose at S Hotel",
       "page_blocks": [
         {
           "position": 0,
@@ -773,7 +773,19 @@
       ],
       "project_url": "project-usain-bolt.html",
       "press_url": "press-usain-bolt.html",
-      "page_gallery_count": 0
+      "page_gallery_count": 2,
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/usain/usain-7811.jpg",
+          "alt": "Usain Bolt sculpture — upper body and outstretched arm"
+        },
+        {
+          "position": 1,
+          "image": "images/usain/usain-7814.jpg",
+          "alt": "Close-up of the face and sculpted surface of the Usain Bolt portrait"
+        }
+      ]
     },
     {
       "id": "cc94b7bd-706a-4bf4-a0f5-93fbe6c90cfa",
