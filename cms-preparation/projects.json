@@ -308,6 +308,40 @@
       ]
     },
     {
+      "id": "e26af491-7835-4dd5-9ba1-781fe811e499",
+      "title": "Marine Installation",
+      "metadata": "Sculptural installation",
+      "type": "Marine forms · Interior installation",
+      "description": "An ocean-inspired wall relief and sculptural octopus bring marine forms into an interior setting.",
+      "image": "images/marine-installation/marine-7828.jpg",
+      "image_alt": "Wide view of the marine-inspired sculptural wall relief",
+      "page_heading": "Marine Installation",
+      "page_intro": "An ocean-inspired wall relief and sculptural octopus bring marine forms into an interior setting.",
+      "page_image": "images/marine-installation/marine-7827.jpg",
+      "page_image_alt": "Overview of a marine-inspired wall relief and octopus sculpture beside a grand piano",
+      "page_blocks": [],
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/marine-installation/marine-7823.jpg",
+          "alt": "Detail of coral-like forms, shells and marine life in the sculptural wall relief"
+        },
+        {
+          "position": 1,
+          "image": "images/marine-installation/marine-7828.jpg",
+          "alt": "Wide view of the marine-inspired sculptural wall relief"
+        },
+        {
+          "position": 2,
+          "image": "images/marine-installation/marine-7835.jpg",
+          "alt": "Octopus sculpture draped over a white grand piano"
+        }
+      ],
+      "project_url": "project-marine-installation.html",
+      "press_url": "",
+      "page_gallery_count": 3
+    },
+    {
       "id": "22f5bfbf-7a8a-479b-9c6c-ba4ec916474e",
       "title": "Clarks / Wallabee Installation",
       "metadata": "S Hotel · Montego Bay · 2024",
