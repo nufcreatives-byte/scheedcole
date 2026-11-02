@@ -242,18 +242,18 @@
       "page_gallery": [
         {
           "position": 0,
+          "image": "images/swing-a-ling/swing-0222.svg",
+          "alt": "Full view of the portrait sculpture leaning beside a sound system"
+        },
+        {
+          "position": 1,
           "image": "images/swing-a-ling/swing-7867.svg",
           "alt": "Display of Jamaican music portraits and record artwork"
         },
         {
-          "position": 1,
+          "position": 2,
           "image": "images/swing-a-ling/swing-7869.svg",
           "alt": "Swing A Ling painted signage and mesh-fronted record shop"
-        },
-        {
-          "position": 2,
-          "image": "images/swing-a-ling/swing-0222.svg",
-          "alt": "Full view of the portrait sculpture leaning beside a sound system"
         },
         {
           "position": 3,
