@@ -157,3 +157,20 @@ linear-gradient(165deg,#9bc3d9 0 57%,#e7e0d3 58% 100%);box-shadow:inset 0 0 0 1p
 
 /* Gentle tonal adjustment to the original National Heroes photograph. */
 .home-national-heroes{filter:brightness(1.04) contrast(1.06) saturate(1.03)}
+
+/* Project gallery viewer */
+.photo-viewer{border:0;padding:64px 76px 40px;margin:auto;width:100vw;max-width:100vw;height:100dvh;max-height:100dvh;box-sizing:border-box;background:rgba(20,20,18,.98);color:#f1eee5;overflow:hidden}
+.photo-viewer::backdrop{background:rgba(0,0,0,.9)}
+.photo-viewer[open]{display:flex;align-items:center;justify-content:center}
+.photo-viewer figure{margin:0;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:16px}
+.photo-viewer figure img{display:block;max-width:100%;width:auto;height:auto;max-height:calc(100dvh - 160px);object-fit:contain;min-height:0}
+.photo-viewer figcaption{font-family:'DM Sans',sans-serif;font-size:13px;line-height:1.5;text-align:center;max-width:800px}
+.photo-viewer button{position:absolute;background:none;border:0;color:inherit;padding:12px;cursor:pointer;min-width:48px;min-height:48px}
+.photo-viewer button:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.photo-close{right:20px;top:12px;font-size:36px;line-height:1}
+.photo-prev{left:12px;top:calc(50% - 24px)}
+.photo-next{right:12px;top:calc(50% - 24px)}
+.photo-viewer button svg{width:28px;height:28px;display:block}
+.photo-next svg{transform:rotate(180deg)}
+.photo-viewer button[hidden]{display:none}
+@media(max-width:600px){.photo-viewer{padding:64px 44px 32px}.photo-prev{left:0}.photo-next{right:0}.photo-close{right:8px}.photo-viewer figcaption{font-size:11px}}
