@@ -269,36 +269,25 @@
       "image": "images/clarks-work-approved.svg",
       "image_alt": "Clarks Wallabee monumental shoe installation at S Hotel Montego Bay",
       "page_heading": "Clarks / Wallabee Installation",
-      "page_intro": "Monumental footwear installation",
-      "page_image": "images/Clarks-9.jpg",
-      "page_image_alt": "Clarks Wallabee installation at S Hotel Montego Bay",
-      "page_blocks": [
-        {
-          "position": 0,
-          "label": "A large-scale installation inspired by the iconic Walla",
-          "text": "A large-scale installation inspired by the iconic Wallabee Clarks shoe, created for S Hotel Montego Bay and produced with a team of young creatives."
-        },
-        {
-          "position": 1,
-          "label": "Clarks / Wallabee Installation",
-          "text": "Clarks / Wallabee Installation"
-        },
-        {
-          "position": 2,
-          "label": "Clarks / Wallabee Installation",
-          "text": "Clarks / Wallabee Installation"
-        }
-      ],
+      "page_intro": "A 12-foot interpretation of the Wallabee, created by Scheed Cole and his team for S Hotel Montego Bay.",
+      "page_image": "images/clarks-work-approved.svg",
+      "page_image_alt": "Clarks Wallabee monumental shoe installation at S Hotel Montego Bay",
+      "page_blocks": [],
       "page_gallery": [
         {
           "position": 0,
+          "image": "images/Clarks-9.jpg",
+          "alt": "Clarks Wallabee installation at S Hotel Montego Bay"
+        },
+        {
+          "position": 1,
           "image": "images/Clarks-10.jpg",
           "alt": "Clarks Wallabee installation at S Hotel Montego Bay"
         }
       ],
       "project_url": "project-wallabee.html",
       "press_url": "press-wallabee.html",
-      "page_gallery_count": 1
+      "page_gallery_count": 2
     },
     {
       "id": "5ec939d7-eafa-4818-a199-00fa92d20597",
