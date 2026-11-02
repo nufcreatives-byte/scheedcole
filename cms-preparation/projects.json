@@ -6,12 +6,12 @@
       "metadata": "S Hotel · Montego Bay · 2025–2026",
       "type": "62-foot monumental sculpture",
       "description": "A monumental sculpture created around the idea of Jamaica rising and rebuilding after Hurricane Melissa. The work incorporates a Tree of Life, representations of Jamaica’s 14 parishes through leaves, and scenes reflecting resilience, recovery and community.",
-      "image": "images/together-we-rise-work.jpg",
-      "image_alt": "Together We Rise monumental sculpture with clasped hands and a tree reaching into the sky",
+      "image": "images/together-we-rise/twr-7704.jpg",
+      "image_alt": "Clasped hands and Tree of Life at the top of Together We Rise",
       "page_heading": "Together We Rise.",
       "page_intro": "A 62-foot monument commissioned by Christopher Issa and S Hotels for St James Place on Jimmy Cliff Boulevard. Created in response to Hurricane Melissa, the work expresses Jamaica’s capacity to recover through collective effort.",
-      "page_image": "images/home-hero.jpg",
-      "page_image_alt": "Together We Rise monument under construction in Montego Bay, with intertwined hands and a Tree of Life",
+      "page_image": "images/together-we-rise-detail-7691.jpg",
+      "page_image_alt": "Full view of Together We Rise monument with clasped hands and a Tree of Life",
       "page_blocks": [
         {
           "position": 0,
@@ -136,33 +136,39 @@
       ],
       "page_gallery": [
         {
-          "image": "images/together-we-rise-detail-7691.jpg",
-          "alt": "Full view of the Together We Rise monument, with clasped hands and a tree"
+          "position": 0,
+          "image": "images/together-we-rise/twr-7704.jpg",
+          "alt": "Clasped hands and Tree of Life at the top of Together We Rise"
         },
         {
-          "image": "images/together-we-rise-detail-7667.jpg",
-          "alt": "Detail of figures reaching toward one another on the monument"
+          "position": 1,
+          "image": "images/together-we-rise/twr-7708.jpg",
+          "alt": "Sculpted figures reaching and helping one another beneath the monumental hands"
         },
         {
-          "image": "images/together-we-rise-detail-7669.jpg",
-          "alt": "Close view of sculpted figures helping one another"
+          "position": 2,
+          "image": "images/together-we-rise/twr-7703.jpg",
+          "alt": "Figures reaching across the rocky surface of Together We Rise"
         },
         {
-          "image": "images/together-we-rise-detail-7672.jpg",
-          "alt": "Side view of figures and plants across the sculptural landscape"
+          "position": 3,
+          "image": "images/together-we-rise/twr-7717.jpg",
+          "alt": "Close detail of two golden hands holding one another"
         },
         {
-          "image": "images/together-we-rise-detail-7673.jpg",
-          "alt": "Upward view of the monument's sculpted hands and figures"
+          "position": 4,
+          "image": "images/together-we-rise/twr-7718.jpg",
+          "alt": "Close view of a woman reaching upward on the monument"
         },
         {
-          "image": "images/together-we-rise-detail-7688.jpg",
-          "alt": "Low-angle view of figures, rock textures and plants on the monument"
+          "position": 5,
+          "image": "images/together-we-rise/twr-7724.jpg",
+          "alt": "A child being supported by sculpted figures on Together We Rise"
         }
       ],
       "project_url": "project-together-we-rise.html",
       "press_url": "press-together-we-rise.html",
-      "page_gallery_count": 0
+      "page_gallery_count": 6
     },
     {
       "id": "cb11e36d-4b5e-453f-8cdb-63511efa9846",
