@@ -384,6 +384,19 @@
           "button_label": "Read feature"
         }
       ]
+    },
+    {
+      "name": "Swing A Ling",
+      "page": "press-swing-a-ling.html",
+      "articles": [
+        {
+          "title": "SO2",
+          "source_date": "Jamaica Observer · 2024-01-14",
+          "description": "Clarks installation feature · Swing A Ling mentioned in photo caption",
+          "url": "https://www.jamaicaobserver.com/2024/01/14/so2-20240114-0512-228758/",
+          "button_label": "Read feature"
+        }
+      ]
     }
   ]
 }
