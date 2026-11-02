@@ -149,11 +149,26 @@
           "position": 2,
           "image": "images/together-we-rise/twr-7729.svg",
           "alt": "Rescue figures and a musician beneath the Tree of Life on Together We Rise"
+        },
+        {
+          "position": 3,
+          "image": "images/together-we-rise/twr-pair-left.svg",
+          "alt": "Fisherman carrying fish on Together We Rise — left half"
+        },
+        {
+          "position": 4,
+          "image": "images/together-we-rise/twr-pair-right.svg",
+          "alt": "Soldier reaching down to help on Together We Rise — right half"
+        },
+        {
+          "position": 5,
+          "image": "images/together-we-rise/twr-7719.svg",
+          "alt": "Woman reaching for a helping hand on Together We Rise"
         }
       ],
       "project_url": "project-together-we-rise.html",
       "press_url": "press-together-we-rise.html",
-      "page_gallery_count": 3
+      "page_gallery_count": 6
     },
     {
       "id": "cb11e36d-4b5e-453f-8cdb-63511efa9846",
