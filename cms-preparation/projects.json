@@ -227,6 +227,55 @@
       "page_gallery_count": 3
     },
     {
+      "id": "swing-a-ling",
+      "title": "Swing A Ling",
+      "metadata": "S Hotel · Montego Bay",
+      "type": "Cultural installation · Portrait sculpture",
+      "description": "A mobile record shop and a portrait sculpture beside a sound system celebrate Jamaica’s musical culture at S Hotel Montego Bay.",
+      "image": "images/swing-a-ling/swing-7862.svg",
+      "image_alt": "Swing A Ling mobile record shop at S Hotel Montego Bay",
+      "page_heading": "Swing A Ling",
+      "page_intro": "A mobile record shop and a portrait sculpture beside a sound system celebrate Jamaica’s musical culture at S Hotel Montego Bay.",
+      "page_image": "images/swing-a-ling/swing-7862.svg",
+      "page_image_alt": "Swing A Ling mobile record shop at S Hotel Montego Bay",
+      "page_blocks": [],
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/swing-a-ling/swing-7867.svg",
+          "alt": "Display of Jamaican music portraits and record artwork"
+        },
+        {
+          "position": 1,
+          "image": "images/swing-a-ling/swing-7869.svg",
+          "alt": "Swing A Ling painted signage and mesh-fronted record shop"
+        },
+        {
+          "position": 2,
+          "image": "images/swing-a-ling/swing-0222.svg",
+          "alt": "Full view of the portrait sculpture leaning beside a sound system"
+        },
+        {
+          "position": 3,
+          "image": "images/swing-a-ling/swing-7757.svg",
+          "alt": "Close detail of the portrait sculpture and speaker cabinet"
+        },
+        {
+          "position": 4,
+          "image": "images/swing-a-ling/swing-0214.svg",
+          "alt": "Side view of the figure resting an arm on the sound system"
+        },
+        {
+          "position": 5,
+          "image": "images/swing-a-ling/swing-0216.svg",
+          "alt": "Front detail of the figure and sound system"
+        }
+      ],
+      "page_gallery_count": 6,
+      "project_url": "project-swing-a-ling.html",
+      "press_url": "press-swing-a-ling.html"
+    },
+    {
       "id": "22f5bfbf-7a8a-479b-9c6c-ba4ec916474e",
       "title": "Clarks / Wallabee Installation",
       "metadata": "S Hotel · Montego Bay · 2024",
