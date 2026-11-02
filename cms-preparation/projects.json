@@ -278,12 +278,12 @@
       "metadata": "S Hotel · Kingston · 2024",
       "type": "Portrait sculpture · Recycled materials",
       "description": "A portrait inspired by Sintra Bronte’s iconic appearance in Jamaica’s 1972 tourism campaign, created using recycled materials.",
-      "image": "images/sintra-bronte.jpg",
-      "image_alt": "Sintra Bronte portrait sculpture wearing the iconic Jamaica T-shirt",
+      "image": "images/sintra/sintra-7848.jpg",
+      "image_alt": "Sintra Bronte sculpture alongside the original Jamaica tourism photograph",
       "page_heading": "Sintra Bronte",
       "page_intro": "Portrait sculpture · Recycled materials",
-      "page_image": "images/sintra-bronte.jpg",
-      "page_image_alt": "Sintra Bronte portrait sculpture wearing the iconic Jamaica T-shirt",
+      "page_image": "images/sintra/sintra-7848.jpg",
+      "page_image_alt": "Sintra Bronte sculpture alongside the original Jamaica tourism photograph",
       "page_blocks": [
         {
           "position": 0,
@@ -293,7 +293,19 @@
       ],
       "project_url": "project-sintra-bronte.html",
       "press_url": "press-sintra-bronte.html",
-      "page_gallery_count": 0
+      "page_gallery_count": 2,
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/sintra/sintra-7850.jpg",
+          "alt": "Sintra Bronte sculpture with the original photograph behind her"
+        },
+        {
+          "position": 1,
+          "image": "images/sintra/sintra-7844.jpg",
+          "alt": "Close view of the face and Jamaica T-shirt on the Sintra Bronte sculpture"
+        }
+      ]
     },
     {
       "id": "22f5bfbf-7a8a-479b-9c6c-ba4ec916474e",
