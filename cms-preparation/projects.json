@@ -1,6 +1,24 @@
 {
   "projects": [
     {
+      "id": "jamaica-bobsleigh-team",
+      "title": "Jamaica Bobsleigh Team",
+      "metadata": "S Hotel · Montego Bay",
+      "type": "Sporting tribute · Sculptural installation",
+      "description": "A sculptural tribute to Jamaica’s four-man bobsleigh team, displayed at S Hotel Montego Bay.",
+      "image": "images/jamaica-bobsleigh.svg",
+      "image_alt": "Sculptural Jamaican four-person bobsleigh with black, green and gold livery at S Hotel",
+      "page_heading": "Jamaica Bobsleigh Team.",
+      "page_intro": "A sculptural tribute to Jamaica’s four-man bobsleigh team, displayed at S Hotel Montego Bay.",
+      "page_image": "images/jamaica-bobsleigh.svg",
+      "page_image_alt": "Sculptural Jamaican four-person bobsleigh with black, green and gold livery at S Hotel",
+      "page_blocks": [],
+      "page_gallery": [],
+      "page_gallery_count": 0,
+      "project_url": "project-jamaica-bobsleigh.html",
+      "press_url": "press-jamaica-bobsleigh.html"
+    },
+    {
       "id": "ab954fb7-b29e-41c4-bf4e-ad81715a44f9",
       "title": "Together We Rise",
       "metadata": "S Hotel · Montego Bay · 2025–2026",
