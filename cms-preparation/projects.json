@@ -653,23 +653,28 @@
         },
         {
           "position": 3,
+          "image": "images/bob-marley/bob-marley-7792.jpg",
+          "alt": "Interpretive plaque accompanying the younger Bob Marley sculpture"
+        },
+        {
+          "position": 4,
           "image": "images/bob-marley/bob-marley-7747.jpg",
           "alt": "Adult Bob Marley sculpture holding a guitar"
         },
         {
-          "position": 4,
+          "position": 5,
           "image": "images/bob-marley/bob-marley-7746.jpg",
           "alt": "Adult Bob Marley sculpture — alternate angle"
         },
         {
-          "position": 5,
+          "position": 6,
           "image": "images/bob-marley/bob-marley-7748.jpg",
           "alt": "Adult Bob Marley sculpture — portrait detail"
         }
       ],
       "project_url": "project-bob-marley.html",
       "press_url": "press-bob-marley.html",
-      "page_gallery_count": 6
+      "page_gallery_count": 7
     },
     {
       "id": "f18cf8b8-ce3e-43b4-a77e-88c0d3de882c",
