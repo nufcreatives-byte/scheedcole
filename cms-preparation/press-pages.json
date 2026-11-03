@@ -176,13 +176,6 @@
           "description": "National Heroes · Portrait sculpture · Heritage",
           "url": "https://past.jamaica-gleaner.com/article/art-leisure/20221009/scheed-cole-breathes-life-national-heroes",
           "button_label": "Read feature"
-        },
-        {
-          "title": "Recycling and caring heroes",
-          "source_date": "Jamaica Observer · May 30, 2021",
-          "description": "National Heroes · Sam Sharpe Square · 360 Recycle",
-          "url": "https://www.jamaicaobserver.com/2021/05/30/covid-and-the-band-plays-on/",
-          "button_label": "Read feature"
         }
       ]
     },
@@ -443,6 +436,20 @@
           "source_date": "Jamaica Gleaner · 24 October 2016",
           "url": "https://past.jamaica-gleaner.com/article/news/20161025/company-founder-says-manufacturing-waste-materials-lucrative-industry",
           "description": "360 Recycle",
+          "button_label": "Read article"
+        },
+        {
+          "title": "Waste to wealth",
+          "source_date": "Jamaica Observer · 24 October 2016",
+          "url": "https://www.jamaicaobserver.com/2016/10/24/waste-to-wealth/",
+          "description": "Recycled sculpture · Photo feature",
+          "button_label": "Read article"
+        },
+        {
+          "title": "Recycling and caring heroes",
+          "source_date": "Jamaica Observer · May 30, 2021",
+          "url": "https://www.jamaicaobserver.com/2021/05/30/covid-and-the-band-plays-on/",
+          "description": "National Heroes · Sam Sharpe Square · 360 Recycle",
           "button_label": "Read article"
         }
       ]
