@@ -701,6 +701,45 @@
       "project_url": "project-pf-changs-horse.html",
       "press_url": "",
       "page_gallery_count": 0
+    },
+    {
+      "id": "selected-archive",
+      "title": "Selected Archive",
+      "metadata": "Jamaica · Selected works",
+      "type": "Portraits · Public sculpture · Event installations",
+      "description": "A selection from the studio archive, bringing together expressive portraits, figurative sculpture and immersive event entrances.",
+      "image": "images/archive/marley-relief.svg",
+      "image_alt": "Three expressive Bob Marley portraits in a sculptural relief",
+      "page_heading": "Selected Archive",
+      "page_intro": "Portraits, public sculpture and event installations from the studio archive.",
+      "page_image": "https://live.staticflickr.com/7156/6463574779_4552267e7b_b.jpg",
+      "page_image_alt": "Tiki Mask entrance for Digicel",
+      "page_blocks": [],
+      "project_url": "project-selected-archive.html",
+      "press_url": "",
+      "page_gallery_count": 4,
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/archive/marley-relief.svg",
+          "alt": "Bob Marley — Sculptural relief"
+        },
+        {
+          "position": 1,
+          "image": "images/archive/mother-of-the-time.svg",
+          "alt": "Mother of the Time"
+        },
+        {
+          "position": 2,
+          "image": "images/archive/smile-jamaica.svg",
+          "alt": "Smile Jamaica"
+        },
+        {
+          "position": 3,
+          "image": "images/archive/first-union-horses.svg",
+          "alt": "First Union — Horse sculptures"
+        }
+      ]
     }
   ]
 }
