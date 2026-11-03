@@ -400,6 +400,13 @@
       "page": "press-scheed-cole.html",
       "articles": [
         {
+          "title": "JAMAICA : SCHEED COLE",
+          "source_date": "Richès Karayib · Artist profile",
+          "url": "https://richeskarayib.com/scheed-cole/",
+          "description": "Interview · Scheed Cole’s practice and selected works",
+          "button_label": "Read article"
+        },
+        {
           "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
           "source_date": "Jamaica Gleaner · 3 February 2024",
           "url": "https://past.jamaica-gleaner.com/article/news/20240203/sculptor-scheed-cole-transforms-lives-beyond-art-360-applied-design",
@@ -439,13 +446,6 @@
           "source_date": "Jamaicans.com · 19 May 2011",
           "url": "https://jamaicans.com/conversationscheedcole/",
           "description": "Interview",
-          "button_label": "Read article"
-        },
-        {
-          "title": "Artisan ‘props’ up self",
-          "source_date": "Jamaica Gleaner · 18 October 2010",
-          "url": "https://jamaica-gleaner.com/gleaner/20101018/lead/lead4.html",
-          "description": "Props & More · Profile",
           "button_label": "Read article"
         }
       ]
