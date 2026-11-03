@@ -590,7 +590,7 @@
         }
       ],
       "project_url": "project-port-authority.html",
-      "press_url": "press-port-authority.html",
+      "press_url": "",
       "page_gallery_count": 1
     },
     {
@@ -607,7 +607,7 @@
       "page_image_alt": "Two young visitors seated on an elephant sculpture at Heritage Mall",
       "page_blocks": [],
       "project_url": "project-heritage-mall-elephant.html",
-      "press_url": "press-heritage-mall-elephant.html",
+      "press_url": "",
       "page_gallery_count": 0
     },
     {
@@ -699,7 +699,7 @@
       "page_image_alt": "Gold P.F. Chang’s horse sculpture with red and black saddle outside the workshop",
       "page_blocks": [],
       "project_url": "project-pf-changs-horse.html",
-      "press_url": "press-pf-changs-horse.html",
+      "press_url": "",
       "page_gallery_count": 0
     }
   ]
