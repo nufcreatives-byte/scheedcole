@@ -581,13 +581,7 @@
       "page_intro": "Large-scale heritage sculptures",
       "page_image": "images/port-authority-cover.jpg",
       "page_image_alt": "Three cannon replicas beneath brick arches",
-      "page_blocks": [
-        {
-          "position": 0,
-          "label": "A series of large-scale sculptural pieces created for t",
-          "text": "A series of large-scale sculptural pieces created for the Port Authority, including approximately 10-foot cannon replicas designed to resemble historical 18th-century pieces and incorporate the appearance of weathering and age."
-        }
-      ],
+      "page_blocks": [],
       "page_gallery": [
         {
           "position": 0,
@@ -611,13 +605,7 @@
       "page_intro": "Monumental animal sculpture",
       "page_image": "images/elephant-visitors.jpg",
       "page_image_alt": "Two young visitors seated on an elephant sculpture at Heritage Mall",
-      "page_blocks": [
-        {
-          "position": 0,
-          "label": "A large-scale elephant sculpture created as a sculptura",
-          "text": "A large-scale elephant sculpture created as a sculptural installation for Heritage Mall."
-        }
-      ],
+      "page_blocks": [],
       "project_url": "project-heritage-mall-elephant.html",
       "press_url": "press-heritage-mall-elephant.html",
       "page_gallery_count": 0
@@ -634,13 +622,7 @@
       "page_intro": "Architectural & sculptural structures",
       "page_image": "images/hellshire-entrance.jpg",
       "page_image_alt": "Castle-shaped entrance arch welcoming visitors to Hellshire Beach",
-      "page_blocks": [
-        {
-          "position": 0,
-          "label": "Design and construction work for Hellshire Beach, inclu",
-          "text": "Design and construction work for Hellshire Beach, including an entrance vestibule and gazebos."
-        }
-      ],
+      "page_blocks": [],
       "project_url": "project-hellshire-beach.html",
       "press_url": "press-hellshire-beach.html",
       "page_gallery_count": 0
@@ -686,13 +668,7 @@
       "page_intro": "Portrait sculpture",
       "page_image": "images/miss-lou/miss-lou-overview.jpg",
       "page_image_alt": "Full view of Louise Bennett-Coverley, Miss Lou, sculpture in her traditional dress with raised hands",
-      "page_blocks": [
-        {
-          "position": 0,
-          "label": "A sculptural representation of Jamaican cultural icon L",
-          "text": "A sculptural representation of Jamaican cultural icon Louise Bennett-Coverley, better known as Miss Lou."
-        }
-      ],
+      "page_blocks": [],
       "project_url": "project-miss-lou.html",
       "press_url": "press-miss-lou.html",
       "page_gallery_count": 2,
@@ -721,13 +697,7 @@
       "page_intro": "Signature horse sculpture · 12 feet high × 12 feet long",
       "page_image": "images/pf-changs-horse.jpg",
       "page_image_alt": "Gold P.F. Chang’s horse sculpture with red and black saddle outside the workshop",
-      "page_blocks": [
-        {
-          "position": 0,
-          "label": "Created in Jamaica for P.F. Chang’s, this signature sty",
-          "text": "Created in Jamaica for P.F. Chang’s, this signature stylized horse measures 12 feet high and 12 feet long. Led by sculptor Scheed Cole, the commission marked the studio’s first major international project."
-        }
-      ],
+      "page_blocks": [],
       "project_url": "project-pf-changs-horse.html",
       "press_url": "press-pf-changs-horse.html",
       "page_gallery_count": 0
