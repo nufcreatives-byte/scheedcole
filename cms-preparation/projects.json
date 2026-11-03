@@ -98,11 +98,16 @@
           "position": 16,
           "image": "images/together-we-rise/process-0775.svg",
           "alt": "A member of the construction team on site"
+        },
+        {
+          "position": 17,
+          "image": "images/together-we-rise/process-0784.svg",
+          "alt": "The team working on site beside the monument and sketching table"
         }
       ],
       "project_url": "project-together-we-rise.html",
       "press_url": "press-together-we-rise.html",
-      "page_gallery_count": 17
+      "page_gallery_count": 18
     },
     {
       "id": "cb11e36d-4b5e-453f-8cdb-63511efa9846",
