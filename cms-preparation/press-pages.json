@@ -105,15 +105,7 @@
     {
       "name": "Heritage Mall Elephant",
       "page": "press-heritage-mall-elephant.html",
-      "articles": [
-        {
-          "title": "360 Recycle transforming lives from rubbish",
-          "source_date": "Jamaica Gleaner · 27 November 2019",
-          "url": "https://past.jamaica-gleaner.com/article/hospitality-jamaica/20191127/360-recycle-transforming-lives-rubbish",
-          "description": "Profile · Explicit mention of the elephant at Heritage Plaza, Spanish Town",
-          "button_label": "Read article"
-        }
-      ]
+      "articles": []
     },
     {
       "name": "Jamaica 60",
@@ -132,13 +124,6 @@
       "name": "Jimmy Cliff",
       "page": "press-jimmy-cliff.html",
       "articles": [
-        {
-          "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
-          "source_date": "Jamaica Gleaner · 2024-02-03",
-          "description": "Profile · Wallabee installation · Youth development",
-          "url": "https://past.jamaica-gleaner.com/article/news/20240203/sculptor-scheed-cole-transforms-lives-beyond-art-360-applied-design",
-          "button_label": "Read feature"
-        },
         {
           "title": "S Hotel Jamaica embracing and promoting the arts",
           "source_date": "Jamaica Gleaner · 2019-11-13",
@@ -173,13 +158,6 @@
       "page": "press-miss-lou.html",
       "articles": [
         {
-          "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
-          "source_date": "Jamaica Gleaner · 2024-02-03",
-          "description": "Profile · Wallabee installation · Youth development",
-          "url": "https://past.jamaica-gleaner.com/article/news/20240203/sculptor-scheed-cole-transforms-lives-beyond-art-360-applied-design",
-          "button_label": "Read feature"
-        },
-        {
           "title": "Consular Corps Toasts with Optimism",
           "source_date": "Jamaica Observer · 2021-12-17",
           "description": "Miss Lou sculpture · Mention",
@@ -211,13 +189,6 @@
           "source_date": "Jamaica Observer · May 30, 2021",
           "description": "National Heroes · Sam Sharpe Square · 360 Recycle",
           "url": "https://www.jamaicaobserver.com/2021/05/30/covid-and-the-band-plays-on/",
-          "button_label": "Read feature"
-        },
-        {
-          "title": "360 Recycle transforming lives from rubbish",
-          "source_date": "Jamaica Gleaner · November 27, 2019",
-          "description": "Marcus Garvey · Recycled sculpture",
-          "url": "https://past.jamaica-gleaner.com/article/hospitality-jamaica/20191127/360-recycle-transforming-lives-rubbish",
           "button_label": "Read feature"
         }
       ]
@@ -355,13 +326,6 @@
       "page": "press-wallabee.html",
       "articles": [
         {
-          "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
-          "source_date": "Jamaica Gleaner · 2024-02-03",
-          "description": "Profile · Wallabee installation · Youth development",
-          "url": "https://past.jamaica-gleaner.com/article/news/20240203/sculptor-scheed-cole-transforms-lives-beyond-art-360-applied-design",
-          "button_label": "Read feature"
-        },
-        {
           "title": "SO2",
           "source_date": "Jamaica Observer · 2024-01-14",
           "description": "Clarks / Wallabee installation",
@@ -407,6 +371,25 @@
           "button_label": "Read article"
         },
         {
+          "title": "Scheed Cole: sculptural design engineer",
+          "source_date": "Jamaica Observer · 1 March 2014",
+          "url": "https://www.jamaicaobserver.com/2014/03/01/scheed-cole-sculptural-design-engineer/",
+          "description": "Interview · Career",
+          "button_label": "Read article"
+        },
+        {
+          "title": "A conversation with Scheed Cole",
+          "source_date": "Jamaicans.com · 19 May 2011",
+          "url": "https://jamaicans.com/conversationscheedcole/",
+          "description": "Interview",
+          "button_label": "Read article"
+        }
+      ]
+    },
+    {
+      "page": "360-recycle.html",
+      "articles": [
+        {
           "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
           "source_date": "Jamaica Gleaner · 3 February 2024",
           "url": "https://past.jamaica-gleaner.com/article/news/20240203/sculptor-scheed-cole-transforms-lives-beyond-art-360-applied-design",
@@ -414,10 +397,52 @@
           "button_label": "Read article"
         },
         {
+          "title": "Recycling and Caring Heroes",
+          "source_date": "Jamaica Highlights · 31 May 2021",
+          "url": "https://jamaicahighlights.com/2021/05/31/recycling-and-caring-heroes/",
+          "description": "360 Recycle · Grow Pots",
+          "button_label": "Read article"
+        },
+        {
           "title": "360 Recycle transforming lives from rubbish",
           "source_date": "Jamaica Gleaner · 27 November 2019",
           "url": "https://past.jamaica-gleaner.com/article/hospitality-jamaica/20191127/360-recycle-transforming-lives-rubbish",
           "description": "360 Recycle",
+          "button_label": "Read article"
+        },
+        {
+          "title": "Jamaica: Homes Made from Waste? Entrepreneur Pioneers Climate-Friendly Construction",
+          "source_date": "World Bank · 11 June 2019",
+          "url": "https://documents1.worldbank.org/curated/en/762941638523433858/pdf/Jamaica-Homes-Made-from-Waste-Entrepreneurs-Pioneers-Climate-Friendly-Construction.pdf",
+          "description": "360 Recycle · Feature PDF",
+          "button_label": "Read article"
+        },
+        {
+          "title": "Women in recycling",
+          "source_date": "Jamaica Gleaner · 10 March 2019",
+          "url": "https://past.jamaica-gleaner.com/article/flair/20190311/women-recycling",
+          "description": "Keisha Cole · 360 Recycle",
+          "button_label": "Read article"
+        },
+        {
+          "title": "Festival Queen launches environmentally friendly EcoMoney National Project",
+          "source_date": "Jamaica Gleaner · 18 February 2019",
+          "url": "https://past.jamaica-gleaner.com/article/flair/20190218/festival-queen-launches-environmentally-friendly-ecomoney-national-project",
+          "description": "EcoMoney · 360 Recycle",
+          "button_label": "Read article"
+        },
+        {
+          "title": "Recycling symposium",
+          "source_date": "Jamaica Trading Network · 15 June 2018",
+          "url": "https://jamaicatradingnetwork.wordpress.com/2018/06/15/recycling-symposium/",
+          "description": "360 Recycle · Event report",
+          "button_label": "Read article"
+        },
+        {
+          "title": "35 enterprises get ‘Buy Social’ trademark",
+          "source_date": "Jamaica Observer · 8 December 2017",
+          "url": "https://www.jamaicaobserver.com/2017/12/08/35-enterprises-get-buy-social-trademark/",
+          "description": "360 Recycle · Social enterprise",
           "button_label": "Read article"
         },
         {
@@ -435,17 +460,10 @@
           "button_label": "Read article"
         },
         {
-          "title": "Scheed Cole: sculptural design engineer",
-          "source_date": "Jamaica Observer · 1 March 2014",
-          "url": "https://www.jamaicaobserver.com/2014/03/01/scheed-cole-sculptural-design-engineer/",
-          "description": "Interview · Career",
-          "button_label": "Read article"
-        },
-        {
-          "title": "A conversation with Scheed Cole",
-          "source_date": "Jamaicans.com · 19 May 2011",
-          "url": "https://jamaicans.com/conversationscheedcole/",
-          "description": "Interview",
+          "title": "Company founder says: ‘Manufacturing from waste materials is lucrative industry’",
+          "source_date": "Jamaica Gleaner · 24 October 2016",
+          "url": "https://past.jamaica-gleaner.com/article/news/20161025/company-founder-says-manufacturing-waste-materials-lucrative-industry",
+          "description": "360 Recycle",
           "button_label": "Read article"
         }
       ]
