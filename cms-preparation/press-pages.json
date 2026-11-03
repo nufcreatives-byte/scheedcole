@@ -105,7 +105,15 @@
     {
       "name": "Heritage Mall Elephant",
       "page": "press-heritage-mall-elephant.html",
-      "articles": []
+      "articles": [
+        {
+          "title": "360 Recycle transforming lives from rubbish",
+          "source_date": "Jamaica Gleaner · 27 November 2019",
+          "url": "https://past.jamaica-gleaner.com/article/hospitality-jamaica/20191127/360-recycle-transforming-lives-rubbish",
+          "description": "Profile · Explicit mention of the elephant at Heritage Plaza, Spanish Town",
+          "button_label": "Read article"
+        }
+      ]
     },
     {
       "name": "Jamaica 60",
