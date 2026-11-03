@@ -184,31 +184,21 @@
         },
         {
           "position": 12,
-          "label": "Process",
-          "text": "Process"
-        },
-        {
-          "position": 13,
-          "label": "Concept fabrication installation.",
-          "text": "Concept fabrication installation."
-        },
-        {
-          "position": 14,
           "label": "In the press",
           "text": "In the press"
         },
         {
-          "position": 15,
+          "position": 13,
           "label": "Doctor Bird sculpture soars at S Hotel.",
           "text": "Doctor Bird sculpture soars at S Hotel."
         },
         {
-          "position": 16,
+          "position": 14,
           "label": "Next project",
           "text": "Next project"
         },
         {
-          "position": 17,
+          "position": 15,
           "label": "Make the space impossible to forget.",
           "text": "Make the space impossible to forget."
         }
