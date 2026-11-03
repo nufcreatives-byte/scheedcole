@@ -94,13 +94,6 @@
       "page": "press-hellshire-beach.html",
       "articles": [
         {
-          "title": "SCHEED COLE",
-          "source_date": "ASIS W.I. / Richès Karayib · 2021-05-19",
-          "description": "Interview · Sculpture portfolio",
-          "url": "https://asis-wi.com/painting-sculpture/scheed-cole/?lang=en",
-          "button_label": "Read feature"
-        },
-        {
           "title": "Scheed Cole: sculptural design engineer",
           "source_date": "Jamaica Observer · 2014-03-01",
           "description": "Interview · Career",
@@ -112,15 +105,7 @@
     {
       "name": "Heritage Mall Elephant",
       "page": "press-heritage-mall-elephant.html",
-      "articles": [
-        {
-          "title": "SCHEED COLE",
-          "source_date": "ASIS W.I. / Richès Karayib · 2021-05-19",
-          "description": "Interview · Sculpture portfolio",
-          "url": "https://asis-wi.com/painting-sculpture/scheed-cole/?lang=en",
-          "button_label": "Read feature"
-        }
-      ]
+      "articles": []
     },
     {
       "name": "Jamaica 60",
@@ -200,13 +185,6 @@
       "page": "press-national-heroes.html",
       "articles": [
         {
-          "title": "SCHEED COLE",
-          "source_date": "ASIS W.I. / Richès Karayib · 2021-05-19",
-          "description": "Interview · Sculpture portfolio",
-          "url": "https://asis-wi.com/painting-sculpture/scheed-cole/?lang=en",
-          "button_label": "Read feature"
-        },
-        {
           "title": "S Hotel Jamaica embracing and promoting the arts",
           "source_date": "Jamaica Gleaner · 2019-11-13",
           "description": "National Heroes · Legends Circle",
@@ -252,28 +230,12 @@
     {
       "name": "Pf Changs Horse",
       "page": "press-pf-changs-horse.html",
-      "articles": [
-        {
-          "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
-          "source_date": "Jamaica Gleaner · 2024-02-03",
-          "description": "Profile · Wallabee installation · Youth development",
-          "url": "https://past.jamaica-gleaner.com/article/news/20240203/sculptor-scheed-cole-transforms-lives-beyond-art-360-applied-design",
-          "button_label": "Read feature"
-        }
-      ]
+      "articles": []
     },
     {
       "name": "Port Authority",
       "page": "press-port-authority.html",
-      "articles": [
-        {
-          "title": "SCHEED COLE",
-          "source_date": "ASIS W.I. / Richès Karayib · 2021-05-19",
-          "description": "Interview · Sculpture portfolio",
-          "url": "https://asis-wi.com/painting-sculpture/scheed-cole/?lang=en",
-          "button_label": "Read feature"
-        }
-      ]
+      "articles": []
     },
     {
       "name": "Sintra Bronte",
