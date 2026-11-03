@@ -700,21 +700,10 @@
       "image": "images/usain/usain-7811.jpg",
       "image_alt": "Usain Bolt portrait sculpture in his signature victory pose with the Jamaican flag",
       "page_heading": "Usain Bolt",
-      "page_intro": "Portrait sculpture",
+      "page_intro": "A portrait sculpture commissioned by S Hotels Jamaica, later exhibited in the Jamaica Pavilion at Expo 2025 Osaka, Kansai, Japan.",
       "page_image": "images/usain/usain-7815.jpg",
       "page_image_alt": "General view of Usain Bolt sculpture in his signature victory pose at S Hotel",
-      "page_blocks": [
-        {
-          "position": 0,
-          "label": "A portrait of Usain Bolt in his signature victory pose,",
-          "text": "A portrait of Usain Bolt in his signature victory pose, holding the Jamaican flag, created for S Hotel Montego Bay."
-        },
-        {
-          "position": 1,
-          "label": "Usain Bolt · S Hotel Montego Bay · Portrait sculpture",
-          "text": "Usain Bolt · S Hotel Montego Bay · Portrait sculpture"
-        }
-      ],
+      "page_blocks": [],
       "project_url": "project-usain-bolt.html",
       "press_url": "press-usain-bolt.html",
       "page_gallery_count": 2,
