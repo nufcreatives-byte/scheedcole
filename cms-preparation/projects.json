@@ -257,10 +257,36 @@
       "page_image": "images/clarks-work-approved.svg",
       "page_image_alt": "Clarks Wallabee monumental shoe installation at S Hotel Montego Bay",
       "page_blocks": [],
-      "page_gallery": [],
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/clarks-archive-2.svg",
+          "alt": "Work in progress — Clarks installation archive"
+        },
+        {
+          "position": 1,
+          "image": "images/clarks-archive-4.svg",
+          "alt": "Finishing touches — Clarks installation archive"
+        },
+        {
+          "position": 2,
+          "image": "images/clarks-archive-3.svg",
+          "alt": "Loading for delivery — Clarks installation archive"
+        },
+        {
+          "position": 3,
+          "image": "images/clarks-archive-1.svg",
+          "alt": "The production team — Clarks installation archive"
+        },
+        {
+          "position": 4,
+          "image": "images/clarks-archive-0.svg",
+          "alt": "The original installation — Clarks installation archive"
+        }
+      ],
       "project_url": "project-wallabee.html",
       "press_url": "press-wallabee.html",
-      "page_gallery_count": 0
+      "page_gallery_count": 5
     },
     {
       "id": "jamaica-bobsleigh-team",
