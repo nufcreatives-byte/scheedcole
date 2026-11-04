@@ -196,7 +196,15 @@
     {
       "name": "Pf Changs Horse",
       "page": "press-pf-changs-horse.html",
-      "articles": []
+      "articles": [
+        {
+          "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
+          "source_date": "Jamaica Gleaner · 3 February 2024",
+          "description": "Artist profile · P.F. Chang’s 12-foot horse commission",
+          "url": "https://past.jamaica-gleaner.com/article/news/20240203/sculptor-scheed-cole-transforms-lives-beyond-art-360-applied-design",
+          "button_label": "Read article"
+        }
+      ]
     },
     {
       "name": "Port Authority",
