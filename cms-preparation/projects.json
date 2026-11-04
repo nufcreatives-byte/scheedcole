@@ -601,23 +601,38 @@
       "metadata": "Kingston · Jamaica",
       "type": "Large-scale heritage sculptures",
       "description": "A series of large-scale sculptural pieces created for the Port Authority, including approximately 10-foot cannon replicas designed to resemble historical 18th-century pieces and incorporate the appearance of weathering and age.",
-      "image": "images/port-authority-cover.jpg",
+      "image": "images/fort-charles/fort-charles-7900.jpg",
       "image_alt": "Three cannon replicas beneath brick arches",
       "page_heading": "Port Authority Sculptures",
       "page_intro": "Large-scale heritage sculptures",
-      "page_image": "images/port-authority-cover.jpg",
+      "page_image": "images/fort-charles/fort-charles-7900.jpg",
       "page_image_alt": "Three cannon replicas beneath brick arches",
       "page_blocks": [],
       "page_gallery": [
         {
           "position": 0,
-          "image": "images/port-authority-detail.jpg",
-          "alt": "Close view of a cannon replica and its wooden-style carriage"
+          "image": "images/fort-charles/fort-charles-7915.jpg",
+          "alt": "Cannon replicas and their carriages beneath brick arches"
+        },
+        {
+          "position": 1,
+          "image": "images/fort-charles/fort-charles-7884.jpg",
+          "alt": "Cannon replica and textured carriage detail"
+        },
+        {
+          "position": 2,
+          "image": "images/fort-charles/fort-charles-7921.jpg",
+          "alt": "Entrance to Fort Charles, Port Royal"
+        },
+        {
+          "position": 3,
+          "image": "images/fort-charles/fort-charles-7918.jpg",
+          "alt": "Fort Charles heritage information board"
         }
       ],
       "project_url": "project-port-authority.html",
       "press_url": "",
-      "page_gallery_count": 1
+      "page_gallery_count": 4
     },
     {
       "id": "2edde5e7-5f4f-478c-935b-484e1193a851",
