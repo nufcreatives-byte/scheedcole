@@ -183,6 +183,20 @@
           "description": "Natural History Museum",
           "url": "https://past.jamaica-gleaner.com/article/news/20251001/scheed-cole-behind-magic-natural-history-museum-exhibition-gallery",
           "button_label": "Read feature"
+        },
+        {
+          "title": "Natural History Museum of Jamaica’s state-of-the-art exhibition gallery opened",
+          "source_date": "Jamaica Gleaner · 2025-09-17",
+          "description": "Gallery opening · Dioramas · Sculptures by Scheed Cole",
+          "url": "https://jamaica-gleaner.com/article/news/20250917/natural-history-museum-jamaicas-state-art-exhibition-gallery-opened",
+          "button_label": "Read article"
+        },
+        {
+          "title": "Sculptor Scheed Cole transforms lives beyond art with 360 Applied Design",
+          "source_date": "Jamaica Gleaner · 2024-02-03",
+          "description": "Artist profile · Natural History Museum project",
+          "url": "https://past.jamaica-gleaner.com/article/news/20240203/sculptor-scheed-cole-transforms-lives-beyond-art-360-applied-design",
+          "button_label": "Read article"
         }
       ]
     },
