@@ -621,18 +621,13 @@
         },
         {
           "position": 2,
-          "image": "images/fort-charles/fort-charles-7921.jpg",
-          "alt": "Entrance to Fort Charles, Port Royal"
-        },
-        {
-          "position": 3,
           "image": "images/fort-charles/fort-charles-7918.jpg",
           "alt": "Fort Charles heritage information board"
         }
       ],
       "project_url": "project-port-authority.html",
       "press_url": "",
-      "page_gallery_count": 4
+      "page_gallery_count": 3
     },
     {
       "id": "2edde5e7-5f4f-478c-935b-484e1193a851",
