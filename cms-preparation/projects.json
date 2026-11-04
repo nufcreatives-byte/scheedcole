@@ -270,23 +270,18 @@
         },
         {
           "position": 2,
-          "image": "images/clarks-archive-3.svg",
-          "alt": "Loading for delivery — Clarks installation archive"
-        },
-        {
-          "position": 3,
           "image": "images/clarks-archive-1.svg",
           "alt": "The production team — Clarks installation archive"
         },
         {
-          "position": 4,
+          "position": 3,
           "image": "images/clarks-archive-0.svg",
           "alt": "The original installation — Clarks installation archive"
         }
       ],
       "project_url": "project-wallabee.html",
       "press_url": "press-wallabee.html",
-      "page_gallery_count": 5
+      "page_gallery_count": 4
     },
     {
       "id": "jamaica-bobsleigh-team",
