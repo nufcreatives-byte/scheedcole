@@ -565,6 +565,23 @@
       "press_url": ""
     },
     {
+      "id": "2a4e0c21-1b65-4cb2-a8fe-4172ea0a5d99",
+      "title": "Hellshire Beach",
+      "metadata": "Hellshire · Jamaica · 2014",
+      "type": "Architectural & sculptural structures",
+      "description": "Sculptural design for Hellshire Beach, including its sandcastle-inspired entrance, gazebos and improvements to the seaside setting.",
+      "image": "images/hellshire-entrance.jpg",
+      "image_alt": "Castle-shaped entrance arch welcoming visitors to Hellshire Beach",
+      "page_heading": "Hellshire Beach",
+      "page_intro": "Architectural & sculptural structures",
+      "page_image": "images/hellshire-entrance.jpg",
+      "page_image_alt": "Castle-shaped entrance arch welcoming visitors to Hellshire Beach",
+      "page_blocks": [],
+      "project_url": "project-hellshire-beach.html",
+      "press_url": "press-hellshire-beach.html",
+      "page_gallery_count": 0
+    },
+    {
       "id": "5ec939d7-eafa-4818-a199-00fa92d20597",
       "title": "Natural History Museum of Jamaica",
       "metadata": "Kingston · Jamaica · DATE?",
@@ -748,23 +765,6 @@
       "page_blocks": [],
       "project_url": "project-heritage-mall-elephant.html",
       "press_url": "",
-      "page_gallery_count": 0
-    },
-    {
-      "id": "2a4e0c21-1b65-4cb2-a8fe-4172ea0a5d99",
-      "title": "Hellshire Beach",
-      "metadata": "Hellshire · Jamaica · DATE?",
-      "type": "Architectural & sculptural structures",
-      "description": "Sculptural design for Hellshire Beach, including its sandcastle-inspired entrance, gazebos and improvements to the seaside setting.",
-      "image": "images/hellshire-entrance.jpg",
-      "image_alt": "Castle-shaped entrance arch welcoming visitors to Hellshire Beach",
-      "page_heading": "Hellshire Beach",
-      "page_intro": "Architectural & sculptural structures",
-      "page_image": "images/hellshire-entrance.jpg",
-      "page_image_alt": "Castle-shaped entrance arch welcoming visitors to Hellshire Beach",
-      "page_blocks": [],
-      "project_url": "project-hellshire-beach.html",
-      "press_url": "press-hellshire-beach.html",
       "page_gallery_count": 0
     },
     {
