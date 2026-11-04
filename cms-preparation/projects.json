@@ -274,14 +274,19 @@
           "alt": "The production team — Clarks installation archive"
         },
         {
-          "position": 3,
+          "image": "images/clarks-archive-3.svg",
+          "alt": "Loading the Clarks sculpture onto a truck for delivery",
+          "position": 3
+        },
+        {
+          "position": 4,
           "image": "images/clarks-archive-0.svg",
           "alt": "The original installation — Clarks installation archive"
         }
       ],
       "project_url": "project-wallabee.html",
       "press_url": "press-wallabee.html",
-      "page_gallery_count": 4
+      "page_gallery_count": 5
     },
     {
       "id": "jamaica-bobsleigh-team",
