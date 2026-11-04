@@ -177,6 +177,133 @@
       ]
     },
     {
+      "id": "fb94dda4-51be-4dce-b6c1-f9814ff15458",
+      "title": "Usain Bolt",
+      "metadata": "S Hotel · Montego Bay",
+      "type": "Portrait sculpture",
+      "description": "A portrait of Usain Bolt in his signature victory pose, holding the Jamaican flag, created for S Hotel Montego Bay.",
+      "image": "images/usain/usain-7811.jpg",
+      "image_alt": "Usain Bolt portrait sculpture in his signature victory pose with the Jamaican flag",
+      "page_heading": "Usain Bolt",
+      "page_intro": "A portrait sculpture commissioned by S Hotels Jamaica, later exhibited in the Jamaica Pavilion at Expo 2025 Osaka, Kansai, Japan.",
+      "page_image": "images/usain/usain-7815.jpg",
+      "page_image_alt": "General view of Usain Bolt sculpture in his signature victory pose at S Hotel",
+      "page_blocks": [],
+      "project_url": "project-usain-bolt.html",
+      "press_url": "press-usain-bolt.html",
+      "page_gallery_count": 2,
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/usain/usain-7811.jpg",
+          "alt": "Usain Bolt sculpture — upper body and outstretched arm"
+        },
+        {
+          "position": 1,
+          "image": "images/usain/usain-7814.jpg",
+          "alt": "Close-up of the face and sculpted surface of the Usain Bolt portrait"
+        }
+      ]
+    },
+    {
+      "id": "e517e3a6-3f1c-4ef2-93e8-77700d5ac168",
+      "title": "Bob Marley",
+      "metadata": "Jamaica",
+      "type": "Sculptural portraits",
+      "description": "Two sculptural portraits by Scheed Cole, depicting Bob Marley at different stages of his life.",
+      "image": "images/bob-marley/bob-marley-7796.jpg",
+      "image_alt": "Younger Bob Marley sculpture — side view",
+      "page_heading": "Bob Marley",
+      "page_intro": "Sculptural portraits",
+      "page_image": "images/bob-marley/bob-marley-7797.jpg",
+      "page_image_alt": "Bob Marley in his younger years — full sculpture",
+      "page_blocks": [],
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/bob-marley/bob-marley-7789.jpg",
+          "alt": "Younger Bob Marley sculpture — portrait detail"
+        },
+        {
+          "position": 1,
+          "image": "images/bob-marley/bob-marley-7796.jpg",
+          "alt": "Younger Bob Marley sculpture — side view"
+        },
+        {
+          "position": 2,
+          "image": "images/bob-marley/bob-marley-7794.jpg",
+          "alt": "Younger Bob Marley sculpture — hands and guitar detail"
+        },
+        {
+          "position": 3,
+          "image": "images/bob-marley/bob-marley-7792.jpg",
+          "alt": "Interpretive plaque accompanying the younger Bob Marley sculpture"
+        },
+        {
+          "position": 4,
+          "image": "images/bob-marley/bob-marley-7747.jpg",
+          "alt": "Adult Bob Marley sculpture holding a guitar"
+        },
+        {
+          "position": 5,
+          "image": "images/bob-marley/bob-marley-7746.jpg",
+          "alt": "Adult Bob Marley sculpture — alternate angle"
+        },
+        {
+          "position": 6,
+          "image": "images/bob-marley/bob-marley-7748.jpg",
+          "alt": "Adult Bob Marley sculpture — portrait detail"
+        }
+      ],
+      "project_url": "project-bob-marley.html",
+      "press_url": "press-bob-marley.html",
+      "page_gallery_count": 7
+    },
+    {
+      "id": "22f5bfbf-7a8a-479b-9c6c-ba4ec916474e",
+      "title": "Clarks / Wallabee Installation",
+      "metadata": "S Hotel · Montego Bay · 2024",
+      "type": "Monumental footwear installation",
+      "description": "A large-scale installation inspired by the iconic Wallabee Clarks shoe, created for S Hotel Montego Bay and produced with a team of young creatives.",
+      "image": "images/clarks-work-approved.svg",
+      "image_alt": "Clarks Wallabee monumental shoe installation at S Hotel Montego Bay",
+      "page_heading": "Clarks / Wallabee Installation",
+      "page_intro": "A 12-foot interpretation of the Wallabee, created by Scheed Cole and his team for S Hotel Montego Bay.",
+      "page_image": "images/clarks-work-approved.svg",
+      "page_image_alt": "Clarks Wallabee monumental shoe installation at S Hotel Montego Bay",
+      "page_blocks": [],
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/clarks-archive-2.svg",
+          "alt": "Work in progress — Clarks installation archive"
+        },
+        {
+          "position": 1,
+          "image": "images/clarks-archive-4.svg",
+          "alt": "Finishing touches — Clarks installation archive"
+        },
+        {
+          "image": "images/clarks-archive-1.svg",
+          "alt": "The production team — Clarks installation archive",
+          "position": 2
+        },
+        {
+          "image": "images/clarks-archive-3.svg",
+          "alt": "Loading the Clarks sculpture onto a truck for delivery",
+          "position": 3
+        },
+        {
+          "position": 4,
+          "image": "images/clarks-archive-0.svg",
+          "alt": "The original installation — Clarks installation archive"
+        }
+      ],
+      "project_url": "project-wallabee.html",
+      "press_url": "press-wallabee.html",
+      "page_gallery_count": 5
+    },
+    {
       "id": "e26af491-7835-4dd5-9ba1-781fe811e499",
       "title": "Marine Installation",
       "metadata": "Sculptural installation",
@@ -245,50 +372,6 @@
       "press_url": "press-swing-a-ling.html"
     },
     {
-      "id": "22f5bfbf-7a8a-479b-9c6c-ba4ec916474e",
-      "title": "Clarks / Wallabee Installation",
-      "metadata": "S Hotel · Montego Bay · 2024",
-      "type": "Monumental footwear installation",
-      "description": "A large-scale installation inspired by the iconic Wallabee Clarks shoe, created for S Hotel Montego Bay and produced with a team of young creatives.",
-      "image": "images/clarks-work-approved.svg",
-      "image_alt": "Clarks Wallabee monumental shoe installation at S Hotel Montego Bay",
-      "page_heading": "Clarks / Wallabee Installation",
-      "page_intro": "A 12-foot interpretation of the Wallabee, created by Scheed Cole and his team for S Hotel Montego Bay.",
-      "page_image": "images/clarks-work-approved.svg",
-      "page_image_alt": "Clarks Wallabee monumental shoe installation at S Hotel Montego Bay",
-      "page_blocks": [],
-      "page_gallery": [
-        {
-          "position": 0,
-          "image": "images/clarks-archive-2.svg",
-          "alt": "Work in progress — Clarks installation archive"
-        },
-        {
-          "position": 1,
-          "image": "images/clarks-archive-4.svg",
-          "alt": "Finishing touches — Clarks installation archive"
-        },
-        {
-          "image": "images/clarks-archive-1.svg",
-          "alt": "The production team — Clarks installation archive",
-          "position": 2
-        },
-        {
-          "image": "images/clarks-archive-3.svg",
-          "alt": "Loading the Clarks sculpture onto a truck for delivery",
-          "position": 3
-        },
-        {
-          "position": 4,
-          "image": "images/clarks-archive-0.svg",
-          "alt": "The original installation — Clarks installation archive"
-        }
-      ],
-      "project_url": "project-wallabee.html",
-      "press_url": "press-wallabee.html",
-      "page_gallery_count": 5
-    },
-    {
       "id": "jamaica-bobsleigh-team",
       "title": "Jamaica Bobsleigh Team",
       "metadata": "S Hotel · Montego Bay",
@@ -305,6 +388,181 @@
       "page_gallery_count": 0,
       "project_url": "project-jamaica-bobsleigh.html",
       "press_url": "press-jamaica-bobsleigh.html"
+    },
+    {
+      "id": "b62365e6-9002-4cf6-b5e4-ca0d5be28d04",
+      "title": "12-foot Horse — P.F. Chang’s",
+      "metadata": "USA",
+      "type": "12-foot sculptural installation",
+      "description": "A signature stylized horse created for P.F. Chang’s, measuring 12 feet high and 12 feet long. The commission marked the studio’s first major international project.",
+      "image": "images/pf-changs-horse.jpg",
+      "image_alt": "Gold P.F. Chang’s horse sculpture with red and black saddle outside the workshop",
+      "page_heading": "12-foot Horse — P.F. Chang’s",
+      "page_intro": "Signature horse sculpture · 12 feet high × 12 feet long",
+      "page_image": "images/pf-changs-horse.jpg",
+      "page_image_alt": "Gold P.F. Chang’s horse sculpture with red and black saddle outside the workshop",
+      "page_blocks": [],
+      "project_url": "project-pf-changs-horse.html",
+      "press_url": "",
+      "page_gallery_count": 0
+    },
+    {
+      "id": "aa1858dd-7aab-4dd4-ac5c-defa8d8ad022",
+      "title": "National Heroes",
+      "metadata": "S Hotel · Montego Bay",
+      "type": "Monumental portrait sculpture",
+      "description": "A collection of highly detailed sculptural representations of significant Jamaican cultural and historical figures, including Nanny, Marcus Garvey, Bob Marley and Jimmy Cliff.",
+      "image": "images/national-heroes.jpg",
+      "image_alt": "Sculptural portraits at Montego Bay Legends Circle",
+      "page_heading": "Icons & National Memory.",
+      "page_intro": "Life-like sculptural portraiture bringing Jamaican heroes and cultural figures into public space.",
+      "page_image": "images/national-heroes.jpg",
+      "page_image_alt": "Sculptural portraits at Montego Bay Legends Circle",
+      "page_blocks": [
+        {
+          "position": 0,
+          "label": "The project",
+          "text": "The project"
+        },
+        {
+          "position": 1,
+          "label": "History given physical presence.",
+          "text": "History given physical presence."
+        },
+        {
+          "position": 2,
+          "label": "At Montego Bay's Legends Circle, sculptural representat",
+          "text": "At Montego Bay's Legends Circle, sculptural representations of National Heroes Samuel Sharpe and Marcus Garvey, National Heroine Nanny of the Maroons, and music legends Bob Marley and Jimmy Cliff create a public encounter with Jamaican identity."
+        },
+        {
+          "position": 3,
+          "label": "The works combine Cole's commitment to realism with rec",
+          "text": "The works combine Cole's commitment to realism with recycled-material innovation, making cultural memory visible, approachable and part of everyday public life."
+        },
+        {
+          "position": 4,
+          "label": "Portraits",
+          "text": "Portraits"
+        },
+        {
+          "position": 5,
+          "label": "Faces of Jamaican heritage.",
+          "text": "Faces of Jamaican heritage."
+        },
+        {
+          "position": 6,
+          "label": "Bob Marley",
+          "text": "Bob Marley"
+        },
+        {
+          "position": 7,
+          "label": "Jimmy Cliff",
+          "text": "Jimmy Cliff"
+        },
+        {
+          "position": 8,
+          "label": "Nanny of the Maroons",
+          "text": "Nanny of the Maroons"
+        },
+        {
+          "position": 9,
+          "label": "Marcus Garvey",
+          "text": "Marcus Garvey"
+        },
+        {
+          "position": 10,
+          "label": "Samuel Sharpe",
+          "text": "Samuel Sharpe"
+        }
+      ],
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/bob-marley-work.jpg",
+          "alt": "Bob Marley portrait sculpture by Scheed Cole"
+        },
+        {
+          "position": 1,
+          "image": "images/jimmy-cliff-work.jpg",
+          "alt": "Jimmy Cliff portrait sculpture by Scheed Cole"
+        },
+        {
+          "position": 2,
+          "image": "images/nanny-maroons.jpg",
+          "alt": "Nanny of the Maroons portrait sculpture by Scheed Cole"
+        },
+        {
+          "position": 3,
+          "image": "images/marcus-garvey.jpg",
+          "alt": "Marcus Garvey portrait sculpture by Scheed Cole"
+        },
+        {
+          "position": 4,
+          "image": "images/samuel-sharpe.jpg",
+          "alt": "Samuel Sharpe portrait sculpture by Scheed Cole"
+        }
+      ],
+      "project_url": "project-legends-circle.html",
+      "press_url": "press-national-heroes.html",
+      "page_gallery_count": 5
+    },
+    {
+      "id": "cc94b7bd-706a-4bf4-a0f5-93fbe6c90cfa",
+      "title": "Miss Lou",
+      "metadata": "S Hotel · Montego Bay",
+      "type": "Portrait sculpture",
+      "description": "A portrait of Louise Bennett-Coverley, Miss Lou, celebrating the poet, performer and champion of Jamaican language and culture.",
+      "image": "images/miss-lou/miss-lou-work-landscape.jpg",
+      "image_alt": "Full Miss Lou sculpture with raised hands and traditional dress at S Hotel",
+      "page_heading": "Miss Lou",
+      "page_intro": "Louise Bennett-Coverley · Cultural portrait · S Hotel Montego Bay",
+      "page_image": "images/miss-lou/miss-lou-overview.jpg",
+      "page_image_alt": "Full view of Louise Bennett-Coverley, Miss Lou, sculpture in her traditional dress with raised hands",
+      "page_blocks": [],
+      "project_url": "project-miss-lou.html",
+      "press_url": "press-miss-lou.html",
+      "page_gallery_count": 2,
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/miss-lou/miss-lou-portrait.jpg",
+          "alt": "Portrait detail of Miss Lou sculpture with her headwrap, jewellery and raised hand"
+        },
+        {
+          "position": 1,
+          "image": "images/miss-lou/miss-lou-plaque.jpg",
+          "alt": "Interpretive plaque accompanying the Louise Bennett sculpture"
+        }
+      ]
+    },
+    {
+      "id": "first-union-horses",
+      "title": "First Union — Horse Sculptures",
+      "metadata": "St Andrew · 2018",
+      "type": "Life-size figurative sculpture",
+      "description": "Two life-size rearing horses created for First Union Financial Group’s head office on Eastwood Park Road. Contemporary reporting identifies Scheed Cole as their creator and describes the pair as a symbol of the company’s strength.",
+      "image": "images/first-union/first-union-7923.jpg",
+      "image_alt": "White rearing horse sculpture between entrance columns",
+      "page_heading": "First Union — Horse Sculptures",
+      "page_intro": "Life-size figurative sculpture",
+      "page_image": "images/first-union/first-union-7923.jpg",
+      "page_image_alt": "White rearing horse sculpture between entrance columns",
+      "page_blocks": [],
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/first-union/first-union-7931.jpg",
+          "alt": "Horse sculpture within the building entrance"
+        },
+        {
+          "position": 1,
+          "image": "images/first-union/first-union-7927.jpg",
+          "alt": "Horse sculpture viewed between columns"
+        }
+      ],
+      "page_gallery_count": 2,
+      "project_url": "project-first-union-horses.html",
+      "press_url": ""
     },
     {
       "id": "5ec939d7-eafa-4818-a199-00fa92d20597",
@@ -442,160 +700,6 @@
       "page_gallery_count": 3
     },
     {
-      "id": "aa1858dd-7aab-4dd4-ac5c-defa8d8ad022",
-      "title": "National Heroes",
-      "metadata": "S Hotel · Montego Bay",
-      "type": "Monumental portrait sculpture",
-      "description": "A collection of highly detailed sculptural representations of significant Jamaican cultural and historical figures, including Nanny, Marcus Garvey, Bob Marley and Jimmy Cliff.",
-      "image": "images/national-heroes.jpg",
-      "image_alt": "Sculptural portraits at Montego Bay Legends Circle",
-      "page_heading": "Icons & National Memory.",
-      "page_intro": "Life-like sculptural portraiture bringing Jamaican heroes and cultural figures into public space.",
-      "page_image": "images/national-heroes.jpg",
-      "page_image_alt": "Sculptural portraits at Montego Bay Legends Circle",
-      "page_blocks": [
-        {
-          "position": 0,
-          "label": "The project",
-          "text": "The project"
-        },
-        {
-          "position": 1,
-          "label": "History given physical presence.",
-          "text": "History given physical presence."
-        },
-        {
-          "position": 2,
-          "label": "At Montego Bay's Legends Circle, sculptural representat",
-          "text": "At Montego Bay's Legends Circle, sculptural representations of National Heroes Samuel Sharpe and Marcus Garvey, National Heroine Nanny of the Maroons, and music legends Bob Marley and Jimmy Cliff create a public encounter with Jamaican identity."
-        },
-        {
-          "position": 3,
-          "label": "The works combine Cole's commitment to realism with rec",
-          "text": "The works combine Cole's commitment to realism with recycled-material innovation, making cultural memory visible, approachable and part of everyday public life."
-        },
-        {
-          "position": 4,
-          "label": "Portraits",
-          "text": "Portraits"
-        },
-        {
-          "position": 5,
-          "label": "Faces of Jamaican heritage.",
-          "text": "Faces of Jamaican heritage."
-        },
-        {
-          "position": 6,
-          "label": "Bob Marley",
-          "text": "Bob Marley"
-        },
-        {
-          "position": 7,
-          "label": "Jimmy Cliff",
-          "text": "Jimmy Cliff"
-        },
-        {
-          "position": 8,
-          "label": "Nanny of the Maroons",
-          "text": "Nanny of the Maroons"
-        },
-        {
-          "position": 9,
-          "label": "Marcus Garvey",
-          "text": "Marcus Garvey"
-        },
-        {
-          "position": 10,
-          "label": "Samuel Sharpe",
-          "text": "Samuel Sharpe"
-        }
-      ],
-      "page_gallery": [
-        {
-          "position": 0,
-          "image": "images/bob-marley-work.jpg",
-          "alt": "Bob Marley portrait sculpture by Scheed Cole"
-        },
-        {
-          "position": 1,
-          "image": "images/jimmy-cliff-work.jpg",
-          "alt": "Jimmy Cliff portrait sculpture by Scheed Cole"
-        },
-        {
-          "position": 2,
-          "image": "images/nanny-maroons.jpg",
-          "alt": "Nanny of the Maroons portrait sculpture by Scheed Cole"
-        },
-        {
-          "position": 3,
-          "image": "images/marcus-garvey.jpg",
-          "alt": "Marcus Garvey portrait sculpture by Scheed Cole"
-        },
-        {
-          "position": 4,
-          "image": "images/samuel-sharpe.jpg",
-          "alt": "Samuel Sharpe portrait sculpture by Scheed Cole"
-        }
-      ],
-      "project_url": "project-legends-circle.html",
-      "press_url": "press-national-heroes.html",
-      "page_gallery_count": 5
-    },
-    {
-      "id": "e517e3a6-3f1c-4ef2-93e8-77700d5ac168",
-      "title": "Bob Marley",
-      "metadata": "Jamaica",
-      "type": "Sculptural portraits",
-      "description": "Two sculptural portraits by Scheed Cole, depicting Bob Marley at different stages of his life.",
-      "image": "images/bob-marley/bob-marley-7796.jpg",
-      "image_alt": "Younger Bob Marley sculpture — side view",
-      "page_heading": "Bob Marley",
-      "page_intro": "Sculptural portraits",
-      "page_image": "images/bob-marley/bob-marley-7797.jpg",
-      "page_image_alt": "Bob Marley in his younger years — full sculpture",
-      "page_blocks": [],
-      "page_gallery": [
-        {
-          "position": 0,
-          "image": "images/bob-marley/bob-marley-7789.jpg",
-          "alt": "Younger Bob Marley sculpture — portrait detail"
-        },
-        {
-          "position": 1,
-          "image": "images/bob-marley/bob-marley-7796.jpg",
-          "alt": "Younger Bob Marley sculpture — side view"
-        },
-        {
-          "position": 2,
-          "image": "images/bob-marley/bob-marley-7794.jpg",
-          "alt": "Younger Bob Marley sculpture — hands and guitar detail"
-        },
-        {
-          "position": 3,
-          "image": "images/bob-marley/bob-marley-7792.jpg",
-          "alt": "Interpretive plaque accompanying the younger Bob Marley sculpture"
-        },
-        {
-          "position": 4,
-          "image": "images/bob-marley/bob-marley-7747.jpg",
-          "alt": "Adult Bob Marley sculpture holding a guitar"
-        },
-        {
-          "position": 5,
-          "image": "images/bob-marley/bob-marley-7746.jpg",
-          "alt": "Adult Bob Marley sculpture — alternate angle"
-        },
-        {
-          "position": 6,
-          "image": "images/bob-marley/bob-marley-7748.jpg",
-          "alt": "Adult Bob Marley sculpture — portrait detail"
-        }
-      ],
-      "project_url": "project-bob-marley.html",
-      "press_url": "press-bob-marley.html",
-      "page_gallery_count": 7
-    },
-    {
       "id": "f18cf8b8-ce3e-43b4-a77e-88c0d3de882c",
       "title": "Port Authority Sculptures",
       "metadata": "Kingston · Jamaica",
@@ -662,110 +766,6 @@
       "project_url": "project-hellshire-beach.html",
       "press_url": "press-hellshire-beach.html",
       "page_gallery_count": 0
-    },
-    {
-      "id": "fb94dda4-51be-4dce-b6c1-f9814ff15458",
-      "title": "Usain Bolt",
-      "metadata": "S Hotel · Montego Bay",
-      "type": "Portrait sculpture",
-      "description": "A portrait of Usain Bolt in his signature victory pose, holding the Jamaican flag, created for S Hotel Montego Bay.",
-      "image": "images/usain/usain-7811.jpg",
-      "image_alt": "Usain Bolt portrait sculpture in his signature victory pose with the Jamaican flag",
-      "page_heading": "Usain Bolt",
-      "page_intro": "A portrait sculpture commissioned by S Hotels Jamaica, later exhibited in the Jamaica Pavilion at Expo 2025 Osaka, Kansai, Japan.",
-      "page_image": "images/usain/usain-7815.jpg",
-      "page_image_alt": "General view of Usain Bolt sculpture in his signature victory pose at S Hotel",
-      "page_blocks": [],
-      "project_url": "project-usain-bolt.html",
-      "press_url": "press-usain-bolt.html",
-      "page_gallery_count": 2,
-      "page_gallery": [
-        {
-          "position": 0,
-          "image": "images/usain/usain-7811.jpg",
-          "alt": "Usain Bolt sculpture — upper body and outstretched arm"
-        },
-        {
-          "position": 1,
-          "image": "images/usain/usain-7814.jpg",
-          "alt": "Close-up of the face and sculpted surface of the Usain Bolt portrait"
-        }
-      ]
-    },
-    {
-      "id": "cc94b7bd-706a-4bf4-a0f5-93fbe6c90cfa",
-      "title": "Miss Lou",
-      "metadata": "S Hotel · Montego Bay",
-      "type": "Portrait sculpture",
-      "description": "A portrait of Louise Bennett-Coverley, Miss Lou, celebrating the poet, performer and champion of Jamaican language and culture.",
-      "image": "images/miss-lou/miss-lou-work-landscape.jpg",
-      "image_alt": "Full Miss Lou sculpture with raised hands and traditional dress at S Hotel",
-      "page_heading": "Miss Lou",
-      "page_intro": "Louise Bennett-Coverley · Cultural portrait · S Hotel Montego Bay",
-      "page_image": "images/miss-lou/miss-lou-overview.jpg",
-      "page_image_alt": "Full view of Louise Bennett-Coverley, Miss Lou, sculpture in her traditional dress with raised hands",
-      "page_blocks": [],
-      "project_url": "project-miss-lou.html",
-      "press_url": "press-miss-lou.html",
-      "page_gallery_count": 2,
-      "page_gallery": [
-        {
-          "position": 0,
-          "image": "images/miss-lou/miss-lou-portrait.jpg",
-          "alt": "Portrait detail of Miss Lou sculpture with her headwrap, jewellery and raised hand"
-        },
-        {
-          "position": 1,
-          "image": "images/miss-lou/miss-lou-plaque.jpg",
-          "alt": "Interpretive plaque accompanying the Louise Bennett sculpture"
-        }
-      ]
-    },
-    {
-      "id": "b62365e6-9002-4cf6-b5e4-ca0d5be28d04",
-      "title": "12-foot Horse — P.F. Chang’s",
-      "metadata": "USA",
-      "type": "12-foot sculptural installation",
-      "description": "A signature stylized horse created for P.F. Chang’s, measuring 12 feet high and 12 feet long. The commission marked the studio’s first major international project.",
-      "image": "images/pf-changs-horse.jpg",
-      "image_alt": "Gold P.F. Chang’s horse sculpture with red and black saddle outside the workshop",
-      "page_heading": "12-foot Horse — P.F. Chang’s",
-      "page_intro": "Signature horse sculpture · 12 feet high × 12 feet long",
-      "page_image": "images/pf-changs-horse.jpg",
-      "page_image_alt": "Gold P.F. Chang’s horse sculpture with red and black saddle outside the workshop",
-      "page_blocks": [],
-      "project_url": "project-pf-changs-horse.html",
-      "press_url": "",
-      "page_gallery_count": 0
-    },
-    {
-      "id": "first-union-horses",
-      "title": "First Union — Horse Sculptures",
-      "metadata": "St Andrew · 2018",
-      "type": "Life-size figurative sculpture",
-      "description": "Two life-size rearing horses created for First Union Financial Group’s head office on Eastwood Park Road. Contemporary reporting identifies Scheed Cole as their creator and describes the pair as a symbol of the company’s strength.",
-      "image": "images/first-union/first-union-7923.jpg",
-      "image_alt": "White rearing horse sculpture between entrance columns",
-      "page_heading": "First Union — Horse Sculptures",
-      "page_intro": "Life-size figurative sculpture",
-      "page_image": "images/first-union/first-union-7923.jpg",
-      "page_image_alt": "White rearing horse sculpture between entrance columns",
-      "page_blocks": [],
-      "page_gallery": [
-        {
-          "position": 0,
-          "image": "images/first-union/first-union-7931.jpg",
-          "alt": "Horse sculpture within the building entrance"
-        },
-        {
-          "position": 1,
-          "image": "images/first-union/first-union-7927.jpg",
-          "alt": "Horse sculpture viewed between columns"
-        }
-      ],
-      "page_gallery_count": 2,
-      "project_url": "project-first-union-horses.html",
-      "press_url": ""
     },
     {
       "id": "selected-archive",
