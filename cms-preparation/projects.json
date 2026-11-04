@@ -179,7 +179,7 @@
     {
       "id": "fb94dda4-51be-4dce-b6c1-f9814ff15458",
       "title": "Usain Bolt",
-      "metadata": "S Hotel · Montego Bay",
+      "metadata": "S Hotel · Montego Bay · DATE?",
       "type": "Portrait sculpture",
       "description": "A portrait of Usain Bolt in his signature victory pose, holding the Jamaican flag, created for S Hotel Montego Bay.",
       "image": "images/usain/usain-7811.jpg",
@@ -208,7 +208,7 @@
     {
       "id": "e517e3a6-3f1c-4ef2-93e8-77700d5ac168",
       "title": "Bob Marley",
-      "metadata": "Jamaica",
+      "metadata": "Jamaica · DATE?",
       "type": "Sculptural portraits",
       "description": "Two sculptural portraits by Scheed Cole, depicting Bob Marley at different stages of his life.",
       "image": "images/bob-marley/bob-marley-7796.jpg",
@@ -262,7 +262,7 @@
     {
       "id": "22f5bfbf-7a8a-479b-9c6c-ba4ec916474e",
       "title": "Clarks / Wallabee Installation",
-      "metadata": "S Hotel · Montego Bay · 2024",
+      "metadata": "S Hotel · Montego Bay · DATE?",
       "type": "Monumental footwear installation",
       "description": "A large-scale installation inspired by the iconic Wallabee Clarks shoe, created for S Hotel Montego Bay and produced with a team of young creatives.",
       "image": "images/clarks-work-approved.svg",
@@ -306,7 +306,7 @@
     {
       "id": "e26af491-7835-4dd5-9ba1-781fe811e499",
       "title": "Marine Installation",
-      "metadata": "Sculptural installation",
+      "metadata": "Sculptural installation · DATE?",
       "type": "Marine forms · Interior installation",
       "description": "An ocean-inspired wall relief and sculptural octopus bring marine forms into an interior setting.",
       "image": "images/marine-installation/marine-7828-straight.svg",
@@ -340,7 +340,7 @@
     {
       "id": "swing-a-ling",
       "title": "Swing A Ling",
-      "metadata": "S Hotel · Montego Bay",
+      "metadata": "S Hotel · Montego Bay · DATE?",
       "type": "Cultural installation · Portrait sculpture",
       "description": "An installation celebrating Charlie Ace and Swing A Ling, his mobile record shop, through a recreated vehicle and a portrait sculpture beside a sound system at S Hotel Montego Bay.",
       "image": "images/swing-a-ling/swing-7862-soft-face.svg",
@@ -374,7 +374,7 @@
     {
       "id": "jamaica-bobsleigh-team",
       "title": "Jamaica Bobsleigh Team",
-      "metadata": "S Hotel · Montego Bay",
+      "metadata": "S Hotel · Montego Bay · DATE?",
       "type": "Sporting tribute · Sculptural installation",
       "description": "A sculptural tribute to Jamaica’s four-man bobsleigh team, displayed at S Hotel Montego Bay.",
       "image": "images/jamaica-bobsleigh.svg",
@@ -392,7 +392,7 @@
     {
       "id": "b62365e6-9002-4cf6-b5e4-ca0d5be28d04",
       "title": "12-foot Horse — P.F. Chang’s",
-      "metadata": "USA",
+      "metadata": "USA · DATE?",
       "type": "12-foot sculptural installation",
       "description": "A signature stylized horse created for P.F. Chang’s, measuring 12 feet high and 12 feet long. The commission marked the studio’s first major international project.",
       "image": "images/pf-changs-horse.jpg",
@@ -409,7 +409,7 @@
     {
       "id": "aa1858dd-7aab-4dd4-ac5c-defa8d8ad022",
       "title": "National Heroes",
-      "metadata": "S Hotel · Montego Bay",
+      "metadata": "S Hotel · Montego Bay · DATE?",
       "type": "Monumental portrait sculpture",
       "description": "A collection of highly detailed sculptural representations of significant Jamaican cultural and historical figures, including Nanny, Marcus Garvey, Bob Marley and Jimmy Cliff.",
       "image": "images/national-heroes.jpg",
@@ -509,7 +509,7 @@
     {
       "id": "cc94b7bd-706a-4bf4-a0f5-93fbe6c90cfa",
       "title": "Miss Lou",
-      "metadata": "S Hotel · Montego Bay",
+      "metadata": "S Hotel · Montego Bay · DATE?",
       "type": "Portrait sculpture",
       "description": "A portrait of Louise Bennett-Coverley, Miss Lou, celebrating the poet, performer and champion of Jamaican language and culture.",
       "image": "images/miss-lou/miss-lou-work-landscape.jpg",
@@ -567,7 +567,7 @@
     {
       "id": "5ec939d7-eafa-4818-a199-00fa92d20597",
       "title": "Natural History Museum of Jamaica",
-      "metadata": "Kingston · Jamaica",
+      "metadata": "Kingston · Jamaica · DATE?",
       "type": "Immersive natural environments",
       "description": "A large-scale sculptural installation recreating Jamaican natural environments, including dry forests, wetlands, rainforest canopy, coral reefs, caves and marine environments. The project involved extensive research, mould-making, sculpting, painting and installation, incorporating recycled materials.",
       "image": "images/museum-mangrove.jpg",
@@ -702,7 +702,7 @@
     {
       "id": "f18cf8b8-ce3e-43b4-a77e-88c0d3de882c",
       "title": "Port Authority Sculptures",
-      "metadata": "Kingston · Jamaica",
+      "metadata": "Kingston · Jamaica · DATE?",
       "type": "Large-scale heritage sculptures",
       "description": "A series of large-scale sculptural pieces created for the Port Authority, including approximately 10-foot cannon replicas designed to resemble historical 18th-century pieces and incorporate the appearance of weathering and age.",
       "image": "images/fort-charles/fort-charles-7900.jpg",
@@ -736,7 +736,7 @@
     {
       "id": "2edde5e7-5f4f-478c-935b-484e1193a851",
       "title": "Heritage Mall Elephant",
-      "metadata": "Spanish Town · Jamaica",
+      "metadata": "Spanish Town · Jamaica · DATE?",
       "type": "Monumental animal sculpture",
       "description": "A large-scale elephant sculpture in Spanish Town, reflecting Scheed Cole’s interest in realistic animal forms and sculpture in everyday public settings.",
       "image": "images/elephant-cover.jpg",
@@ -753,7 +753,7 @@
     {
       "id": "2a4e0c21-1b65-4cb2-a8fe-4172ea0a5d99",
       "title": "Hellshire Beach",
-      "metadata": "Hellshire · Jamaica",
+      "metadata": "Hellshire · Jamaica · DATE?",
       "type": "Architectural & sculptural structures",
       "description": "Sculptural design for Hellshire Beach, including its sandcastle-inspired entrance, gazebos and improvements to the seaside setting.",
       "image": "images/hellshire-entrance.jpg",
