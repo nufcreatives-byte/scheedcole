@@ -753,7 +753,7 @@
       "page_blocks": [],
       "project_url": "project-selected-archive.html",
       "press_url": "",
-      "page_gallery_count": 4,
+      "page_gallery_count": 7,
       "page_gallery": [
         {
           "position": 0,
@@ -772,8 +772,23 @@
         },
         {
           "position": 3,
-          "image": "images/archive/first-union-horses.svg",
+          "image": "images/first-union/first-union-7923.jpg",
           "alt": "First Union — Horse sculptures"
+        },
+        {
+          "position": 4,
+          "image": "images/first-union/first-union-7931.jpg",
+          "alt": "First Union — Horse sculpture"
+        },
+        {
+          "position": 5,
+          "image": "images/first-union/first-union-7929.jpg",
+          "alt": "First Union — Horse sculpture"
+        },
+        {
+          "position": 6,
+          "image": "images/first-union/first-union-7927.jpg",
+          "alt": "First Union — Horse sculpture"
         }
       ]
     }
