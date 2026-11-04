@@ -407,9 +407,101 @@
       "page_gallery_count": 0
     },
     {
+      "id": "cc94b7bd-706a-4bf4-a0f5-93fbe6c90cfa",
+      "title": "Miss Lou",
+      "metadata": "S Hotel · Montego Bay · DATE?",
+      "type": "Portrait sculpture",
+      "description": "A portrait of Louise Bennett-Coverley, Miss Lou, celebrating the poet, performer and champion of Jamaican language and culture.",
+      "image": "images/miss-lou/miss-lou-work-landscape.jpg",
+      "image_alt": "Full Miss Lou sculpture with raised hands and traditional dress at S Hotel",
+      "page_heading": "Miss Lou",
+      "page_intro": "Louise Bennett-Coverley · Cultural portrait · S Hotel Montego Bay",
+      "page_image": "images/miss-lou/miss-lou-overview.jpg",
+      "page_image_alt": "Full view of Louise Bennett-Coverley, Miss Lou, sculpture in her traditional dress with raised hands",
+      "page_blocks": [],
+      "project_url": "project-miss-lou.html",
+      "press_url": "press-miss-lou.html",
+      "page_gallery_count": 2,
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/miss-lou/miss-lou-portrait.jpg",
+          "alt": "Portrait detail of Miss Lou sculpture with her headwrap, jewellery and raised hand"
+        },
+        {
+          "position": 1,
+          "image": "images/miss-lou/miss-lou-plaque.jpg",
+          "alt": "Interpretive plaque accompanying the Louise Bennett sculpture"
+        }
+      ]
+    },
+    {
+      "id": "first-union-horses",
+      "title": "First Union — Horse Sculptures",
+      "metadata": "St Andrew · 2018",
+      "type": "Life-size figurative sculpture",
+      "description": "Two life-size rearing horses created for First Union Financial Group’s head office on Eastwood Park Road. Contemporary reporting identifies Scheed Cole as their creator and describes the pair as a symbol of the company’s strength.",
+      "image": "images/first-union/first-union-7923.jpg",
+      "image_alt": "White rearing horse sculpture between entrance columns",
+      "page_heading": "First Union — Horse Sculptures",
+      "page_intro": "Life-size figurative sculpture",
+      "page_image": "images/first-union/first-union-7923.jpg",
+      "page_image_alt": "White rearing horse sculpture between entrance columns",
+      "page_blocks": [],
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/first-union/first-union-7931.jpg",
+          "alt": "Horse sculpture within the building entrance"
+        },
+        {
+          "position": 1,
+          "image": "images/first-union/first-union-7927.jpg",
+          "alt": "Horse sculpture viewed between columns"
+        }
+      ],
+      "page_gallery_count": 2,
+      "project_url": "project-first-union-horses.html",
+      "press_url": ""
+    },
+    {
+      "id": "york-town-playground",
+      "title": "York Town Basic School — Playground",
+      "metadata": "Clarendon · Jamaica · 2015",
+      "type": "Sculptural play environment · Recycled materials",
+      "description": "A playground created for York Town Basic School with the JPS Foundation, combining climbing structures, swings and recycled-material forms resembling natural logs.",
+      "image": "images/york-town-private.svg",
+      "image_alt": "York Town playground opening; children's faces obscured",
+      "page_heading": "York Town Basic School — Playground",
+      "page_intro": "Sculptural play environment",
+      "page_image": "images/york-town-private.svg",
+      "page_image_alt": "York Town playground opening; children's faces obscured",
+      "page_blocks": [],
+      "page_gallery": [],
+      "project_url": "project-york-town-playground.html",
+      "press_url": "press-york-town-playground.html"
+    },
+    {
+      "id": "2a4e0c21-1b65-4cb2-a8fe-4172ea0a5d99",
+      "title": "Hellshire Beach",
+      "metadata": "Hellshire · Jamaica · 2014",
+      "type": "Architectural & sculptural structures",
+      "description": "Sculptural design for Hellshire Beach, including its sandcastle-inspired entrance, gazebos and improvements to the seaside setting.",
+      "image": "images/hellshire-entrance.jpg",
+      "image_alt": "Castle-shaped entrance arch welcoming visitors to Hellshire Beach",
+      "page_heading": "Hellshire Beach",
+      "page_intro": "Architectural & sculptural structures",
+      "page_image": "images/hellshire-entrance.jpg",
+      "page_image_alt": "Castle-shaped entrance arch welcoming visitors to Hellshire Beach",
+      "page_blocks": [],
+      "project_url": "project-hellshire-beach.html",
+      "press_url": "press-hellshire-beach.html",
+      "page_gallery_count": 0
+    },
+    {
       "id": "aa1858dd-7aab-4dd4-ac5c-defa8d8ad022",
       "title": "National Heroes",
-      "metadata": "S Hotel · Montego Bay · DATE?",
+      "metadata": "S Hotel · Montego Bay · 2013",
       "type": "Monumental portrait sculpture",
       "description": "A collection of highly detailed sculptural representations of significant Jamaican cultural and historical figures, including Nanny, Marcus Garvey, Bob Marley and Jimmy Cliff.",
       "image": "images/national-heroes.jpg",
@@ -505,98 +597,6 @@
       "project_url": "project-legends-circle.html",
       "press_url": "press-national-heroes.html",
       "page_gallery_count": 5
-    },
-    {
-      "id": "cc94b7bd-706a-4bf4-a0f5-93fbe6c90cfa",
-      "title": "Miss Lou",
-      "metadata": "S Hotel · Montego Bay · DATE?",
-      "type": "Portrait sculpture",
-      "description": "A portrait of Louise Bennett-Coverley, Miss Lou, celebrating the poet, performer and champion of Jamaican language and culture.",
-      "image": "images/miss-lou/miss-lou-work-landscape.jpg",
-      "image_alt": "Full Miss Lou sculpture with raised hands and traditional dress at S Hotel",
-      "page_heading": "Miss Lou",
-      "page_intro": "Louise Bennett-Coverley · Cultural portrait · S Hotel Montego Bay",
-      "page_image": "images/miss-lou/miss-lou-overview.jpg",
-      "page_image_alt": "Full view of Louise Bennett-Coverley, Miss Lou, sculpture in her traditional dress with raised hands",
-      "page_blocks": [],
-      "project_url": "project-miss-lou.html",
-      "press_url": "press-miss-lou.html",
-      "page_gallery_count": 2,
-      "page_gallery": [
-        {
-          "position": 0,
-          "image": "images/miss-lou/miss-lou-portrait.jpg",
-          "alt": "Portrait detail of Miss Lou sculpture with her headwrap, jewellery and raised hand"
-        },
-        {
-          "position": 1,
-          "image": "images/miss-lou/miss-lou-plaque.jpg",
-          "alt": "Interpretive plaque accompanying the Louise Bennett sculpture"
-        }
-      ]
-    },
-    {
-      "id": "first-union-horses",
-      "title": "First Union — Horse Sculptures",
-      "metadata": "St Andrew · 2018",
-      "type": "Life-size figurative sculpture",
-      "description": "Two life-size rearing horses created for First Union Financial Group’s head office on Eastwood Park Road. Contemporary reporting identifies Scheed Cole as their creator and describes the pair as a symbol of the company’s strength.",
-      "image": "images/first-union/first-union-7923.jpg",
-      "image_alt": "White rearing horse sculpture between entrance columns",
-      "page_heading": "First Union — Horse Sculptures",
-      "page_intro": "Life-size figurative sculpture",
-      "page_image": "images/first-union/first-union-7923.jpg",
-      "page_image_alt": "White rearing horse sculpture between entrance columns",
-      "page_blocks": [],
-      "page_gallery": [
-        {
-          "position": 0,
-          "image": "images/first-union/first-union-7931.jpg",
-          "alt": "Horse sculpture within the building entrance"
-        },
-        {
-          "position": 1,
-          "image": "images/first-union/first-union-7927.jpg",
-          "alt": "Horse sculpture viewed between columns"
-        }
-      ],
-      "page_gallery_count": 2,
-      "project_url": "project-first-union-horses.html",
-      "press_url": ""
-    },
-    {
-      "id": "york-town-playground",
-      "title": "York Town Basic School — Playground",
-      "metadata": "Clarendon · Jamaica · 2015",
-      "type": "Sculptural play environment · Recycled materials",
-      "description": "A playground created for York Town Basic School with the JPS Foundation, combining climbing structures, swings and recycled-material forms resembling natural logs.",
-      "image": "images/york-town-private.svg",
-      "image_alt": "York Town playground opening; children's faces obscured",
-      "page_heading": "York Town Basic School — Playground",
-      "page_intro": "Sculptural play environment",
-      "page_image": "images/york-town-private.svg",
-      "page_image_alt": "York Town playground opening; children's faces obscured",
-      "page_blocks": [],
-      "page_gallery": [],
-      "project_url": "project-york-town-playground.html",
-      "press_url": "press-york-town-playground.html"
-    },
-    {
-      "id": "2a4e0c21-1b65-4cb2-a8fe-4172ea0a5d99",
-      "title": "Hellshire Beach",
-      "metadata": "Hellshire · Jamaica · 2014",
-      "type": "Architectural & sculptural structures",
-      "description": "Sculptural design for Hellshire Beach, including its sandcastle-inspired entrance, gazebos and improvements to the seaside setting.",
-      "image": "images/hellshire-entrance.jpg",
-      "image_alt": "Castle-shaped entrance arch welcoming visitors to Hellshire Beach",
-      "page_heading": "Hellshire Beach",
-      "page_intro": "Architectural & sculptural structures",
-      "page_image": "images/hellshire-entrance.jpg",
-      "page_image_alt": "Castle-shaped entrance arch welcoming visitors to Hellshire Beach",
-      "page_blocks": [],
-      "project_url": "project-hellshire-beach.html",
-      "press_url": "press-hellshire-beach.html",
-      "page_gallery_count": 0
     },
     {
       "id": "5ec939d7-eafa-4818-a199-00fa92d20597",
