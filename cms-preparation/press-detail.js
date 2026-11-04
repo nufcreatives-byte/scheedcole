@@ -2,7 +2,7 @@
 (async () => {
   try {
     const filename = location.pathname.split('/').pop();
-    const response = await fetch('cms-preparation/press-pages.json', {cache: 'no-cache'});
+    const response = await fetch('cms-preparation/press-pages.json?v=museum-three-20261104', {cache: 'no-cache'});
     if (!response.ok) return;
     const {pages} = await response.json();
     const page = pages.find(item => item.page === filename);
