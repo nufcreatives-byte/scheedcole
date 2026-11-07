@@ -92,7 +92,15 @@
     {
       "name": "Heritage Mall Elephant",
       "page": "press-heritage-mall-elephant.html",
-      "articles": []
+      "articles": [
+        {
+          "title": "SCHEED COLE",
+          "source_date": "ASIS W.I. / Richès Karayib · 19 May 2021",
+          "description": "Feature · Heritage Mall elephant sculpture",
+          "url": "https://asis-wi.com/painting-sculpture/scheed-cole/?lang=en",
+          "button_label": "Read feature"
+        }
+      ]
     },
     {
       "name": "Jamaica 60",
@@ -209,7 +217,15 @@
     {
       "name": "Port Authority",
       "page": "press-port-authority.html",
-      "articles": []
+      "articles": [
+        {
+          "title": "SCHEED COLE",
+          "source_date": "ASIS W.I. / Richès Karayib · 19 May 2021",
+          "description": "Feature · Port Authority cannon sculptures",
+          "url": "https://asis-wi.com/painting-sculpture/scheed-cole/?lang=en",
+          "button_label": "Read feature"
+        }
+      ]
     },
     {
       "name": "Sintra Bronte",
