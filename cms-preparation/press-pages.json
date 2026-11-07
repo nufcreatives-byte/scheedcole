@@ -92,15 +92,7 @@
     {
       "name": "Heritage Mall Elephant",
       "page": "press-heritage-mall-elephant.html",
-      "articles": [
-        {
-          "title": "Jamaica: Scheed Cole",
-          "source_date": "Richès Karayib",
-          "description": "Artist profile · Includes a brief mention of the Heritage Mall elephant under “The Heritage Mall”.",
-          "url": "https://richeskarayib.com/scheed-cole/",
-          "button_label": "Read feature"
-        }
-      ]
+      "articles": []
     },
     {
       "name": "Jamaica 60",
