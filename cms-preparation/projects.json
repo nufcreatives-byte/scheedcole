@@ -115,12 +115,12 @@
       "metadata": "S Hotel · Montego Bay · 2025",
       "type": "46-foot monumental sculpture",
       "description": "A monumental sculpture depicting Jamaica’s national bird, the Doctor Bird. The sculpture was constructed in eight sections due to its scale and took approximately three months to complete.",
-      "image": "images/doctorbirdshotel.jpeg",
-      "image_alt": "Doctor Bird monumental sculpture on the facade of S Hotel in Montego Bay",
+      "image": "images/doctor-bird/doctor-bird-full.jpg",
+      "image_alt": "Full view of the Doctor Bird sculpture on the S Hotel facade",
       "page_heading": "Doctor Bird.",
       "page_intro": "A 46-foot streamer-tail hummingbird created for the façade of S Hotel Montego Bay — transforming Jamaica's national bird into a landmark visible from Jimmy Cliff Boulevard.",
-      "page_image": "images/doctorbirdshotel.jpeg",
-      "page_image_alt": "Doctor Bird monumental sculpture on the facade of S Hotel in Montego Bay",
+      "page_image": "images/doctor-bird/doctor-bird-full.jpg",
+      "page_image_alt": "Full view of the Doctor Bird sculpture on the S Hotel facade",
       "page_blocks": [
         {
           "position": 0,
@@ -145,20 +145,15 @@
       ],
       "project_url": "project-doctor-bird.html",
       "press_url": "press-doctor-bird.html",
-      "page_gallery_count": 3,
+      "page_gallery_count": 2,
       "page_gallery": [
         {
           "position": 0,
-          "image": "images/doctor-bird/doctor-bird-full.jpg",
-          "alt": "Full view of the Doctor Bird sculpture on the S Hotel facade"
-        },
-        {
-          "position": 1,
           "image": "images/doctor-bird/doctor-bird-scheed.jpg",
           "alt": "Scheed Cole standing beneath his Doctor Bird sculpture"
         },
         {
-          "position": 2,
+          "position": 1,
           "image": "images/doctor-bird/doctor-bird-installation.jpg",
           "alt": "Doctor Bird during installation with scaffolding and an elevated work platform"
         }
