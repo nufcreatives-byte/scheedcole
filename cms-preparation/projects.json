@@ -145,7 +145,24 @@
       ],
       "project_url": "project-doctor-bird.html",
       "press_url": "press-doctor-bird.html",
-      "page_gallery_count": 0
+      "page_gallery_count": 3,
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/doctor-bird/doctor-bird-full.jpg",
+          "alt": "Full view of the Doctor Bird sculpture on the S Hotel facade"
+        },
+        {
+          "position": 1,
+          "image": "images/doctor-bird/doctor-bird-scheed.jpg",
+          "alt": "Scheed Cole standing beneath his Doctor Bird sculpture"
+        },
+        {
+          "position": 2,
+          "image": "images/doctor-bird/doctor-bird-installation.jpg",
+          "alt": "Doctor Bird during installation with scaffolding and an elevated work platform"
+        }
+      ]
     },
     {
       "id": "754264eb-1e32-4010-981b-888407f3d2d4",
