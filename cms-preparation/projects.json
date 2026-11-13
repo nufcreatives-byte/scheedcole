@@ -309,11 +309,21 @@
           "position": 4,
           "image": "images/clarks-archive-0.svg",
           "alt": "The original installation — Clarks installation archive"
+        },
+        {
+          "position": 5,
+          "image": "images/clarks/clarks-visitors.jpg",
+          "alt": "Visitor beside the monumental red Wallabee sculptures at S Hotel Montego Bay"
+        },
+        {
+          "position": 6,
+          "image": "images/clarks/clarks-interior-experience.jpg",
+          "alt": "A visitor experiencing the interior of the Wallabee installation"
         }
       ],
       "project_url": "project-wallabee.html",
       "press_url": "press-wallabee.html",
-      "page_gallery_count": 5
+      "page_gallery_count": 7
     },
     {
       "id": "e26af491-7835-4dd5-9ba1-781fe811e499",
