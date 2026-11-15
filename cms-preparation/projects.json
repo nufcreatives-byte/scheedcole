@@ -31,18 +31,18 @@
         },
         {
           "position": 3,
+          "image": "images/together-we-rise/twr-7719.svg",
+          "alt": "Woman reaching for a helping hand on Together We Rise"
+        },
+        {
+          "position": 4,
           "image": "images/together-we-rise/twr-7717.jpg",
           "alt": "Close detail of two golden hands holding one another"
         },
         {
-          "position": 4,
+          "position": 5,
           "image": "images/together-we-rise/twr-7718.jpg",
           "alt": "Close view of a woman reaching upward on the monument"
-        },
-        {
-          "position": 5,
-          "image": "images/together-we-rise/twr-7719.svg",
-          "alt": "Woman reaching for a helping hand on Together We Rise"
         },
         {
           "image": "images/together-we-rise/sketch-0785.svg",
