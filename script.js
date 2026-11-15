@@ -1,4 +1,7 @@
-if (/^project-/.test(location.pathname.split('/').pop() || '')) document.documentElement.classList.add('project-detail');
+if (/^project-/.test(location.pathname.split('/').pop() || '')) {
+ document.documentElement.classList.add('project-detail');
+ document.querySelectorAll('link[rel="stylesheet"]').forEach(link => { const url = new URL(link.href); if (url.origin === location.origin && url.pathname.endsWith('/styles.css')) { url.searchParams.set('v','project-compact-1'); link.href = url.href; } });
+}
 const primaryNav = document.querySelector('.desktop-nav, .cover-nav');
 if (primaryNav) {
   const current = location.pathname.split('/').pop() || 'index.html';
