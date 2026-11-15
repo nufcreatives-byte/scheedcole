@@ -1,6 +1,6 @@
 if (/^project-/.test(location.pathname.split('/').pop() || '')) {
  document.documentElement.classList.add('project-detail');
- document.querySelectorAll('link[rel="stylesheet"]').forEach(link => { const url = new URL(link.href); if (url.origin === location.origin && url.pathname.endsWith('/styles.css')) { url.searchParams.set('v','project-compact-1'); link.href = url.href; } });
+ document.querySelectorAll('link[rel="stylesheet"]').forEach(link => { const url = new URL(link.href); if (url.origin === location.origin && url.pathname.endsWith('/styles.css')) { url.searchParams.set('v','project-medium-2'); link.href = url.href; } });
 }
 const primaryNav = document.querySelector('.desktop-nav, .cover-nav');
 if (primaryNav) {
@@ -114,7 +114,11 @@ if (projectForm) projectForm.addEventListener('submit', event => {
     const dx = event.changedTouches[0].clientX - startX, dy = event.changedTouches[0].clientY - startY;
     if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) show(index + (dx < 0 ? 1 : -1));
   }, {passive:true});
-  const enhance = () => candidates().forEach(img => {
+  const enhance = () => {
+    document.querySelectorAll('main div').forEach(grid => {
+      if ([...grid.children].filter(child => child.tagName === 'FIGURE' && child.querySelector('img')).length > 1) grid.classList.add('project-photo-grid');
+    });
+    candidates().forEach(img => {
     if (img.dataset.photoViewer) return;
     img.dataset.photoViewer = 'true'; img.style.cursor = 'zoom-in';
     const anchor = img.closest('a');
@@ -128,6 +132,7 @@ if (projectForm) projectForm.addEventListener('submit', event => {
       img.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open(img); } });
     }
   });
+  };
   enhance();
   const main = document.querySelector('main');
   if (main) new MutationObserver(enhance).observe(main,{childList:true,subtree:true});

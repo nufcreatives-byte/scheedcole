@@ -199,3 +199,13 @@ html.project-detail main img[role=button]:focus-visible{outline:2px solid var(--
  html.project-detail main #project-photo .sustainability-copy,html.project-detail main #project-photo .sustainability-image{grid-column:auto;grid-row:auto}
  html.project-detail main #project-photo{row-gap:32px}
 }
+
+/* Generous project photos, with two-column galleries and full-width mobile images. */
+html.project-detail main img{width:100%!important;max-height:620px!important}
+html.project-detail main .sustainability-image img{max-height:680px!important}
+html.project-detail main .project-photo-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:32px!important;align-items:start!important}
+html.project-detail main .project-photo-grid img{max-height:600px!important}
+@media(max-width:800px){
+ html.project-detail main .project-photo-grid,html.project-detail main .swing-opening{grid-template-columns:1fr!important}
+ html.project-detail main img,html.project-detail main .sustainability-image img,html.project-detail main .project-photo-grid img{max-height:none!important;width:100%!important}
+}
