@@ -797,6 +797,35 @@
       "page_gallery_count": 0
     },
     {
+      "id": "national-heroes-parade-2022",
+      "title": "National Heroes — Emancipation Parade",
+      "metadata": "Half Way Tree · Kingston · 2022",
+      "type": "Public sculpture · Parade installation",
+      "description": "Lifelike portraits of Jamaica’s National Heroes arranged around a monumental diamond for the 2022 Emancipation Day parade.",
+      "image": "images/national-heroes-parade/parade-2022-nanny.jpg",
+      "image_alt": "National Heroes sculptures on the 2022 Emancipation parade float",
+      "page_heading": "National Heroes Emancipation Parade.",
+      "page_intro": "Lifelike sculptural portraits created for the Emancipation Day parade in Half Way Tree, Kingston, on 1 August 2022.",
+      "page_image": "images/national-heroes-parade/parade-2022-nanny.jpg",
+      "page_image_alt": "Nanny of the Maroons portrait on the 2022 parade float beside other National Heroes and a large diamond",
+      "page_blocks": [],
+      "page_gallery_count": 2,
+      "page_gallery": [
+        {
+          "position": 0,
+          "image": "images/national-heroes-parade/parade-2022-portraits.jpg",
+          "alt": "National Hero portraits arranged around a large diamond on the parade float"
+        },
+        {
+          "position": 1,
+          "image": "images/national-heroes-parade/parade-2022-float.jpg",
+          "alt": "Side view of the float carrying the words We Can All be Diamond Heroes"
+        }
+      ],
+      "project_url": "project-national-heroes-parade.html",
+      "press_url": "project-national-heroes-parade.html#in-the-press"
+    },
+    {
       "id": "selected-archive",
       "title": "Selected Archive",
       "metadata": "Jamaica · Selected works",
