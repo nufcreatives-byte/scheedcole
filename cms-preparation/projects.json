@@ -562,58 +562,33 @@
           "position": 5,
           "label": "Faces of Jamaican heritage.",
           "text": "Faces of Jamaican heritage."
-        },
-        {
-          "position": 6,
-          "label": "Bob Marley",
-          "text": "Bob Marley"
-        },
-        {
-          "position": 7,
-          "label": "Jimmy Cliff",
-          "text": "Jimmy Cliff"
-        },
-        {
-          "position": 8,
-          "label": "Nanny of the Maroons",
-          "text": "Nanny of the Maroons"
-        },
-        {
-          "position": 9,
-          "label": "Marcus Garvey",
-          "text": "Marcus Garvey"
-        },
-        {
-          "position": 10,
-          "label": "Samuel Sharpe",
-          "text": "Samuel Sharpe"
         }
       ],
       "page_gallery": [
         {
           "position": 0,
-          "image": "images/bob-marley-work.jpg",
-          "alt": "Bob Marley portrait sculpture by Scheed Cole"
-        },
-        {
-          "position": 1,
-          "image": "images/jimmy-cliff-work.jpg",
+          "image": "images/national-heroes/jimmy-1.jpg",
           "alt": "Jimmy Cliff portrait sculpture by Scheed Cole"
         },
         {
-          "position": 2,
-          "image": "images/nanny-maroons.jpg",
+          "position": 1,
+          "image": "images/national-heroes/nanny-2.jpg",
           "alt": "Nanny of the Maroons portrait sculpture by Scheed Cole"
         },
         {
+          "position": 2,
+          "image": "images/national-heroes/norman-2.jpg",
+          "alt": "Norman Manley portrait sculpture by Scheed Cole"
+        },
+        {
           "position": 3,
-          "image": "images/marcus-garvey.jpg",
-          "alt": "Marcus Garvey portrait sculpture by Scheed Cole"
+          "image": "images/national-heroes/bustamante-2.jpg",
+          "alt": "Sir Alexander Bustamante portrait sculpture by Scheed Cole"
         },
         {
           "position": 4,
-          "image": "images/samuel-sharpe.jpg",
-          "alt": "Samuel Sharpe portrait sculpture by Scheed Cole"
+          "image": "images/national-heroes/bob-1.jpg",
+          "alt": "Bob Marley portrait sculpture by Scheed Cole"
         }
       ],
       "project_url": "project-legends-circle.html",
