@@ -1,6 +1,6 @@
 if (/^project-/.test(location.pathname.split('/').pop() || '')) {
  document.documentElement.classList.add('project-detail');
- document.querySelectorAll('link[rel="stylesheet"]').forEach(link => { const url = new URL(link.href); if (url.origin === location.origin && url.pathname.endsWith('/styles.css')) { url.searchParams.set('v','project-behind-work-3'); link.href = url.href; } });
+ document.querySelectorAll('link[rel="stylesheet"]').forEach(link => { const url = new URL(link.href); if (url.origin === location.origin && url.pathname.endsWith('/styles.css')) { url.searchParams.set('v','project-story-preview-4'); link.href = url.href; } });
 }
 const primaryNav = document.querySelector('.desktop-nav, .cover-nav');
 if (primaryNav) {
