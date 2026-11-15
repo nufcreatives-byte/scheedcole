@@ -8,7 +8,8 @@
     family.hidden = index === 0;
     original.style.visibility = index === 0 ? '' : 'hidden';
     original.setAttribute('aria-hidden', String(index !== 0));
-    caption.style.visibility = index === 0 ? '' : 'hidden';
+    caption.textContent = index === 0 ? 'On site during the making of Together We Rise.' : 'Scheed Cole family.';
+    caption.style.visibility = '';
   };
   show(0);
   window.addEventListener('pageshow', () => show(0));
