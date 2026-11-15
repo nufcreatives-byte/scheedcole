@@ -16,13 +16,13 @@
       "page_gallery": [
         {
           "position": 0,
-          "image": "images/together-we-rise/twr-7718.jpg",
-          "alt": "Close view of a woman reaching upward on the monument"
+          "image": "images/together-we-rise/twr-pair-left.svg",
+          "alt": "Fisherman carrying fish on Together We Rise — left half"
         },
         {
           "position": 1,
-          "image": "images/together-we-rise/twr-7717.jpg",
-          "alt": "Close detail of two golden hands holding one another"
+          "image": "images/together-we-rise/twr-pair-right.svg",
+          "alt": "Soldier reaching down to help on Together We Rise — right half"
         },
         {
           "position": 2,
@@ -31,13 +31,13 @@
         },
         {
           "position": 3,
-          "image": "images/together-we-rise/twr-pair-left.svg",
-          "alt": "Fisherman carrying fish on Together We Rise — left half"
+          "image": "images/together-we-rise/twr-7717.jpg",
+          "alt": "Close detail of two golden hands holding one another"
         },
         {
           "position": 4,
-          "image": "images/together-we-rise/twr-pair-right.svg",
-          "alt": "Soldier reaching down to help on Together We Rise — right half"
+          "image": "images/together-we-rise/twr-7718.jpg",
+          "alt": "Close view of a woman reaching upward on the monument"
         },
         {
           "position": 5,
