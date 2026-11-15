@@ -47,7 +47,7 @@
       const fragment = document.createDocumentFragment();
       const originals = new Map([...container.querySelectorAll('.editorial-project')].map(node => [node.querySelector('.editorial-links a')?.getAttribute('href'), node]));
       for (const item of projects) {
-        if (!item.title) continue;
+        if (!item.title || item.visible_in_work === false) continue;
         const original = originals.get(item.project_url);
         if (original) {
           const node = original.cloneNode(true);

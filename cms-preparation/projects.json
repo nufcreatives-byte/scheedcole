@@ -614,11 +614,31 @@
           "position": 6,
           "image": "images/national-heroes/statue-2.jpg",
           "alt": "Samuel Sharpe portrait sculpture by Scheed Cole"
+        },
+        {
+          "position": 7,
+          "image": "images/miss-lou/miss-lou-portrait.jpg",
+          "alt": "Miss Lou sculpture portrait by Scheed Cole"
+        },
+        {
+          "position": 9,
+          "image": "images/national-heroes-parade/parade-2022-nanny.jpg",
+          "alt": "Nanny of the Maroons and other National Heroes on the 2022 parade float"
+        },
+        {
+          "position": 10,
+          "image": "images/national-heroes-parade/parade-2022-portraits.jpg",
+          "alt": "National Hero portraits arranged around a monumental diamond"
+        },
+        {
+          "position": 11,
+          "image": "images/national-heroes-parade/parade-2022-float.jpg",
+          "alt": "Emancipation parade float with the theme We Can All be Diamond Heroes"
         }
       ],
       "project_url": "project-legends-circle.html",
       "press_url": "press-national-heroes.html",
-      "page_gallery_count": 7
+      "page_gallery_count": 11
     },
     {
       "id": "5ec939d7-eafa-4818-a199-00fa92d20597",
@@ -823,7 +843,8 @@
         }
       ],
       "project_url": "project-national-heroes-parade.html",
-      "press_url": "project-national-heroes-parade.html#in-the-press"
+      "press_url": "project-national-heroes-parade.html#in-the-press",
+      "visible_in_work": false
     },
     {
       "id": "selected-archive",
