@@ -1,3 +1,4 @@
+if (/^project-/.test(location.pathname.split('/').pop() || '')) document.documentElement.classList.add('project-detail');
 const primaryNav = document.querySelector('.desktop-nav, .cover-nav');
 if (primaryNav) {
   const current = location.pathname.split('/').pop() || 'index.html';
@@ -79,7 +80,7 @@ if (projectForm) projectForm.addEventListener('submit', event => {
   const photo = dialog.querySelector('img'), caption = dialog.querySelector('figcaption');
   const prev = dialog.querySelector('.photo-prev'), next = dialog.querySelector('.photo-next');
   let images = [], index = 0, trigger, oldOverflow;
-  const candidates = () => [...document.querySelectorAll('main img')].filter(img => img.closest('figure') && !img.hidden && !img.closest('[hidden]') && img.getAttribute('src'));
+  const candidates = () => [...document.querySelectorAll('main img')].filter(img => !img.hidden && !img.closest('[hidden]') && img.getAttribute('src'));
   const show = value => {
     index = (value + images.length) % images.length;
     const source = images[index];
