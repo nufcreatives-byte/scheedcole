@@ -6,7 +6,7 @@
   const caption = gallery.parentElement.querySelector('figcaption');
   const show = (index) => {
     family.hidden = index === 0;
-    original.style.visibility = index === 0 ? '' : 'hidden';
+    original.hidden = index !== 0;
     original.setAttribute('aria-hidden', String(index !== 0));
     caption.textContent = index === 0 ? 'On site during the making of Together We Rise.' : 'Scheed Cole family.';
     caption.style.visibility = '';
