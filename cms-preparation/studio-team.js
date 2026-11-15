@@ -10,6 +10,8 @@
     original.setAttribute('aria-hidden', String(index !== 0));
     caption.style.visibility = index === 0 ? '' : 'hidden';
   };
+  show(0);
+  window.addEventListener('pageshow', () => show(0));
   const toggle = () => show(family.hidden ? 1 : 0);
   gallery.querySelectorAll('button').forEach(button => {
     button.hidden = false;
