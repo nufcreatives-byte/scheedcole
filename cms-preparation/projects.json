@@ -390,16 +390,21 @@
         },
         {
           "position": 1,
+          "image": "images/swing-a-ling/swing-complete-sh24-105.jpg",
+          "alt": "Complete Swing A Ling installation with Charlie Ace’s portrait sculpture, mobile record shop and speaker stack"
+        },
+        {
+          "position": 2,
           "image": "images/swing-a-ling/swing-7867.svg",
           "alt": "Display of Jamaican music portraits and record artwork"
         },
         {
-          "position": 2,
+          "position": 3,
           "image": "images/swing-a-ling/swing-7869.svg",
           "alt": "Swing A Ling painted signage and mesh-fronted record shop"
         }
       ],
-      "page_gallery_count": 3,
+      "page_gallery_count": 4,
       "project_url": "project-swing-a-ling.html",
       "press_url": "press-swing-a-ling.html"
     },
