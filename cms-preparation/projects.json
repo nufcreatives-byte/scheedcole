@@ -21,23 +21,23 @@
         },
         {
           "position": 1,
+          "image": "images/together-we-rise/twr-7717.jpg",
+          "alt": "Close detail of two golden hands holding one another"
+        },
+        {
+          "position": 2,
           "image": "images/together-we-rise/twr-7729.svg",
           "alt": "Rescue figures and a musician beneath the Tree of Life on Together We Rise"
         },
         {
-          "position": 2,
+          "position": 3,
           "image": "images/together-we-rise/twr-pair-left.svg",
           "alt": "Fisherman carrying fish on Together We Rise — left half"
         },
         {
-          "position": 3,
+          "position": 4,
           "image": "images/together-we-rise/twr-pair-right.svg",
           "alt": "Soldier reaching down to help on Together We Rise — right half"
-        },
-        {
-          "position": 4,
-          "image": "images/together-we-rise/twr-7717.jpg",
-          "alt": "Close detail of two golden hands holding one another"
         },
         {
           "position": 5,
