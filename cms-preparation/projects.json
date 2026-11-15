@@ -604,11 +604,21 @@
           "position": 4,
           "image": "images/national-heroes/bob-1.jpg",
           "alt": "Bob Marley portrait sculpture by Scheed Cole"
+        },
+        {
+          "position": 5,
+          "image": "images/national-heroes/garvey-2.jpg",
+          "alt": "Marcus Garvey portrait sculpture by Scheed Cole"
+        },
+        {
+          "position": 6,
+          "image": "images/national-heroes/statue-2.jpg",
+          "alt": "Samuel Sharpe portrait sculpture by Scheed Cole"
         }
       ],
       "project_url": "project-legends-circle.html",
       "press_url": "press-national-heroes.html",
-      "page_gallery_count": 5
+      "page_gallery_count": 7
     },
     {
       "id": "5ec939d7-eafa-4818-a199-00fa92d20597",
