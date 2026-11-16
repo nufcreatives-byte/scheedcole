@@ -536,6 +536,30 @@
       "page_gallery_count": 0
     },
     {
+      "id": "falmouth-jam-iconic-experience",
+      "title": "Falmouth Jam-Iconic Experience",
+      "metadata": "Foreshore Road · Falmouth, Trelawny · 2025",
+      "type": "Public Sculpture · Heritage Landmark · Placemaking",
+      "description": "A sculptural landmark by Scheed Cole at the entrance to Falmouth, created through TPDCo and the Trelawny Municipal Corporation. Featuring nine rum barrels and two interpretive storyboards, the installation brings the town’s history of sugar and rum production into public space.",
+      "image": "images/falmouth-landmark.avif",
+      "image_alt": "Falmouth Jam-Iconic Experience sculptural landmark",
+      "project_url": "project-falmouth-jam-iconic-experience.html",
+      "press_url": "",
+      "visible_in_work": true
+    },
+    {
+      "id": "sir-alexander-bustamante",
+      "title": "Sir Alexander Bustamante",
+      "metadata": "Hanover Parish Library · Lucea · 2022",
+      "type": "Life-size public sculpture · National heritage",
+      "description": "A life-size statue honouring Jamaica’s first Prime Minister and National Hero, unveiled on 12 August 2022 on the front lawn of the Hanover Parish Library in Lucea. Supported by the Tourism Product Development Company (TPDCo) through its Spruce Up Pon De Corner Programme, the monument celebrates Jamaica’s history and cultural heritage.",
+      "image": "",
+      "image_alt": "",
+      "project_url": "project-sir-alexander-bustamante.html",
+      "press_url": "",
+      "visible_in_work": true
+    },
+    {
       "id": "aa1858dd-7aab-4dd4-ac5c-defa8d8ad022",
       "title": "National Heroes",
       "metadata": "S Hotel · Montego Bay · 2013",
