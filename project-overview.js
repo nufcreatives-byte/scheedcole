@@ -92,7 +92,8 @@
     overview.tabIndex = 0;
   }
   overview.append(make('p', 'eyebrow', 'Project details'));
-  const heading = make('h2', '', 'The project at a glance.');
+  const heading = make('h2');
+  heading.append(document.createTextNode('The project'), make('br'), make('em', '', 'at a glance.'));
   overview.append(heading);
   const facts = make('div','shared-project-facts');
   const addFact = (label, value) => {
@@ -118,7 +119,12 @@
     panel.setAttribute('aria-labelledby',secondTab.id);
     panel.tabIndex = 0;
     // A single common section label, followed by the project's existing editorial headings.
-    panel.append(make('h2', 'behind-work-heading shared-story-label', 'Behind the work'));
+    const storyLead = make('div', 'shared-project-story-lead');
+    storyLead.append(make('p', 'eyebrow', 'Behind the scenes · Work in progress'));
+    const storyTitle = make('h2');
+    storyTitle.append(document.createTextNode('Making'), make('br'), make('em', '', (info.title || title).replace(/[.\s]+$/g, '') + '.'));
+    storyLead.append(storyTitle);
+    panel.append(storyLead);
     continuation.forEach(node => panel.append(node));
     // Name the optional long read by its subject, beneath one shared story heading.
     const subjects = {
