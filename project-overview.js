@@ -127,24 +127,11 @@
     panel.append(storyLead);
     continuation.forEach(node => panel.append(node));
     // Name the optional long read by its subject, beneath one shared story heading.
-    const subjects = {
-      'project-doctor-bird.html': 'Design & construction',
-      'project-natural-history-museum.html': 'Research & making',
-      'project-wallabee.html': 'Culture & craftsmanship',
-      'project-swing-a-ling.html': 'Charlie Ace & Swing A Ling',
-      'project-bob-marley.html': 'The stories behind the portraits',
-      'project-legends-circle.html': 'The story of the collection',
-      'project-national-heroes-parade.html': 'Making the portraits',
-      'project-pf-changs-horse.html': 'The commission in Guyana',
-      'project-selected-archive.html': 'From the studio archive',
-      'project-sintra-bronte.html': 'From photograph to sculpture',
-      'project-usain-bolt.html': 'From Jamaica to Japan'
-    };
     for (const details of panel.querySelectorAll('details.behind-work')) {
       const label = details.querySelector('summary span:first-child');
-      if (label) label.textContent = 'Read more';
+      if (label) label.textContent = 'Explore the process';
       const heading = details.closest('.behind-work-section')?.querySelector('.behind-work-heading');
-      if (heading) heading.textContent = subjects[page] || 'The project in detail';
+      if (heading) heading.remove();
     }
     section.append(panel);
     const select = (tab, focus = false) => {
