@@ -15,124 +15,114 @@
       "page_blocks": [],
       "page_gallery": [
         {
-          "position": 0,
           "image": "images/together-we-rise/twr-pair-left.svg",
-          "alt": "Fisherman carrying fish on Together We Rise — left half"
+          "alt": "Fisherman carrying fish on Together We Rise — left half",
+          "position": 0
         },
         {
-          "position": 1,
           "image": "images/together-we-rise/twr-pair-right.svg",
-          "alt": "Soldier reaching down to help on Together We Rise — right half"
+          "alt": "Soldier reaching down to help on Together We Rise — right half",
+          "position": 1
         },
         {
-          "position": 2,
           "image": "images/together-we-rise/twr-7729.svg",
-          "alt": "Rescue figures and a musician beneath the Tree of Life on Together We Rise"
+          "alt": "Rescue figures and a musician beneath the Tree of Life on Together We Rise",
+          "position": 2
         },
         {
-          "position": 3,
           "image": "images/together-we-rise/twr-7719.svg",
-          "alt": "Woman reaching for a helping hand on Together We Rise"
+          "alt": "Woman reaching for a helping hand on Together We Rise",
+          "position": 3
         },
         {
-          "position": 4,
           "image": "images/together-we-rise/twr-7717.jpg",
-          "alt": "Close detail of two golden hands holding one another"
+          "alt": "Close detail of two golden hands holding one another",
+          "position": 4
         },
         {
-          "position": 5,
           "image": "images/together-we-rise/twr-7718.jpg",
-          "alt": "Close view of a woman reaching upward on the monument"
+          "alt": "Close view of a woman reaching upward on the monument",
+          "position": 5
         },
         {
-          "position": 6,
           "image": "images/together-we-rise/design/overall-3d-render.jpg",
-          "alt": "Digital study of the complete monument, including the hands, figures and tree."
+          "alt": "Digital study of the complete monument, including the hands, figures and tree.",
+          "position": 6
         },
         {
-          "position": 7,
           "image": "images/together-we-rise/design/composition-study.jpg",
-          "alt": "Front elevation study on a numbered grid."
+          "alt": "Front elevation study on a numbered grid.",
+          "position": 7
         },
         {
-          "position": 8,
           "image": "images/together-we-rise/design/leaf-reference.jpg",
-          "alt": "Leaf structure and vein pattern used as a visual reference."
+          "alt": "Leaf structure and vein pattern used as a visual reference.",
+          "position": 8
         },
         {
-          "position": 9,
           "image": "images/together-we-rise/design/design-visualisation.jpg",
-          "alt": "Colour study of the sculptural composition and surface treatment."
+          "alt": "Colour study of the sculptural composition and surface treatment.",
+          "position": 9
         },
         {
-          "position": 10,
           "image": "images/together-we-rise/design/digital-model-detail.jpg",
-          "alt": "Detail of the figures and intersecting forms in the 3D modelling workspace."
+          "alt": "Detail of the figures and intersecting forms in the 3D modelling workspace.",
+          "position": 10
         },
         {
-          "image": "images/together-we-rise/sketch-0785.svg",
-          "alt": "Sketchbook studies of clasped hands and branching forms",
+          "image": "images/together-we-rise/process-0769.svg",
+          "alt": "The monument’s structure surrounded by scaffolding during construction",
           "position": 11
-        },
-        {
-          "image": "images/together-we-rise/sketch-0778.svg",
-          "alt": "Handwritten notes exploring ideas and composition",
-          "position": 12
         },
         {
           "image": "images/together-we-rise/sketch-0777.svg",
           "alt": "Sketchbook studies of figures and gestures",
+          "position": 12
+        },
+        {
+          "image": "images/together-we-rise/process-0773.svg",
+          "alt": "Drawing the leaf design that will later be cut from metal",
           "position": 13
         },
         {
-          "position": 14,
-          "image": "images/together-we-rise/process-0773.svg",
-          "alt": "Drawing the leaf design that will later be cut from metal"
-        },
-        {
-          "position": 15,
           "image": "images/together-we-rise/process-0772.svg",
-          "alt": "3D print of the clasped-hands sculpture"
+          "alt": "3D print of the clasped-hands sculpture",
+          "position": 14
         },
         {
-          "position": 16,
           "image": "images/together-we-rise/process-0765.svg",
-          "alt": "A worker bending metal for Together We Rise"
+          "alt": "A worker bending metal for Together We Rise",
+          "position": 15
         },
         {
-          "position": 17,
           "image": "images/together-we-rise/process-0770.svg",
-          "alt": "A worker welding metal on site"
+          "alt": "A worker welding metal on site",
+          "position": 16
         },
         {
-          "position": 18,
-          "image": "images/together-we-rise/process-0769.svg",
-          "alt": "The monument’s structure surrounded by scaffolding during construction"
-        },
-        {
-          "position": 19,
           "image": "images/together-we-rise/process-0771.svg",
-          "alt": "A worker checking a sculptural component and its final details"
+          "alt": "A worker checking a sculptural component and its final details",
+          "position": 17
         },
         {
-          "position": 20,
           "image": "images/together-we-rise/process-0774.svg",
-          "alt": "Team meeting to discuss the next steps and coordinate the work."
+          "alt": "Team meeting to discuss the next steps and coordinate the work.",
+          "position": 18
         },
         {
-          "position": 21,
           "image": "images/together-we-rise/process-0775.svg",
-          "alt": "Scheed Cole on site during the construction of Together We Rise."
+          "alt": "Scheed Cole on site during the construction of Together We Rise.",
+          "position": 19
         },
         {
-          "position": 22,
           "image": "images/together-we-rise/process-0784.svg",
-          "alt": "The team working on site beside the monument and sketching table"
+          "alt": "The team working on site beside the monument and sketching table",
+          "position": 20
         }
       ],
       "project_url": "project-together-we-rise.html",
       "press_url": "press-together-we-rise.html",
-      "page_gallery_count": 23
+      "page_gallery_count": 21
     },
     {
       "id": "cb11e36d-4b5e-453f-8cdb-63511efa9846",
