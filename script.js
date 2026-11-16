@@ -135,5 +135,5 @@ if (projectForm) projectForm.addEventListener('submit', event => {
   };
   enhance();
   const main = document.querySelector('main');
-  if (main) new MutationObserver(enhance).observe(main,{childList:true,subtree:true});
+  if (main) new MutationObserver(enhance).observe(main,{childList:true,subtree:true,attributes:true,attributeFilter:['hidden']});
 })();
