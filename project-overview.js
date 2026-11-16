@@ -105,8 +105,14 @@
     panel.setAttribute('role','tabpanel');
     panel.setAttribute('aria-labelledby',secondTab.id);
     panel.tabIndex = 0;
-    // Use each project's existing editorial headings instead of a generic repeated title.
+    // A single common section label, followed by the project's existing editorial headings.
+    panel.append(make('p', 'eyebrow shared-story-label', 'Behind the work'));
     continuation.forEach(node => panel.append(node));
+    // Older project pages may already contain this exact heading further down.
+    // Remove only repeated labels, never the associated text, gallery or disclosure.
+    for (const heading of panel.querySelectorAll('h1,h2,h3,h4,.eyebrow')) {
+      if (heading.textContent.trim().replace(/[.\\s]+$/g,'').toLowerCase() === 'behind the work') heading.remove();
+    }
     section.append(panel);
     const select = (tab, focus = false) => {
       const isOverview = tab === firstTab;
