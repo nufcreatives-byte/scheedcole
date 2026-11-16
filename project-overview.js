@@ -105,11 +105,7 @@
     panel.setAttribute('role','tabpanel');
     panel.setAttribute('aria-labelledby',secondTab.id);
     panel.tabIndex = 0;
-    const lead = make('div','shared-project-story-lead');
-    lead.append(make('p','eyebrow','Explore the full project'));
-    const fullHeading = make('h2','','Behind the work.');
-    lead.append(fullHeading);
-    panel.append(lead);
+    // Use each project's existing editorial headings instead of a generic repeated title.
     continuation.forEach(node => panel.append(node));
     section.append(panel);
     const select = (tab, focus = false) => {
