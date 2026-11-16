@@ -239,3 +239,10 @@ html.project-detail main .project-photo-grid img{max-height:600px!important}
 .behind-work-content .swing-story-columns h3{font-family:"DM Sans",sans-serif;font-size:clamp(22px,2.2vw,28px)}
 .behind-work-content .swing-story-columns p{font-size:inherit;line-height:inherit}
 .behind-work-content>div+div{margin-top:32px}
+
+/* Shared footer social links across the site. */
+footer .footer-social{display:flex;align-items:center;gap:28px;flex-wrap:wrap}
+footer .footer-social a{display:inline-flex;align-items:center;white-space:nowrap}
+footer.project-footer{flex-wrap:wrap}
+footer.project-footer .footer-social{flex-basis:100%;grid-column:1/-1;justify-content:center;padding-top:16px;border-top:1px solid var(--soft)}
+@media(max-width:800px){footer.project-footer .footer-social{grid-row:3;justify-content:flex-start}}
