@@ -108,6 +108,11 @@
     // A single common section label, followed by the project's existing editorial headings.
     panel.append(make('p', 'eyebrow shared-story-label', 'Behind the work'));
     continuation.forEach(node => panel.append(node));
+    // The expandable third level has a distinct action label.
+    for (const details of panel.querySelectorAll('details.behind-work')) {
+      const label = details.querySelector('summary span:first-child');
+      if (label) label.textContent = 'Go Deeper';
+    }
     // Older project pages may already contain this exact heading further down.
     // Remove only repeated labels, never the associated text, gallery or disclosure.
     for (const heading of panel.querySelectorAll('h1,h2,h3,h4,.eyebrow')) {
