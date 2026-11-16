@@ -1,5 +1,6 @@
 /* Shared project overview: applies to portfolio pages that have not yet been given bespoke tabs. */
 (async () => {
+  if (window.projectContentReady) await window.projectContentReady;
   const page = location.pathname.split('/').pop();
   if (!/^project-[a-z0-9-]+\.html$/.test(page)) return;
   const main = document.querySelector('main');
@@ -17,7 +18,18 @@
 
   const first = bodySections[0];
   const continuation = bodySections.slice(1);
+  // Keep the opening brief; supporting prose belongs to the optional story.
+  const introCopy = first.querySelector('.sustainability-copy');
+  const extraParagraphs = introCopy ? [...introCopy.children].filter(node => node.matches('p:not(.eyebrow)')).slice(1) : [];
+  if (extraParagraphs.length) {
+    const reading = document.createElement('div');
+    reading.className = 'shared-project-summary';
+    extraParagraphs.forEach(node => reading.append(node));
+    continuation.unshift(reading);
+  }
   const hasFullStory = continuation.length > 0;
+  // A concise project needs no empty or disabled navigation.
+  if (!hasFullStory) return;
   const title = hero.querySelector('h1')?.textContent.trim() || 'The project';
   const heroIntro = hero.querySelector('h1 + p')?.textContent.trim() || hero.querySelector('p:last-child')?.textContent.trim() || '';
   let info = {};
@@ -106,17 +118,27 @@
     panel.setAttribute('aria-labelledby',secondTab.id);
     panel.tabIndex = 0;
     // A single common section label, followed by the project's existing editorial headings.
-    panel.append(make('p', 'eyebrow shared-story-label', 'Behind the work'));
+    panel.append(make('h2', 'behind-work-heading shared-story-label', 'Behind the work'));
     continuation.forEach(node => panel.append(node));
-    // The expandable third level has a distinct action label.
+    // Name the optional long read by its subject, beneath one shared story heading.
+    const subjects = {
+      'project-doctor-bird.html': 'Design & construction',
+      'project-natural-history-museum.html': 'Research & making',
+      'project-wallabee.html': 'Culture & craftsmanship',
+      'project-swing-a-ling.html': 'Charlie Ace & Swing A Ling',
+      'project-bob-marley.html': 'The stories behind the portraits',
+      'project-legends-circle.html': 'The story of the collection',
+      'project-national-heroes-parade.html': 'Making the portraits',
+      'project-pf-changs-horse.html': 'The commission in Guyana',
+      'project-selected-archive.html': 'From the studio archive',
+      'project-sintra-bronte.html': 'From photograph to sculpture',
+      'project-usain-bolt.html': 'From Jamaica to Japan'
+    };
     for (const details of panel.querySelectorAll('details.behind-work')) {
       const label = details.querySelector('summary span:first-child');
-      if (label) label.textContent = 'Go Deeper';
-    }
-    // Older project pages may already contain this exact heading further down.
-    // Remove only repeated labels, never the associated text, gallery or disclosure.
-    for (const heading of panel.querySelectorAll('h1,h2,h3,h4,.eyebrow')) {
-      if (heading !== panel.querySelector('.shared-story-label') && heading.textContent.trim().replace(/[.\s]+$/g,'').toLowerCase() === 'behind the work') heading.remove();
+      if (label) label.textContent = 'Read more';
+      const heading = details.closest('.behind-work-section')?.querySelector('.behind-work-heading');
+      if (heading) heading.textContent = subjects[page] || 'The project in detail';
     }
     section.append(panel);
     const select = (tab, focus = false) => {

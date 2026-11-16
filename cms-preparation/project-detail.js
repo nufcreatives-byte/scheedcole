@@ -1,5 +1,5 @@
 /* Updates selected fields without altering the project's other stories and galleries. */
-(async () => {
+window.projectContentReady = (async () => {
   try {
     const filename = location.pathname.split('/').pop();
     const response = await fetch('cms-preparation/projects.json', {cache:'no-cache'});
