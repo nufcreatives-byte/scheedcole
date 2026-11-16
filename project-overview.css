@@ -1,0 +1,19 @@
+/* Shared project overview / full story navigation (portfolio-wide). */
+.shared-project-views{border-top:1px solid var(--soft);scroll-margin-top:90px}
+.shared-project-views .project-view-tabs{display:flex;max-width:650px;border:1px solid var(--ink);margin-bottom:clamp(42px,6vw,85px)}
+.shared-project-views .project-view-tabs button{appearance:none;flex:1;min-width:0;min-height:54px;padding:15px 18px;border:0;background:transparent;color:var(--ink);font-family:"DM Sans",sans-serif;font-size:12px;font-weight:600;line-height:1.25;letter-spacing:.09em;text-transform:uppercase;cursor:pointer}
+.shared-project-views .project-view-tabs button+button{border-left:1px solid var(--ink)}
+.shared-project-views .project-view-tabs button[aria-selected="true"],.shared-project-views .project-view-tabs.single-tab button{background:var(--ink);color:var(--white)}
+.shared-project-views .project-view-tabs button:disabled{opacity:1;cursor:default}
+.shared-project-views .project-view-tabs button:focus-visible{outline:2px solid var(--bronze);outline-offset:4px;position:relative;z-index:1}
+.shared-project-views [role="tabpanel"][hidden]{display:none!important}
+.shared-project-overview{max-width:960px}
+.shared-project-overview h2,.shared-project-story-lead h2{font-size:clamp(44px,5.6vw,82px);font-weight:500;line-height:.96;letter-spacing:-.055em;margin:0 0 clamp(40px,6vw,80px)}
+.shared-project-facts p,.shared-project-summary{max-width:830px;margin:0 0 22px;font-size:clamp(16px,1.6vw,20px);line-height:1.75}
+.shared-project-facts strong{font-weight:600}
+.shared-project-summary{margin-top:35px;color:#514d46}
+.shared-project-story-lead{max-width:900px}
+.shared-project-story>.section{padding-left:0;padding-right:0}
+.shared-project-story>.sustainability{padding-left:0;padding-right:0}
+.shared-project-story>.section:only-of-type{padding-top:0}
+@media(max-width:600px){.shared-project-views .project-view-tabs{margin-bottom:45px}.shared-project-views .project-view-tabs button{min-height:58px;padding:12px 10px;font-size:10px;letter-spacing:.07em}.shared-project-overview h2,.shared-project-story-lead h2{margin-bottom:45px}.shared-project-story>.section{padding-left:0;padding-right:0}}
