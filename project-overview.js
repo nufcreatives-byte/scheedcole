@@ -111,7 +111,7 @@
     // Older project pages may already contain this exact heading further down.
     // Remove only repeated labels, never the associated text, gallery or disclosure.
     for (const heading of panel.querySelectorAll('h1,h2,h3,h4,.eyebrow')) {
-      if (heading.textContent.trim().replace(/[.\\s]+$/g,'').toLowerCase() === 'behind the work') heading.remove();
+      if (heading !== panel.querySelector('.shared-story-label') && heading.textContent.trim().replace(/[.\s]+$/g,'').toLowerCase() === 'behind the work') heading.remove();
     }
     section.append(panel);
     const select = (tab, focus = false) => {
