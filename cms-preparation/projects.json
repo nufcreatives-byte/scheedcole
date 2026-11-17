@@ -302,38 +302,38 @@
       "page_gallery": [
         {
           "position": 0,
+          "image": "images/clarks/clarks-visitors.jpg",
+          "alt": "Earlier red finish of the same Wallabee sculptures, before repainting and adjustments to suit the client"
+        },
+        {
+          "position": 1,
+          "image": "images/clarks/clarks-interior-experience.jpg",
+          "alt": "A visitor experiencing the interior of the Wallabee installation"
+        },
+        {
+          "position": 2,
           "image": "images/clarks-archive-2.svg",
           "alt": "Work in progress — Clarks installation archive"
         },
         {
-          "position": 1,
+          "position": 3,
           "image": "images/clarks-archive-4.svg",
           "alt": "Finishing touches — Clarks installation archive"
         },
         {
           "image": "images/clarks-archive-1.svg",
           "alt": "The production team — Clarks installation archive",
-          "position": 2
+          "position": 4
         },
         {
           "image": "images/clarks-archive-3.svg",
           "alt": "Loading the Clarks sculpture onto a truck for delivery",
-          "position": 3
-        },
-        {
-          "position": 4,
-          "image": "images/clarks-archive-0.svg",
-          "alt": "The original installation — Clarks installation archive"
-        },
-        {
-          "position": 5,
-          "image": "images/clarks/clarks-visitors.jpg",
-          "alt": "Earlier red finish of the same Wallabee sculptures, before repainting and adjustments to suit the client"
+          "position": 5
         },
         {
           "position": 6,
-          "image": "images/clarks/clarks-interior-experience.jpg",
-          "alt": "A visitor experiencing the interior of the Wallabee installation"
+          "image": "images/clarks-archive-0.svg",
+          "alt": "The original installation — Clarks installation archive"
         }
       ],
       "project_url": "project-wallabee.html",
