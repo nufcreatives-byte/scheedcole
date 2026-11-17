@@ -155,7 +155,7 @@
       ],
       "project_url": "project-doctor-bird.html",
       "press_url": "press-doctor-bird.html",
-      "page_gallery_count": 4,
+      "page_gallery_count": 2,
       "page_gallery": [
         {
           "position": 0,
@@ -166,16 +166,6 @@
           "position": 1,
           "image": "images/doctor-bird/doctor-bird-installation.jpg",
           "alt": "Doctor Bird during installation with scaffolding and an elevated work platform"
-        },
-        {
-          "position": 2,
-          "image": "images/doctor-bird/doctor-bird-mounting-dossier.jpg",
-          "alt": "Doctor Bird during installation, seen from below beside an elevated work platform"
-        },
-        {
-          "position": 3,
-          "image": "images/doctor-bird/doctor-bird-night-dossier.jpg",
-          "alt": "Doctor Bird illuminated at night on the façade of S Hotel Montego Bay"
         }
       ]
     },
