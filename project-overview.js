@@ -106,6 +106,8 @@
   addFact('Project', info.title || title.replace(/\s+/g, ' '));
   addFact('Location / Year', info.metadata || hero.querySelector('.eyebrow')?.textContent.trim() || '');
   addFact('Type', info.type || '');
+  const authoredFacts = document.getElementById('project-overview-facts');
+  if (authoredFacts?.content) facts.replaceChildren(authoredFacts.content.cloneNode(true));
   overview.append(facts);
   const description = info.description || heroIntro;
   if (description) overview.append(make('p','shared-project-summary',description));
@@ -120,18 +122,18 @@
     panel.tabIndex = 0;
     // A single common section label, followed by the project's existing editorial headings.
     const storyLead = make('div', 'shared-project-story-lead');
-    storyLead.append(make('p', 'eyebrow', 'Behind the scenes · Work in progress'));
+    storyLead.append(make('p', 'eyebrow', 'Project story'));
     const storyTitle = make('h2');
-    storyTitle.append(document.createTextNode('Making'), make('br'), make('em', '', (info.title || title).replace(/[.\s]+$/g, '') + '.'));
+    storyTitle.append(document.createTextNode('Behind'), make('br'), make('em', '', 'the work.'));
     storyLead.append(storyTitle);
     panel.append(storyLead);
     continuation.forEach(node => panel.append(node));
     // Name the optional long read by its subject, beneath one shared story heading.
     for (const details of panel.querySelectorAll('details.behind-work')) {
       const label = details.querySelector('summary span:first-child');
-      if (label) label.textContent = 'Explore the process';
+      if (label) label.textContent = ['project-doctor-bird.html','project-natural-history-museum.html','project-wallabee.html','project-national-heroes-parade.html'].includes(page) ? 'Explore the process' : 'Read more';
       const heading = details.closest('.behind-work-section')?.querySelector('.behind-work-heading');
-      if (heading) heading.remove();
+      if (heading) heading.textContent = ({"project-doctor-bird.html":"Design & construction","project-natural-history-museum.html":"Research & making","project-wallabee.html":"Culture & craftsmanship","project-swing-a-ling.html":"Historical context","project-bob-marley.html":"The portrait commissions","project-legends-circle.html":"The collection","project-national-heroes-parade.html":"Making the portraits","project-pf-changs-horse.html":"The commission","project-selected-archive.html":"Studio archive","project-sintra-bronte.html":"The original campaign","project-usain-bolt.html":"International presentation"})[page] || 'Project context';
     }
     section.append(panel);
     const select = (tab, focus = false) => {
