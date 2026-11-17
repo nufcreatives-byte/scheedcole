@@ -358,3 +358,22 @@ html.project-detail body main > .page-hero .next-work-top svg{width:15px;height:
     top:clamp(20px,5vw,34px);right:7vw;font-size:11px
   }
 }
+
+
+/* One consistent press presentation for every project, based on Together We Rise. */
+html.project-detail main > .project-press-consistent{border-top:0!important;padding-top:clamp(64px,9vw,120px)!important;padding-bottom:clamp(64px,9vw,120px)!important}
+html.project-detail .project-press-consistent .section-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:24px}
+html.project-detail .project-press-consistent .section-heading .eyebrow{margin-bottom:28px}
+html.project-detail .project-press-consistent .section-heading > .text-link{flex:none}
+html.project-detail .project-press-consistent .project-press-intro{max-width:760px;line-height:1.7;font-size:clamp(16px,1.6vw,20px);margin:24px 0 42px}
+html.project-detail .project-press-consistent .project-press-list{list-style:none;max-width:960px;margin:32px 0 0;padding:0;display:grid;gap:44px}
+html.project-detail .project-press-consistent .project-press-list > li{padding:0!important;margin:0!important;border:0!important;list-style:none!important}
+html.project-detail .project-press-consistent .project-press-list > li .eyebrow{margin:0 0 14px!important;color:var(--muted);font-size:clamp(11px,1vw,13px);letter-spacing:.12em;line-height:1.65}
+html.project-detail .project-press-consistent .project-press-list > li > .text-link{display:inline!important;white-space:normal!important;line-height:1.65!important;font-size:clamp(12px,1.1vw,15px)!important;letter-spacing:.075em!important;text-transform:uppercase;font-weight:600}
+html.project-detail .project-press-consistent .project-press-list > li > .text-link svg{display:inline-block;vertical-align:middle;margin-left:6px}
+html.project-detail .project-press-consistent .project-press-note{max-width:800px;margin:24px 0 0;line-height:1.65}
+@media(max-width:700px){
+  html.project-detail .project-press-consistent .section-heading{align-items:flex-start;flex-direction:column;gap:24px;margin-bottom:0}
+  html.project-detail .project-press-consistent .project-press-intro{margin:32px 0 42px}
+  html.project-detail .project-press-consistent .project-press-list{gap:42px}
+}
