@@ -93,7 +93,10 @@ if (projectForm) projectForm.addEventListener('submit', event => {
     const preload = new Image(); preload.src = images[(index + 1) % images.length].src;
   };
   const open = img => {
-    images = candidates(); index = images.indexOf(img); if (index < 0) return;
+    // Keep Doctor Bird's two editorial photographs together when navigating the viewer.
+    const birdGallery = img.closest('.doctor-bird-process-gallery');
+    images = birdGallery ? candidates().filter(candidate => birdGallery.contains(candidate)) : candidates();
+    index = images.indexOf(img); if (index < 0) return;
     trigger = document.activeElement; oldOverflow = document.body.style.overflow;
     show(index); dialog.showModal(); document.body.style.overflow = 'hidden';
     dialog.querySelector('.photo-close').focus();
