@@ -109,8 +109,6 @@
   const authoredFacts = document.getElementById('project-overview-facts');
   if (authoredFacts?.content) facts.replaceChildren(authoredFacts.content.cloneNode(true));
   overview.append(facts);
-  const description = info.description || heroIntro;
-  if (description) overview.append(make('p','shared-project-summary',description));
   section.append(overview);
 
   if (hasFullStory) {
