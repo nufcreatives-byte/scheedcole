@@ -397,9 +397,24 @@
           "position": 0,
           "image": "images/swing-a-ling/swing-7867.svg",
           "alt": "Display of Jamaican music portraits and record artwork"
+        },
+        {
+          "position": 1,
+          "image": "images/swing-a-ling/swing-7862-soft-face.svg",
+          "alt": "Recreated Swing A Ling mobile record shop at S Hotel Montego Bay"
+        },
+        {
+          "position": 2,
+          "image": "images/swing-a-ling/swing-0222.svg",
+          "alt": "Charlie Ace portrait sculpture beside a sound system"
+        },
+        {
+          "position": 3,
+          "image": "images/swing-a-ling/swing-7869.svg",
+          "alt": "Painted Swing A Ling signage and mesh-fronted record shop"
         }
       ],
-      "page_gallery_count": 1,
+      "page_gallery_count": 4,
       "project_url": "project-swing-a-ling.html",
       "press_url": "press-swing-a-ling.html"
     },
