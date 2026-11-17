@@ -155,7 +155,7 @@
       ],
       "project_url": "project-doctor-bird.html",
       "press_url": "press-doctor-bird.html",
-      "page_gallery_count": 2,
+      "page_gallery_count": 4,
       "page_gallery": [
         {
           "position": 0,
@@ -166,6 +166,16 @@
           "position": 1,
           "image": "images/doctor-bird/doctor-bird-night-dossier.jpg",
           "alt": "Doctor Bird sculpture being installed on S Hotel Montego Bay with raised work platform and scaffolding"
+        },
+        {
+          "position": 2,
+          "image": "images/doctor-bird/doctor-bird-construction-1.webp",
+          "alt": "Artist working on the Doctor Bird sculpture from an elevated platform above Montego Bay at sunset"
+        },
+        {
+          "position": 3,
+          "image": "images/doctor-bird/doctor-bird-construction-2.webp",
+          "alt": "Doctor Bird sculpture during fabrication and installation on the S Hotel façade"
         }
       ]
     },
