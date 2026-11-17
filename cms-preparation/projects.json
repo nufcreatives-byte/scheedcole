@@ -75,23 +75,23 @@
           "position": 11
         },
         {
-          "image": "images/together-we-rise/process-0773.svg",
-          "alt": "Drawing the leaf design that will later be cut from metal",
-          "position": 12
-        },
-        {
-          "image": "images/together-we-rise/process-0772.svg",
-          "alt": "3D print of the clasped-hands sculpture",
-          "position": 13
-        },
-        {
           "image": "images/together-we-rise/process-0765.svg",
           "alt": "A worker bending metal for Together We Rise",
-          "position": 14
+          "position": 12
         },
         {
           "image": "images/together-we-rise/process-0770.svg",
           "alt": "A worker welding metal on site",
+          "position": 13
+        },
+        {
+          "image": "images/together-we-rise/process-0773.svg",
+          "alt": "Drawing the leaf design that will later be cut from metal",
+          "position": 14
+        },
+        {
+          "image": "images/together-we-rise/process-0772.svg",
+          "alt": "3D print of the clasped-hands sculpture",
           "position": 15
         },
         {
