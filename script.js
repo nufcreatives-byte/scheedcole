@@ -47,6 +47,107 @@ document.querySelectorAll('.project-footer .next-project-link').forEach(link => 
   link.setAttribute('aria-label', 'Next Work');
 });
 
+// Match every existing project's press coverage layout to Together We Rise.
+(function standardizeProjectPress() {
+  if (!/^project-[a-z0-9-]+\.html$/.test(location.pathname.split('/').pop())) return;
+  const press = document.querySelector('main > section.press-teaser, main > section#project-press');
+  if (!press) return;
+  press.classList.add('press-teaser', 'project-press-consistent');
+  press.removeAttribute('style');
+  press.id ||= 'in-the-press';
+  const heading = press.querySelector(':scope > .section-heading');
+  if (!heading) return;
+  const eyebrow = heading.querySelector('.eyebrow');
+  if (eyebrow) eyebrow.textContent = 'In the press';
+  const title = heading.querySelector('h2');
+  const page = location.pathname.split('/').pop();
+  if (title && page === 'project-sir-alexander-bustamante.html') title.innerHTML = 'Honouring a<br><em>national legacy.</em>';
+  if (title && page === 'project-falmouth-jam-iconic-experience.html') title.innerHTML = 'A landmark<br><em>for Falmouth.</em>';
+  const arrow = () => {
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('viewBox', '0 0 20 20');
+    svg.setAttribute('class', 'project-cta-arrow');
+    svg.setAttribute('fill', 'none');
+    svg.setAttribute('stroke', 'currentColor');
+    svg.setAttribute('stroke-width', '1.5');
+    svg.setAttribute('aria-hidden', 'true');
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', 'M4 16 16 4M5 4h11v11');
+    svg.append(path);
+    return svg;
+  };
+  // Existing dedicated project press destinations are retained.
+  let more = heading.querySelector(':scope > a[href]');
+  if (!more) {
+    const earlier = Array.from(press.querySelectorAll('a[href]')).find(a => /explore all press|view all press/i.test(a.textContent));
+    more = document.createElement('a');
+    more.href = earlier?.getAttribute('href') || 'press.html';
+    more.className = 'text-link';
+    more.textContent = 'View All Press';
+    more.append(arrow());
+    heading.append(more);
+    if (earlier) earlier.closest('p')?.remove();
+  } else {
+    more.textContent = 'View All Press';
+    more.append(arrow());
+  }
+  // Legacy Bustamante and Falmouth article cards become the same compact list as TWR.
+  const cards = Array.from(press.querySelectorAll('a.press-card'));
+  const mini = press.querySelector('.press-mini');
+  const direct = !cards.length && !mini && !press.querySelector('ul')
+    ? Array.from(press.querySelectorAll(':scope > a[href]')).filter(a => a !== more && /^https?:/.test(a.href))
+    : [];
+  const list = press.querySelector(':scope > ul') || document.createElement('ul');
+  list.classList.add('project-press-list');
+  const createItem = (label, headline, link) => {
+    const li = document.createElement('li');
+    const meta = document.createElement('p'); meta.className = 'eyebrow'; meta.textContent = label;
+    const a = document.createElement('a'); a.className = 'text-link';
+    a.href = link.getAttribute('href');
+    if (link.target) a.target = link.target;
+    if (link.rel) a.rel = link.rel;
+    a.textContent = headline;
+    a.append(arrow());
+    li.append(meta, a);
+    list.append(li);
+  };
+  for (const card of cards) {
+    createItem(card.querySelector('span')?.textContent.trim() || '', card.querySelector('h2')?.textContent.trim() || card.textContent.trim(), card);
+    card.remove();
+  }
+  if (mini) {
+    const a = mini.querySelector('a[href]');
+    const paragraphs = Array.from(mini.querySelectorAll(':scope > p'));
+    if (a) createItem(paragraphs[0]?.textContent.trim() || '', a.textContent.trim(), a);
+    const note = paragraphs.length > 1 ? paragraphs.slice(1).map(p => p.textContent.trim()).filter(Boolean) : [];
+    if (note.length) {
+      const annotation = document.createElement('p');
+      annotation.className = 'project-press-note';
+      annotation.textContent = note.join(' ');
+      press.append(annotation);
+    }
+    mini.remove();
+  }
+  for (const a of direct) {
+    const preceding = a.previousElementSibling;
+    createItem(preceding?.matches('.eyebrow') ? preceding.textContent.trim() : '', a.textContent.trim().replace(/\s*↗\s*$/, ''), a);
+    if (preceding?.matches('.eyebrow')) preceding.remove();
+    a.remove();
+  }
+  if (list.children.length && !list.parentElement) press.append(list);
+  if (list.children.length) {
+    const intro = Array.from(press.children).find(e => e.tagName === 'P' && !e.classList.contains('eyebrow') && !e.classList.contains('project-press-note'));
+    if (!intro) {
+      const p = document.createElement('p');
+      p.className = 'project-press-intro';
+      p.textContent = 'Selected articles and interviews related to this project.';
+      heading.after(p);
+    } else {
+      intro.classList.add('project-press-intro');
+    }
+  }
+})();
+
 const primaryNav = document.querySelector('.desktop-nav, .cover-nav');
 if (primaryNav) {
   const current = location.pathname.split('/').pop() || 'index.html';
