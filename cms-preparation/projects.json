@@ -155,20 +155,15 @@
       ],
       "project_url": "project-doctor-bird.html",
       "press_url": "press-doctor-bird.html",
-      "page_gallery_count": 3,
+      "page_gallery_count": 2,
       "page_gallery": [
         {
           "position": 0,
-          "image": "images/doctor-bird/doctor-bird-full.jpg",
-          "alt": "Completed 46-foot Doctor Bird sculpture on the façade of S Hotel in Montego Bay"
-        },
-        {
-          "position": 1,
           "image": "images/doctor-bird/doctor-bird-scheed.jpg",
           "alt": "Scheed Cole standing beneath the completed Doctor Bird sculpture"
         },
         {
-          "position": 2,
+          "position": 1,
           "image": "images/doctor-bird/doctor-bird-night-dossier.jpg",
           "alt": "Doctor Bird sculpture being installed on S Hotel Montego Bay with raised work platform and scaffolding"
         }
