@@ -1,7 +1,44 @@
 if (/^project-/.test(location.pathname.split('/').pop() || '')) {
  document.documentElement.classList.add('project-detail');
- document.querySelectorAll('link[rel="stylesheet"]').forEach(link => { const url = new URL(link.href); if (url.origin === location.origin && url.pathname.endsWith('/styles.css')) { url.searchParams.set('v','project-story-preview-4'); link.href = url.href; } });
+ document.querySelectorAll('link[rel="stylesheet"]').forEach(link => { const url = new URL(link.href); if (url.origin === location.origin && url.pathname.endsWith('/styles.css')) { url.searchParams.set('v','next-work-nav-1'); link.href = url.href; } });
 }
+// Subtle next-project navigation, following the public Work portfolio order.
+(function addNextWorkNavigation() {
+  const order = [
+    'project-together-we-rise.html',
+    'project-doctor-bird.html',
+    'project-sintra-bronte.html',
+    'project-usain-bolt.html',
+    'project-bob-marley.html',
+    'project-wallabee.html',
+    'project-marine-installation.html',
+    'project-swing-a-ling.html',
+    'project-jamaica-bobsleigh.html',
+    'project-pf-changs-horse.html',
+    'project-miss-lou.html',
+    'project-first-union-horses.html',
+    'project-york-town-playground.html',
+    'project-hellshire-beach.html',
+    'project-falmouth-jam-iconic-experience.html',
+    'project-sir-alexander-bustamante.html',
+    'project-legends-circle.html',
+    'project-natural-history-museum.html',
+    'project-port-authority.html',
+    'project-heritage-mall-elephant.html',
+    'project-selected-archive.html'
+  ];
+  const current = location.pathname.split('/').pop();
+  const index = order.indexOf(current);
+  const hero = document.querySelector('main > .page-hero');
+  if (index === -1 || !hero || hero.querySelector('.next-work-top')) return;
+  const a = document.createElement('a');
+  a.className = 'next-work-top';
+  a.href = order[(index + 1) % order.length];
+  a.setAttribute('aria-label', 'Next work');
+  a.innerHTML = '<span>Next Work</span><svg viewBox="0 0 20 20" width="15" height="15" aria-hidden="true" focusable="false"><path d="M3 10h13m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  hero.append(a);
+})();
+
 const primaryNav = document.querySelector('.desktop-nav, .cover-nav');
 if (primaryNav) {
   const current = location.pathname.split('/').pop() || 'index.html';
