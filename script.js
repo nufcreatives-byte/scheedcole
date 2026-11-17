@@ -39,6 +39,14 @@ if (/^project-/.test(location.pathname.split('/').pop() || '')) {
   hero.append(a);
 })();
 
+// Keep the footer navigation label consistent with Next Work above.
+document.querySelectorAll('.project-footer .next-project-link').forEach(link => {
+  const label = Array.from(link.childNodes).find(node => node.nodeType === Node.TEXT_NODE);
+  if (label) label.textContent = 'Next Work';
+  else link.insertBefore(document.createTextNode('Next Work'), link.firstChild);
+  link.setAttribute('aria-label', 'Next Work');
+});
+
 const primaryNav = document.querySelector('.desktop-nav, .cover-nav');
 if (primaryNav) {
   const current = location.pathname.split('/').pop() || 'index.html';
