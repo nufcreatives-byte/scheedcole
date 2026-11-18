@@ -291,6 +291,8 @@ if (projectForm) projectForm.addEventListener('submit', event => {
 // Keep the project-process disclosure identical wherever process/story detail is available.
 (function unifyProjectProcessDisclosures() {
   if (!/^project-/.test(location.pathname.split('/').pop() || '')) return;
+  // Selected Archive contains multiple works, not one project's making process.
+  if (location.pathname.split('/').pop() === 'project-selected-archive.html') return;
   function apply() {
     document.querySelectorAll('details.behind-work').forEach(details => {
       if (details.dataset.unifiedProcess === 'true') return;
