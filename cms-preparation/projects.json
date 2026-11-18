@@ -155,7 +155,7 @@
       ],
       "project_url": "project-doctor-bird.html",
       "press_url": "press-doctor-bird.html",
-      "page_gallery_count": 3,
+      "page_gallery_count": 4,
       "page_gallery": [
         {
           "position": 0,
@@ -169,8 +169,13 @@
         },
         {
           "position": 2,
-          "image": "images/doctor-bird/doctor-bird-installation.jpg",
-          "alt": "Doctor Bird installation at S Hotel Montego Bay"
+          "image": "images/doctor-bird/doctor-bird-painting-at-sunset.jpg",
+          "alt": "Worker painting the Doctor Bird sculpture from an elevated lift at sunset above Montego Bay"
+        },
+        {
+          "position": 3,
+          "image": "images/doctor-bird/doctor-bird-installation-scaffold.jpg",
+          "alt": "Doctor Bird installation on the S Hotel facade with an elevated boom lift and scaffolding"
         }
       ]
     },
