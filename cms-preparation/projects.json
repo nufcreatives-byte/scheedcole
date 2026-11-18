@@ -155,7 +155,7 @@
       ],
       "project_url": "project-doctor-bird.html",
       "press_url": "press-doctor-bird.html",
-      "page_gallery_count": 4,
+      "page_gallery_count": 3,
       "page_gallery": [
         {
           "position": 0,
@@ -169,11 +169,6 @@
         },
         {
           "position": 2,
-          "image": "images/doctor-bird/doctor-bird-mounting-dossier.jpg",
-          "alt": "Doctor Bird sculpture during the mounting and installation process"
-        },
-        {
-          "position": 3,
           "image": "images/doctor-bird/doctor-bird-installation.jpg",
           "alt": "Doctor Bird installation at S Hotel Montego Bay"
         }
