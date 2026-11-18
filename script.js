@@ -286,3 +286,34 @@ if (projectForm) projectForm.addEventListener('submit', event => {
   const main = document.querySelector('main');
   if (main) new MutationObserver(enhance).observe(main,{childList:true,subtree:true,attributes:true,attributeFilter:['hidden']});
 })();
+
+
+// Keep the project-process disclosure identical wherever process/story detail is available.
+(function unifyProjectProcessDisclosures() {
+  if (!/^project-/.test(location.pathname.split('/').pop() || '')) return;
+  function apply() {
+    document.querySelectorAll('details.behind-work').forEach(details => {
+      if (details.dataset.unifiedProcess === 'true') return;
+      const summary = details.querySelector(':scope > summary');
+      if (!summary) return;
+      details.dataset.unifiedProcess = 'true';
+      summary.replaceChildren();
+      const label = document.createElement('span');
+      label.className = 'unified-process-label';
+      const symbol = document.createElement('span');
+      symbol.className = 'unified-process-symbol';
+      symbol.setAttribute('aria-hidden', 'true');
+      symbol.style.cssText = 'display:inline-block;min-width:1.25em;font-size:1.15em';
+      summary.append(symbol, label);
+      summary.style.cssText += ';justify-content:flex-start;gap:8px;text-transform:uppercase;font-size:clamp(15px,1.5vw,19px);letter-spacing:.08em';
+      function sync() {
+        symbol.textContent = details.open ? '−' : '+';
+        label.textContent = details.open ? 'Close the process' : 'Explore the process';
+      }
+      details.addEventListener('toggle', sync);
+      sync();
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', apply, {once:true});
+  else apply();
+})();
