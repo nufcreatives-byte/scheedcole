@@ -103,9 +103,20 @@
     p.append(strong, document.createTextNode(value));
     facts.append(p);
   };
-  addFact('Project', info.title || title.replace(/\s+/g, ' '));
-  addFact('Location / Year', info.metadata || hero.querySelector('.eyebrow')?.textContent.trim() || '');
+  // Editorial order: what it is, where/when, then the verified commissioner.
+  // Specific project exceptions preserve official opening/unveiling details.
+  const overrides = {
+    'project-doctor-bird.html': { commissioner: 'S Hotel' },
+    'project-marine-installation.html': { location: 'S Hotel interior dining room', commissioner: 'Christopher Issa and S Hotels' },
+    'project-york-town-playground.html': { location: 'York Town Basic School, Clarendon, Jamaica', opened: '10 December 2015' }
+  };
+  const details = overrides[page] || {};
+  const location = details.location || info.metadata || '';
+  const hasYear = /\b(?:19|20)\d{2}\b/.test(location);
   addFact('Type', info.type || '');
+  addFact(hasYear ? 'Location / Year' : 'Location', location || hero.querySelector('.eyebrow')?.textContent.trim() || '');
+  addFact('Commissioned by', details.commissioner || '');
+  addFact('Opened', details.opened || '');
   const authoredFacts = document.getElementById('project-overview-facts');
   if (authoredFacts?.content) facts.replaceChildren(authoredFacts.content.cloneNode(true));
   overview.append(facts);
