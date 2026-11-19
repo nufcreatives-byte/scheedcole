@@ -112,7 +112,7 @@
   };
   const details = overrides[page] || {};
   const location = details.location || info.metadata || '';
-  const hasYear = /\\b(?:19|20)\\d{2}\\b/.test(location);
+  const hasYear = /\b(?:19|20)\d{2}\b/.test(location);
   addFact('Type', info.type || '');
   addFact(hasYear ? 'Location / Year' : 'Location', location || hero.querySelector('.eyebrow')?.textContent.trim() || '');
   addFact('Commissioned by', details.commissioner || '');
