@@ -68,6 +68,8 @@ html.project-detail .twr-story-panel>#finished-gallery{padding-top:12px}
 html.project-detail #finished-gallery .monument-details-content{padding-top:0}
 @media(max-width:600px){html.project-detail .twr-story-panel>#finished-gallery{padding-top:8px}}</style><link rel="stylesheet" href="project-system.css?v=1"><style id="twr-process-summary-style">
 #the-story>.behind-work>summary{display:inline-flex;align-items:center;justify-content:flex-start;gap:12px;padding:10px 0;min-height:44px;font-family:"DM Sans",sans-serif;font-size:12px;font-weight:600;letter-spacing:.12em;line-height:1.4;text-transform:uppercase}
+#the-story>.behind-work>summary::marker{content:""}
+#the-story>.behind-work>summary::-webkit-details-marker{display:none}
 #the-story>.behind-work>summary::before{content:"+";display:inline-block;flex:none;width:20px;font-size:24px;line-height:1;font-weight:400;text-align:left}
 #the-story>.behind-work[open]>summary::before{content:"−"}
 #the-story>.behind-work>summary .twr-process-label-expanded{display:none}
