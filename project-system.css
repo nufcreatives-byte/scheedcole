@@ -9,13 +9,13 @@ html.project-detail body .bustamante-views>[role="tabpanel"]>h2{font-size:var(--
 html.project-detail body main .project-view-tabs{max-width:650px!important;margin:0 0 48px!important}
 html.project-detail body main .project-view-tabs button{font-family:"DM Sans",sans-serif!important;font-size:12px!important;font-weight:600!important;line-height:1.3!important;letter-spacing:.09em!important;min-height:54px!important;padding:15px 18px!important}
 html.project-detail body main .behind-work>summary{font-family:"DM Sans",sans-serif!important;font-size:14px!important;font-weight:500!important;letter-spacing:.025em!important;min-height:64px!important;padding:20px 0!important}
-html.project-detail body main .behind-work-section{padding-top:48px!important;padding-bottom:48px!important}
+html.project-detail body main .behind-work-section{padding-block:var(--compact-section-space)!important}
 html.project-detail body main .behind-work-content{font-size:17px!important;line-height:1.75!important;padding:28px 0 40px!important}
 html.project-detail body main .behind-work-content>.section{padding-left:0!important;padding-right:0!important}
-html.project-detail body main .section-heading{margin-bottom:32px!important}
+html.project-detail body main .section-heading{margin-bottom:var(--section-heading-space)!important}
 html.project-detail body main .press-card h2{font-size:var(--project-subtitle)!important;line-height:1.3!important;letter-spacing:-.02em!important}
 html.project-detail body main .behind-work-preview{font-size:17px!important;line-height:1.75!important;margin:0 0 28px!important;max-width:780px}
-@media(max-width:600px){html.project-detail body main .project-view-tabs button{font-size:10px!important;padding:12px 10px!important}html.project-detail body main .project-view-tabs{margin-bottom:36px!important}html.project-detail body main .behind-work-content{font-size:16px!important}html.project-detail body main .behind-work-section{padding-top:36px!important;padding-bottom:36px!important}}
+@media(max-width:600px){html.project-detail body main .project-view-tabs button{font-size:10px!important;padding:12px 10px!important}html.project-detail body main .project-view-tabs{margin-bottom:36px!important}html.project-detail body main .behind-work-content{font-size:16px!important}}
 
 /* Consistent Design & fabrication title across project detail pages. */
 html.project-detail body main .behind-work-section > h2.behind-work-heading {
